@@ -1,9 +1,9 @@
-﻿Log file open, 06/08/17 18:06:40
+﻿Log file open, 06/08/17 18:32:10
 LogInit:Display: Running engine for game: Enviro_2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1397520524) SRandInit(1397520524).
+LogInit:Display: RandInit(-910263468) SRandInit(-910263468).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.912314
+LogStats: Stats thread started at 0.077183
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,887 +50,502 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.09-00.06.40:667][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.09-00.06.40:667][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.09-00.06.40:742][  0]LogInit: Computer: BRADTHEDAD
-[2017.06.09-00.06.40:742][  0]LogInit: User: DadPC
-[2017.06.09-00.06.40:742][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.06.09-00.06.40:742][  0]LogInit: High frequency timer resolution =4.101569 MHz
-[2017.06.09-00.06.40:742][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.06.09-00.06.40:742][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.09-00.06.40:742][  0]LogMemory: Process Physical Memory: 275.40 MB used, 275.40 MB peak
-[2017.06.09-00.06.40:742][  0]LogMemory: Process Virtual Memory: 261.15 MB used, 261.15 MB peak
-[2017.06.09-00.06.40:742][  0]LogMemory: Physical Memory: 4906.71 MB used,  11416.08 MB free, 16322.79 MB total
-[2017.06.09-00.06.40:742][  0]LogMemory: Virtual Memory: 638.80 MB used,  11416.08 MB free, 134217728.00 MB total
-[2017.06.09-00.06.41:033][  0]LogInit: Using OS detected language (en-US).
-[2017.06.09-00.06.41:033][  0]LogInit: Using OS detected locale (en-US).
-[2017.06.09-00.06.41:070][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.06.09-00.06.43:068][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.09-00.06.43:093][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
-[2017.06.09-00.06.43:093][  0]LogD3D11RHI:       8169/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2017.06.09-00.06.43:094][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.09-00.06.43:094][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.09-00.06.43:094][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.09-00.06.43:098][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.09-00.06.43:098][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.09-00.06.43:098][  0]LogWindows: EnumDisplayDevices:
-[2017.06.09-00.06.43:098][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
-[2017.06.09-00.06.43:098][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
-[2017.06.09-00.06.43:098][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.06.09-00.06.43:099][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.06.09-00.06.43:099][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.06.09-00.06.43:099][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.06.09-00.06.43:099][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.06.09-00.06.43:099][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
-[2017.06.09-00.06.43:099][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.5.2 (internal:22.19.165.512, unified:22.19.165.512)
-[2017.06.09-00.06.43:099][  0]LogD3D11RHI:      Driver Date: 5-17-2017
-[2017.06.09-00.06.43:099][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.09-00.06.43:133][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.09-00.06.43:161][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.06.09-00.06.43:170][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Intermediate/Shaders/WorkingDirectory/12228/).
-[2017.06.09-00.06.43:170][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dad PC/AppData/Local/Temp/UnrealShaderWorkingDir/2E4D23474887FF77A434F6977A337580/'.
-[2017.06.09-00.06.43:171][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.09-00.06.45:309][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.09-00.06.45:343][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.09-00.06.45:378][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.09-00.06.45:413][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.09-00.06.45:452][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.09-00.06.45:487][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.09-00.06.45:524][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.09-00.06.45:558][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.09-00.06.45:590][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.09-00.06.45:629][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.09-00.06.45:664][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.09-00.06.45:700][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.09-00.06.45:735][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.09-00.06.45:771][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.09-00.06.45:816][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.09-00.06.45:890][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.09-00.06.45:890][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.09-00.06.45:920][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.09-00.06.46:000][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.09-00.06.46:022][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.09-00.06.46:057][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.09-00.06.46:091][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.09-00.06.46:131][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.09-00.06.46:170][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.09-00.06.46:170][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.09-00.06.46:665][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.09-00.06.46:665][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
-[2017.06.09-00.06.46:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.09-00.06.46:665][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.09-00.06.46:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.09-00.06.46:665][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.09-00.06.46:692][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.09-00.06.46:705][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dad PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.09-00.06.46:730][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.06.09-00.06.46:736][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.09-00.06.46:744][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.09-00.06.46:744][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.09-00.06.47:609][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.09-00.06.47:878][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.09-00.06.48:074][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.09-00.06.48:119][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.09-00.06.48:155][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.09-00.06.48:155][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.09-00.06.48:155][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.09-00.06.49:404][  0]LogNetVersion: Enviro_2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 303638927)
-[2017.06.09-00.06.49:494][  0]LogAssetRegistry: FAssetRegistry took 0.0293 seconds to start up
-[2017.06.09-00.06.50:130][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.616380 seconds
-[2017.06.09-00.06.50:134][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.06.09-00.06.50:134][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.06.09-00.06.50:134][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.09-00.06.50:181][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.09-00.06.53:569][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.06.09-00.06.53:597][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.09-00.06.53:634][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.09-00.06.54:128][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.09-00.06.54:449][  0]SourceControl: Info Source control is disabled
-[2017.06.09-00.06.54:473][  0]SourceControl: Info Source control is disabled
-[2017.06.09-00.06.54:517][  0]SourceControl: Info Source control is disabled
-[2017.06.09-00.06.54:556][  0]SourceControl: Info Source control is disabled
-[2017.06.09-00.06.55:111][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.06.09-00.06.55:603][  0]LogEngine: Initializing Engine...
-[2017.06.09-00.06.55:605][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.06.09-00.06.55:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.09-00.06.55:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.09-00.06.56:072][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.09-00.06.56:089][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.06.56:119][  0]LogInit: FAudioDevice initialized.
-[2017.06.09-00.06.56:158][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Dad PC/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.09-00.06.56:177][  0]LogInit: Texture streaming: Enabled
-[2017.06.09-00.06.56:253][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.09-00.06.56:486][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.09-00.06.56:486][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.09-00.06.56:911][  0]LogInit: Transaction tracking system initialized
-[2017.06.09-00.06.57:170][  0]BlueprintLog: New page: Editor Load
-[2017.06.09-00.06.57:989][  0]LocalizationService: Info Localization service is disabled
-[2017.06.09-00.06.58:569][  0]LogConsoleResponse:Display: 
-[2017.06.09-00.06.58:711][  0]LogFileCache: Scanning file cache for directory 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/' took 0.01s
-[2017.06.09-00.06.58:711][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.09-00.06.58:711][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.09-00.06.59:551][  0]SourceControl: Info Source control is disabled
-[2017.06.09-00.06.59:553][  0]Cmd: MAP LOAD FILE="F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.09-00.06.59:554][  0]LightingResults: New page: Lighting Build
-[2017.06.09-00.06.59:590][  0]MapCheck: New page: Map Check
-[2017.06.09-00.06.59:590][  0]LightingResults: New page: Lighting Build
-[2017.06.09-00.06.59:730][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2017.06.09-00.06.59:730][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap.
-[2017.06.09-00.06.59:730][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
-[2017.06.09-00.06.59:870][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2017.06.09-00.06.59:870][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap.
-[2017.06.09-00.06.59:870][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
-[2017.06.09-00.06.59:939][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2017.06.09-00.06.59:940][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
-[2017.06.09-00.06.59:940][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2017.06.09-00.06.59:940][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
-[2017.06.09-00.06.59:944][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
-[2017.06.09-00.06.59:944][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
-[2017.06.09-00.06.59:944][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
-[2017.06.09-00.06.59:944][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
-[2017.06.09-00.07.00:004][  0]LogStaticMesh: Building static mesh Floor_400x400...
-[2017.06.09-00.07.00:007][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2017.06.09-00.07.00:151][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.06.09-00.07.00:173][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.09-00.07.00:206][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.09-00.07.00:239][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.042ms to complete.
-[2017.06.09-00.07.00:239][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.687
-[2017.06.09-00.07.00:488][  0]LogCollectionManager: Loaded 0 collections in 0.001560 seconds
-[2017.06.09-00.07.00:723][  0]LogFileCache: Scanning file cache for directory 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/Collections/' took 0.01s
-[2017.06.09-00.07.00:723][  0]LogFileCache: Scanning file cache for directory 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Developers/DadPC/Collections/' took 0.01s
-[2017.06.09-00.07.00:723][  0]LogFileCache: Scanning file cache for directory 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Collections/' took 0.01s
-[2017.06.09-00.07.00:723][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.06.09-00.07.00:734][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2343 classes and 497 folders.
-[2017.06.09-00.07.00:798][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.06.09-00.07.00:845][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.06.09-00.07.00:889][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.06.09-00.07.00:973][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.09-00.07.00:989][  0]LogSlate: Took 0.004576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.09-00.07.00:994][  0]LogSlate: Took 0.003978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.09-00.07.01:003][  0]LogSlate: Took 0.004347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.09-00.07.01:096][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
-[2017.06.09-00.07.01:444][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.06.09-00.07.01:444][  0]LogLoad: (Engine Initialization) Total time: 24.56 seconds
-[2017.06.09-00.07.01:444][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
-[2017.06.09-00.07.01:444][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.06.09-00.07.01:455][  0]LogOcInput: OculusInput pre-init called
-[2017.06.09-00.07.01:455][  0]LogHMD: Starting GearVRController plugin
-[2017.06.09-00.07.01:469][  0]LogAssetRegistry: Asset discovery search completed in 11.9977 seconds
-[2017.06.09-00.07.01:470][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.06.09-00.07.01:470][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
-[2017.06.09-00.07.01:472][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.06.09-00.07.01:536][  0]LogSlate: Took 0.004187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.09-00.07.06:528][566]LogStaticMesh: Building static mesh WB_abyss...
-[2017.06.09-00.07.06:552][566]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.09-00.07.06:569][566]LogStaticMesh: Built static mesh [0.04s] /Game/Meshes/White_Boxing/WB_abyss.WB_abyss
-[2017.06.09-00.07.06:777][585]LogActorFactory: Actor Factory created WB_abyss
-[2017.06.09-00.07.07:653][689]LogActorFactory: Actor Factory created WB_abyss
-[2017.06.09-00.07.10:748][ 38]Cmd: DELETE
-[2017.06.09-00.07.10:748][ 38]Cmd: ACTOR DELETE
-[2017.06.09-00.07.10:751][ 38]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.06.09-00.07.10:757][ 38]LogEditorActor: Deleted 1 Actors (0.007 secs)
-[2017.06.09-00.07.14:949][539]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData'
-[2017.06.09-00.07.14:949][539]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData' while loading F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap.
-[2017.06.09-00.07.14:949][539]LoadErrors:Error: Error /Game/Maps/DOOM_FanArt_EngineRoom_001 : Can't find file for asset. /Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData
-[2017.06.09-00.07.14:949][539]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData'
-[2017.06.09-00.07.14:949][539]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData' while loading F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap.
-[2017.06.09-00.07.14:973][539]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData'
-[2017.06.09-00.07.14:973][539]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData' while loading NULL.
-[2017.06.09-00.07.14:973][539]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData'
-[2017.06.09-00.07.14:973][539]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData' while loading NULL.
-[2017.06.09-00.07.14:978][539]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData'
-[2017.06.09-00.07.14:979][539]LoadErrors: Info Failed to load /Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData.DOOM_FanArt_EngineRoom_001_BuiltData Referenced by PersistentLevel
-[2017.06.09-00.07.14:979][539]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_EngineRoom_001_BuiltData' while loading NULL.
-[2017.06.09-00.07.14:983][539]LogStaticMesh: Building static mesh 6_1_scaleman...
-[2017.06.09-00.07.15:401][539]LogStaticMesh: Built static mesh [0.42s] /Game/Meshes/6_1_scaleman.6_1_scaleman
-[2017.06.09-00.07.15:502][539]LogStaticMesh: Building static mesh WB_bottomWall...
-[2017.06.09-00.07.15:504][539]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/White_Boxing/WB_bottomWall.WB_bottomWall
-[2017.06.09-00.07.15:507][539]LogStaticMesh: Building static mesh WB_CenterBase...
-[2017.06.09-00.07.15:507][539]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/White_Boxing/WB_CenterBase.WB_CenterBase
-[2017.06.09-00.07.15:509][539]LogStaticMesh: Building static mesh WB_CenterPlatform...
-[2017.06.09-00.07.15:523][539]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/White_Boxing/WB_CenterPlatform.WB_CenterPlatform
-[2017.06.09-00.07.15:527][539]LogStaticMesh: Building static mesh WB_HeroAssets...
-[2017.06.09-00.07.15:544][539]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/White_Boxing/WB_HeroAssets.WB_HeroAssets
-[2017.06.09-00.07.15:549][539]LogStaticMesh: Building static mesh WB_ReactorSupport...
-[2017.06.09-00.07.15:554][539]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/White_Boxing/WB_ReactorSupport.WB_ReactorSupport
-[2017.06.09-00.07.15:556][539]LogStaticMesh: Building static mesh WB_stair...
-[2017.06.09-00.07.15:582][539]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/White_Boxing/WB_stair.WB_stair
-[2017.06.09-00.07.15:587][539]LogStaticMesh: Building static mesh WB_topWall...
-[2017.06.09-00.07.15:592][539]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/White_Boxing/WB_topWall.WB_topWall
-[2017.06.09-00.07.15:596][539]LogMaterial: Missing cached shader map for material M_DarkGray, compiling. 
-[2017.06.09-00.07.15:626][539]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.07.15:628][539]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.09-00.07.17:558][539]Cmd: MAP LOAD FILE="F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.09-00.07.17:558][539]LightingResults: New page: Lighting Build
-[2017.06.09-00.07.17:559][539]LoadErrors: New page: Loading map: DOOM_FanArt_EngineRoom_001.umap
-[2017.06.09-00.07.17:560][539]MapCheck: New page: Map Check
-[2017.06.09-00.07.17:560][539]LightingResults: New page: Lighting Build
-[2017.06.09-00.07.17:579][539]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.09-00.07.17:602][539]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.09-00.07.17:636][539]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.52ms to complete.
-[2017.06.09-00.07.17:636][539]LogFileHelpers: Loading map 'DOOM_FanArt_EngineRoom_001' took 0.080
-[2017.06.09-00.07.22:375][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_bottomWall)
-[2017.06.09-00.07.31:161][106]LogActorFactory: Actor Factory created WB_abyss
-[2017.06.09-00.07.31:731][172]LogActorFactory: Actor Factory created WB_abyss
-[2017.06.09-00.07.47:337][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_topWall)
-[2017.06.09-00.07.48:176][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
-[2017.06.09-00.07.48:935][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_topWall)
-[2017.06.09-00.07.55:415][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
-[2017.06.09-00.07.57:024][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
-[2017.06.09-00.08.05:920][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
-[2017.06.09-00.08.06:580][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
-[2017.06.09-00.08.07:271][291]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.06.09-00.08.07:780][349]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor_concept)
-[2017.06.09-00.09.01:123][ 10]LogSlate: Took 0.004273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.06.09-00.09.30:793][810]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.06.09-00.09.40:366][940]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.06.09-00.09.49:889][689]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.06.09-00.09.58:515][716]Cmd: EDIT COPY
-[2017.06.09-00.10.21:442][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
-[2017.06.09-00.10.31:593][961]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor_concept)
-[2017.06.09-00.10.46:614][721]LogSavePackage: Save=75.57ms
-[2017.06.09-00.10.46:614][721]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_00151023048416A8CD88C3DF48E7F5929A9.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap'
-[2017.06.09-00.10.46:719][721]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap
-[2017.06.09-00.10.47:533][808]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.10.47:614][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.10.47:614][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.10.47:615][808]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:10:47 PM)
-[2017.06.09-00.10.47:616][808]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.10.47:618][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002067s)
-[2017.06.09-00.10.47:618][808]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.10.47:618][808]LogPlayLevel: PIE: World Init took: (0.000514s)
-[2017.06.09-00.10.47:618][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002970s)
-[2017.06.09-00.10.47:655][808]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.10.47:660][808]LogInit: FAudioDevice initialized.
-[2017.06.09-00.10.47:701][808]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.10.47:705][808]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.10.47
-[2017.06.09-00.10.47:705][808]LogWorld: Bringing up level for play took: 0.001161
-[2017.06.09-00.10.47:742][808]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2017.06.09-00.10.47:744][808]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 0.617
-[2017.06.09-00.10.47:744][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.10.51:891][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.10.51:964][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.10.55:387][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
-[2017.06.09-00.10.57:123][881]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor_concept)
-[2017.06.09-00.11.18:124][780]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:6331).
-[2017.06.09-00.11.18:176][781]LogRenderer: Reallocating scene render targets to support 1208x596 NumSamples 1 (Frame:6333).
-[2017.06.09-00.11.18:307][782]LogRenderer: Reallocating scene render targets to support 1208x684 NumSamples 1 (Frame:6336).
-[2017.06.09-00.11.18:393][783]LogRenderer: Reallocating scene render targets to support 1208x744 NumSamples 1 (Frame:6339).
-[2017.06.09-00.11.18:498][784]LogRenderer: Reallocating scene render targets to support 1208x780 NumSamples 1 (Frame:6342).
-[2017.06.09-00.11.18:584][785]LogRenderer: Reallocating scene render targets to support 1208x804 NumSamples 1 (Frame:6345).
-[2017.06.09-00.11.23:236][ 66]LogRenderer: Reallocating scene render targets to support 1212x804 NumSamples 1 (Frame:6460).
-[2017.06.09-00.11.23:285][ 67]LogRenderer: Reallocating scene render targets to support 1220x804 NumSamples 1 (Frame:6462).
-[2017.06.09-00.11.23:346][ 68]LogRenderer: Reallocating scene render targets to support 1228x804 NumSamples 1 (Frame:6464).
-[2017.06.09-00.11.23:578][ 89]LogRenderer: Reallocating scene render targets to support 1232x804 NumSamples 1 (Frame:6466).
-[2017.06.09-00.11.23:633][ 90]LogRenderer: Reallocating scene render targets to support 1240x804 NumSamples 1 (Frame:6468).
-[2017.06.09-00.11.23:695][ 91]LogRenderer: Reallocating scene render targets to support 1244x804 NumSamples 1 (Frame:6470).
-[2017.06.09-00.11.24:041][125]LogRenderer: Reallocating scene render targets to support 1256x804 NumSamples 1 (Frame:6474).
-[2017.06.09-00.11.24:090][126]LogRenderer: Reallocating scene render targets to support 1264x804 NumSamples 1 (Frame:6476).
-[2017.06.09-00.11.56:080][946]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.06.09-00.12.09:082][462]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor_concept)
-[2017.06.09-00.12.54:874][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
-[2017.06.09-00.13.19:172][ 76]LogSavePackage: Save=72.66ms
-[2017.06.09-00.13.19:172][ 76]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_00120B638324D7E9B5284FA68829D77FC9F.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap'
-[2017.06.09-00.13.19:234][ 76]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap
-[2017.06.09-00.13.43:763][  7]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.13.43:774][  7]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.13.43:774][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.13.43:774][  7]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:13:43 PM)
-[2017.06.09-00.13.43:774][  7]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.13.43:776][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001569s)
-[2017.06.09-00.13.43:776][  7]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.13.43:777][  7]LogPlayLevel: PIE: World Init took: (0.000493s)
-[2017.06.09-00.13.43:777][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002209s)
-[2017.06.09-00.13.43:787][  7]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.13.43:792][  7]LogInit: FAudioDevice initialized.
-[2017.06.09-00.13.43:823][  7]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.13.43:825][  7]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.13.43
-[2017.06.09-00.13.43:825][  7]LogWorld: Bringing up level for play took: 0.000980
-[2017.06.09-00.13.43:826][  7]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 0.699
-[2017.06.09-00.13.43:826][  7]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.14.01:707][152]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.14.01:749][152]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.14.04:170][435]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor_concept)
-[2017.06.09-00.14.14:905][665]Cmd: TRANSACTION UNDO
-[2017.06.09-00.14.14:905][665]LogEditorTransaction: Undo Move Actors
-[2017.06.09-00.14.14:929][665]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.09-00.14.15:151][690]Cmd: TRANSACTION UNDO
-[2017.06.09-00.14.15:152][690]LogEditorTransaction: Undo Move Actors
-[2017.06.09-00.14.17:021][912]Cmd: TRANSACTION UNDO
-[2017.06.09-00.14.17:021][912]LogEditorTransaction: Undo Move Actors
-[2017.06.09-00.14.17:879][ 14]Cmd: TRANSACTION UNDO
-[2017.06.09-00.14.17:879][ 14]LogEditorTransaction: Undo Clicking on Actors
-[2017.06.09-00.14.19:753][230]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor_concept)
-[2017.06.09-00.15.18:230][ 72]Cmd: TRANSACTION UNDO
-[2017.06.09-00.15.18:230][ 72]LogEditorTransaction: Undo Toggle Absolute Rotation
-[2017.06.09-00.15.18:471][ 99]Cmd: TRANSACTION UNDO
-[2017.06.09-00.15.18:471][ 99]LogEditorTransaction: Undo Toggle Absolute Rotation
-[2017.06.09-00.15.18:790][136]Cmd: TRANSACTION UNDO
-[2017.06.09-00.15.18:790][136]LogEditorTransaction: Undo Set actor rotation
-[2017.06.09-00.15.19:214][186]Cmd: TRANSACTION UNDO
-[2017.06.09-00.15.19:214][186]LogEditorTransaction: Undo Set actor rotation
-[2017.06.09-00.16.03:111][448]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.16.03:123][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.16.03:123][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.16.03:124][448]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:16:03 PM)
-[2017.06.09-00.16.03:124][448]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.16.03:125][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001658s)
-[2017.06.09-00.16.03:126][448]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.16.03:126][448]LogPlayLevel: PIE: World Init took: (0.000539s)
-[2017.06.09-00.16.03:126][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002349s)
-[2017.06.09-00.16.03:163][448]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.16.03:169][448]LogInit: FAudioDevice initialized.
-[2017.06.09-00.16.03:197][448]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.16.03:199][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.16.03
-[2017.06.09-00.16.03:199][448]LogWorld: Bringing up level for play took: 0.000954
-[2017.06.09-00.16.03:200][448]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 0.073
-[2017.06.09-00.16.03:200][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.16.13:998][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.16.14:066][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.16.17:852][188]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.06.09-00.16.23:153][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_CenterBase)
-[2017.06.09-00.16.23:888][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_CenterBase)
-[2017.06.09-00.16.24:406][956]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor_concept)
-[2017.06.09-00.16.31:091][742]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.16.31:103][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.16.31:103][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.16.31:103][742]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:16:31 PM)
-[2017.06.09-00.16.31:103][742]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.16.31:105][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001554s)
-[2017.06.09-00.16.31:105][742]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.16.31:105][742]LogPlayLevel: PIE: World Init took: (0.000453s)
-[2017.06.09-00.16.31:105][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002172s)
-[2017.06.09-00.16.31:139][742]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.16.31:145][742]LogInit: FAudioDevice initialized.
-[2017.06.09-00.16.31:174][742]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.16.31:175][742]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.16.31
-[2017.06.09-00.16.31:175][742]LogWorld: Bringing up level for play took: 0.000958
-[2017.06.09-00.16.31:176][742]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 0.05
-[2017.06.09-00.16.31:176][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.16.46:240][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.16.46:305][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.16.47:792][705]LogSavePackage: Save=73.37ms
-[2017.06.09-00.16.47:792][705]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_00162C9C2584D72BF55485059830C24F37F.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap'
-[2017.06.09-00.16.47:865][705]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap
-[2017.06.09-00.16.51:806][161]LogRenderer: Reallocating scene render targets to support 1264x924 NumSamples 1 (Frame:12745).
-[2017.06.09-00.16.55:964][606]LogRenderer: Reallocating scene render targets to support 1272x924 NumSamples 1 (Frame:12768).
-[2017.06.09-00.16.56:027][607]LogRenderer: Reallocating scene render targets to support 1280x924 NumSamples 1 (Frame:12770).
-[2017.06.09-00.16.56:402][638]LogRenderer: Reallocating scene render targets to support 1284x924 NumSamples 1 (Frame:12774).
-[2017.06.09-00.16.56:494][639]LogRenderer: Reallocating scene render targets to support 1360x924 NumSamples 1 (Frame:12776).
-[2017.06.09-00.16.56:577][640]LogRenderer: Reallocating scene render targets to support 1392x924 NumSamples 1 (Frame:12778).
-[2017.06.09-00.17.02:803][158]LogSavePackage: Save=127.43ms
-[2017.06.09-00.17.02:803][158]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_0015473E6D74B6D2D3F0F566A8377A7DE7B.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap'
-[2017.06.09-00.17.02:805][158]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap
-[2017.06.09-00.17.04:269][327]MapCheck: New page: Map Check
-[2017.06.09-00.17.04:291][327]Cmd: MAP REBUILD ALLVISIBLE
-[2017.06.09-00.17.04:291][327]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.06.09-00.17.04:349][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.06.09-00.17.04:356][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2017.06.09-00.17.04:361][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_DarkGray, compiling. 
-[2017.06.09-00.17.04:708][327]TextureStreamingBuild:Display: Compiling optional shaders took 0.365 seconds.
-[2017.06.09-00.17.04:724][327]LogLevel:Display: Export Material TexCoord Scales took 0.016 seconds.
-[2017.06.09-00.17.04:732][327]TextureStreamingBuild:Display: Build Texture Streaming took 0.007 seconds.
-[2017.06.09-00.17.04:738][327]LightingResults: New page: Lighting Build - Jun 8, 2017, 12:17:04 PM
-[2017.06.09-00.17.05:651][327]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.06.09-00.17.05:694][327]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.06.09-00.17.05:709][327]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.06.09-00.17.06:250][327]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.06.09-00.17.06:250][327]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12228
-[2017.06.09-00.17.08:687][327]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.06.09-00.17.08:687][327]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.06.09-00.17.08:687][327]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.06.09-00.17.08:687][327]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.06.09-00.17.08:687][327]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.06.09-00.17.08:687][327]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.06.09-00.17.08:937][327]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.06.09-00.17.08:937][327]MapCheck: New page: DOOM_FanArt_EngineRoom_001 - Jun 8, 2017, 12:17:08 PM
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_base2_8 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_base2_8 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_base_20 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_base_20 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_bottomReactor_23 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_bottomReactor_23 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_HeroAssets_11 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_HeroAssets_11 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_L1_plateform_11 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_L1_plateform_11 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_plateformRail_32 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_plateformRail_32 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_ReactorPlateform_2 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_ReactorPlateform_2 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_stair2_14 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_stair2_14 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_stair_8 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_stair_8 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_topReactorSupport_17 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_topReactorSupport_17 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_wall Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_wall Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_wallTop_2 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Warning: Warning WB_wallTop_2 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.08:938][327]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
-[2017.06.09-00.17.08:974][327]MapCheck: Info Map check complete: 1 Error(s), 24 Warning(s), took 37.324ms to complete.
-[2017.06.09-00.17.08:996][327]LogEditorBuildUtils: Build time 0:04
-[2017.06.09-00.17.09:018][327]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_DarkGray, compiling. 
-[2017.06.09-00.17.09:023][327]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_DarkGray, compiling. 
-[2017.06.09-00.17.09:088][328]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2017.06.09-00.17.09:094][328]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2017.06.09-00.17.13:094][559]LightingResults:Warning: Warning WB_topWall Object has overlapping UVs.
-[2017.06.09-00.17.13:094][559]LightingResults: Info WB_topWall Lightmap UV are overlapping by 45.2%. Please adjust content - Enable Error Coloring to visualize.
-[2017.06.09-00.17.13:546][585]LightingResults:Warning: Warning WB_stair Object has overlapping UVs.
-[2017.06.09-00.17.13:546][585]LightingResults: Info WB_stair Lightmap UV are overlapping by 5.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.06.09-00.17.13:627][590]LightingResults:Warning: Warning WB_HeroAssets Object has overlapping UVs.
-[2017.06.09-00.17.13:627][590]LightingResults: Info WB_HeroAssets Lightmap UV are overlapping by 29.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.06.09-00.17.15:484][723]Job is a success!
-[2017.06.09-00.17.15:997][724]LightingResults:Error: Error PointLight_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
-[2017.06.09-00.17.15:997][724]LightingResults:Error: Error PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
-[2017.06.09-00.17.16:097][724]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2017.06.09-00.17.16:097][724]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2017.06.09-00.17.16:097][724]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X64)
-[2017.06.09-00.17.16:113][724]Lightmass on BRADTHEDAD: 5.83 sec total, 114 ms importing, 124 ms setup, 1.63 sec photons, 3.90 sec processing, 0 ms extra exporting [13/13 mappings]. Threads: 27.1 sec total, 12.2 sec processing.
-[2017.06.09-00.17.16:130][724]LogStaticLightingSystem: Illumination: 11.3 sec (84 ms encoding lightmaps, 14 ms encoding shadowmaps)
-[2017.06.09-00.17.16:130][724]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.06.09-00.17.16:130][724]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 1 textures
-[2017.06.09-00.17.16:691][724]DumpUnbuiltLightIteractions
-[2017.06.09-00.17.16:691][724]Lights with unbuilt interactions: 0
-[2017.06.09-00.17.16:691][724]
-[2017.06.09-00.17.16:691][724]Primitives with unbuilt interactions: 0
-[2017.06.09-00.17.16:700][725]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.06.09-00.17.16:700][725]MapCheck: New page: DOOM_FanArt_EngineRoom_001 - Jun 8, 2017, 12:17:16 PM
-[2017.06.09-00.17.16:703][725]MapCheck:Warning: Warning WB_base2_8 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_base2_8 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_base_20 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_base_20 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_bottomReactor_23 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_bottomReactor_23 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_HeroAssets_11 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_HeroAssets_11 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_L1_plateform_11 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_L1_plateform_11 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_plateformRail_32 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_plateformRail_32 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_ReactorPlateform_2 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_ReactorPlateform_2 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_stair2_14 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_stair2_14 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_stair_8 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_stair_8 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_topReactorSupport_17 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_topReactorSupport_17 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_wall Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_wall Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_wallTop_2 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:704][725]MapCheck:Warning: Warning WB_wallTop_2 Static mesh actor has NULL StaticMesh property 
-[2017.06.09-00.17.16:738][725]MapCheck: Info Map check complete: 0 Error(s), 24 Warning(s), took 37.715ms to complete.
-[2017.06.09-00.17.20:999][226]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.17.21:010][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.17.21:010][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.17.21:010][226]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:17:21 PM)
-[2017.06.09-00.17.21:010][226]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.17.21:012][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001617s)
-[2017.06.09-00.17.21:012][226]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.17.21:012][226]LogPlayLevel: PIE: World Init took: (0.000459s)
-[2017.06.09-00.17.21:013][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002237s)
-[2017.06.09-00.17.21:046][226]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.17.21:051][226]LogInit: FAudioDevice initialized.
-[2017.06.09-00.17.21:081][226]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.17.21:083][226]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.17.21
-[2017.06.09-00.17.21:083][226]LogWorld: Bringing up level for play took: 0.001339
-[2017.06.09-00.17.21:084][226]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 -0.043
-[2017.06.09-00.17.21:084][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.17.27:133][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.17.27:198][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.17.37:303][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
-[2017.06.09-00.18.07:314][739]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.18.07:328][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.18.07:328][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.18.07:328][739]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:18:07 PM)
-[2017.06.09-00.18.07:328][739]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.18.07:330][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001604s)
-[2017.06.09-00.18.07:330][739]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.18.07:330][739]LogPlayLevel: PIE: World Init took: (0.000603s)
-[2017.06.09-00.18.07:330][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002340s)
-[2017.06.09-00.18.07:340][739]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.18.07:346][739]LogInit: FAudioDevice initialized.
-[2017.06.09-00.18.07:373][739]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.18.07:375][739]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.18.07
-[2017.06.09-00.18.07:375][739]LogWorld: Bringing up level for play took: 0.000984
-[2017.06.09-00.18.07:376][739]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 0.249
-[2017.06.09-00.18.07:376][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.18.11:131][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.18.11:170][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.18.35:091][ 41]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.18.35:103][ 41]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.18.35:103][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.18.35:103][ 41]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:18:35 PM)
-[2017.06.09-00.18.35:103][ 41]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.18.35:105][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001589s)
-[2017.06.09-00.18.35:105][ 41]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.18.35:105][ 41]LogPlayLevel: PIE: World Init took: (0.000440s)
-[2017.06.09-00.18.35:105][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002194s)
-[2017.06.09-00.18.35:115][ 41]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.18.35:121][ 41]LogInit: FAudioDevice initialized.
-[2017.06.09-00.18.35:148][ 41]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.18.35:149][ 41]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.18.35
-[2017.06.09-00.18.35:149][ 41]LogWorld: Bringing up level for play took: 0.001046
-[2017.06.09-00.18.35:150][ 41]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 0.024
-[2017.06.09-00.18.35:151][ 41]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.20.41:203][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.20.41:235][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.21.02:004][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_stair3)
-[2017.06.09-00.21.35:557][410]LogEditorViewport: Clicking Background
-[2017.06.09-00.21.55:659][816]LogEditorViewport: Clicking Background
-[2017.06.09-00.22.59:006][408]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.22.59:030][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.22.59:030][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.22.59:030][408]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:22:59 PM)
-[2017.06.09-00.22.59:030][408]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.22.59:032][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001691s)
-[2017.06.09-00.22.59:033][408]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.22.59:033][408]LogPlayLevel: PIE: World Init took: (0.000551s)
-[2017.06.09-00.22.59:033][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002392s)
-[2017.06.09-00.22.59:043][408]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.22.59:048][408]LogInit: FAudioDevice initialized.
-[2017.06.09-00.22.59:077][408]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.22.59:078][408]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.22.59
-[2017.06.09-00.22.59:078][408]LogWorld: Bringing up level for play took: 0.000998
-[2017.06.09-00.22.59:079][408]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 -0.047
-[2017.06.09-00.22.59:080][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.23.21:285][ 72]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.23.21:314][ 72]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.23.23:142][274]LogSavePackage: Save=79.61ms
-[2017.06.09-00.23.23:142][274]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_001674216BD4B7580100EF6549DE802A3F1.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap'
-[2017.06.09-00.23.23:253][274]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap
-[2017.06.09-00.23.23:522][274]LogSavePackage: Save=112.31ms
-[2017.06.09-00.23.23:522][274]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_001_BuiltDataFE16913144180F6716F0A8BB5C83FF62.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001_BuiltData.uasset'
-[2017.06.09-00.23.23:626][274]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001_BuiltData.uasset
-[2017.06.09-00.23.53:752][884]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.23.53:764][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.23.53:764][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.23.53:764][884]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:23:53 PM)
-[2017.06.09-00.23.53:764][884]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.23.53:766][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001636s)
-[2017.06.09-00.23.53:766][884]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.23.53:766][884]LogPlayLevel: PIE: World Init took: (0.000457s)
-[2017.06.09-00.23.53:767][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002240s)
-[2017.06.09-00.23.53:777][884]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.23.53:782][884]LogInit: FAudioDevice initialized.
-[2017.06.09-00.23.53:809][884]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.23.53:810][884]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.23.53
-[2017.06.09-00.23.53:810][884]LogWorld: Bringing up level for play took: 0.001062
-[2017.06.09-00.23.53:811][884]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 0.685
-[2017.06.09-00.23.53:812][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.24.04:009][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.24.04:039][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.28.22:629][923]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.09-00.28.22:654][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.28.22:654][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.09-00.28.22:654][923]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:28:22 PM)
-[2017.06.09-00.28.22:654][923]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.28.22:656][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001799s)
-[2017.06.09-00.28.22:657][923]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
-[2017.06.09-00.28.22:657][923]LogPlayLevel: PIE: World Init took: (0.000585s)
-[2017.06.09-00.28.22:657][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002558s)
-[2017.06.09-00.28.22:667][923]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.09-00.28.22:673][923]LogInit: FAudioDevice initialized.
-[2017.06.09-00.28.22:702][923]LogLoad: Game class is 'GameModeBase'
-[2017.06.09-00.28.22:704][923]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.28.22
-[2017.06.09-00.28.22:704][923]LogWorld: Bringing up level for play took: 0.001094
-[2017.06.09-00.28.22:705][923]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 -0.421
-[2017.06.09-00.28.22:706][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.28.23:970][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.28.24:000][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
-[2017.06.09-00.28.26:131][201]LogSavePackage: Save=200.81ms
-[2017.06.09-00.28.26:131][201]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_001744BDDFC4BA50ED61D55A18F28BA1195.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap'
-[2017.06.09-00.28.26:133][201]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap
-[2017.06.09-00.28.26:371][201]LogSavePackage: Save=86.58ms
-[2017.06.09-00.28.26:371][201]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_001_BuiltData99D3460748191DA57BF13F970BD97F72.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001_BuiltData.uasset'
-[2017.06.09-00.28.26:373][201]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001_BuiltData.uasset
-[2017.06.09-00.28.28:320][386]Cmd: QUIT_EDITOR
-[2017.06.09-00.28.28:918][386]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.09-00.28.28:918][386]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.09-00.28.29:383][386]LogExit: Preparing to exit.
-[2017.06.09-00.28.30:077][386]LogExit: Editor shut down
-[2017.06.09-00.28.30:079][386]LogExit: Transaction tracking system shut down
-[2017.06.09-00.28.30:136][386]LogObj: Freed 0b from 0 cluster array pools.
-[2017.06.09-00.28.30:136][386]LogExit: Object subsystem successfully closed.
-[2017.06.09-00.28.30:154][386]LogD3D11RHI: Shutdown
-[2017.06.09-00.28.30:154][386]LogD3D11RHI: CleanupD3DDevice
-[2017.06.09-00.28.30:313][386]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.06.09-00.28.30:333][386]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
-[2017.06.09-00.28.30:333][386]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
-[2017.06.09-00.28.30:333][386]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
-[2017.06.09-00.28.30:333][386]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
-[2017.06.09-00.28.30:333][386]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
-[2017.06.09-00.28.30:333][386]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
-[2017.06.09-00.28.30:333][386]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
-[2017.06.09-00.28.30:334][386]LogDirectoryWatcher: A directory notification for 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Collections/' was aborted.
-[2017.06.09-00.28.30:334][386]LogDirectoryWatcher: A directory notification for 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Developers/DadPC/Collections/' was aborted.
-[2017.06.09-00.28.30:334][386]LogDirectoryWatcher: A directory notification for 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/Collections/' was aborted.
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module BspMode (498)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
-[2017.06.09-00.28.30:334][386]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module Media (475)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module SessionServices (462)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
-[2017.06.09-00.28.30:335][386]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
-[2017.06.09-00.28.30:337][386]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
-[2017.06.09-00.28.30:337][386]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
-[2017.06.09-00.28.30:337][386]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
-[2017.06.09-00.28.30:338][386]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
-[2017.06.09-00.28.30:338][386]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
-[2017.06.09-00.28.30:339][386]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
-[2017.06.09-00.28.30:339][386]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
-[2017.06.09-00.28.30:339][386]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
-[2017.06.09-00.28.30:469][386]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
-[2017.06.09-00.28.30:469][386]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
-[2017.06.09-00.28.30:469][386]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
-[2017.06.09-00.28.30:469][386]LogModuleManager: Shutting down and abandoning module MergeActors (432)
-[2017.06.09-00.28.30:470][386]LogModuleManager: Shutting down and abandoning module SizeMap (430)
-[2017.06.09-00.28.30:470][386]LogModuleManager: Shutting down and abandoning module TreeMap (428)
-[2017.06.09-00.28.30:470][386]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
-[2017.06.09-00.28.30:470][386]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
-[2017.06.09-00.28.30:471][386]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
-[2017.06.09-00.28.30:471][386]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
-[2017.06.09-00.28.30:471][386]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
-[2017.06.09-00.28.30:472][386]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
-[2017.06.09-00.28.30:472][386]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
-[2017.06.09-00.28.30:472][386]LogModuleManager: Shutting down and abandoning module XmlParser (412)
-[2017.06.09-00.28.30:472][386]LogModuleManager: Shutting down and abandoning module Blutility (410)
-[2017.06.09-00.28.30:472][386]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
-[2017.06.09-00.28.30:472][386]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
-[2017.06.09-00.28.30:472][386]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
-[2017.06.09-00.28.30:472][386]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
-[2017.06.09-00.28.30:473][386]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
-[2017.06.09-00.28.30:473][386]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
-[2017.06.09-00.28.30:474][386]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
-[2017.06.09-00.28.30:475][386]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
-[2017.06.09-00.28.30:476][386]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
-[2017.06.09-00.28.30:529][386]LogModuleManager: Shutting down and abandoning module AutomationController (390)
-[2017.06.09-00.28.30:529][386]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
-[2017.06.09-00.28.30:530][386]LogModuleManager: Shutting down and abandoning module Layers (386)
-[2017.06.09-00.28.30:531][386]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
-[2017.06.09-00.28.30:532][386]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
-[2017.06.09-00.28.30:532][386]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
-[2017.06.09-00.28.30:532][386]LogModuleManager: Shutting down and abandoning module Persona (378)
-[2017.06.09-00.28.30:532][386]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
-[2017.06.09-00.28.30:533][386]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
-[2017.06.09-00.28.30:533][386]LogModuleManager: Shutting down and abandoning module Kismet (372)
-[2017.06.09-00.28.30:533][386]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
-[2017.06.09-00.28.30:534][386]LogModuleManager: Shutting down and abandoning module Toolbox (368)
-[2017.06.09-00.28.30:534][386]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
-[2017.06.09-00.28.30:535][386]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
-[2017.06.09-00.28.30:535][386]LogModuleManager: Shutting down and abandoning module OutputLog (362)
-[2017.06.09-00.28.30:535][386]LogModuleManager: Shutting down and abandoning module GammaUI (360)
-[2017.06.09-00.28.30:536][386]LogModuleManager: Shutting down and abandoning module Documentation (358)
-[2017.06.09-00.28.30:536][386]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
-[2017.06.09-00.28.30:536][386]LogModuleManager: Shutting down and abandoning module MovieScene (354)
-[2017.06.09-00.28.30:536][386]LogModuleManager: Shutting down and abandoning module Niagara (352)
-[2017.06.09-00.28.30:536][386]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
-[2017.06.09-00.28.30:537][386]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
-[2017.06.09-00.28.30:537][386]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
-[2017.06.09-00.28.30:537][386]LogModuleManager: Shutting down and abandoning module PortalServices (344)
-[2017.06.09-00.28.30:537][386]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
-[2017.06.09-00.28.30:537][386]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
-[2017.06.09-00.28.30:537][386]LogModuleManager: Shutting down and abandoning module AIModule (338)
-[2017.06.09-00.28.30:537][386]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
-[2017.06.09-00.28.30:537][386]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
-[2017.06.09-00.28.30:537][386]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
-[2017.06.09-00.28.30:670][386]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module SteamVR (324)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module OculusInput (316)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module CableComponent (310)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
-[2017.06.09-00.28.30:671][386]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module SourceControl (269)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
-[2017.06.09-00.28.30:672][386]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
-[2017.06.09-00.28.30:673][386]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
-[2017.06.09-00.28.30:673][386]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2017.06.09-00.28.30:673][386]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2017.06.09-00.28.30:673][386]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
-[2017.06.09-00.28.30:673][386]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
-[2017.06.09-00.28.30:673][386]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
-[2017.06.09-00.28.30:673][386]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
-[2017.06.09-00.28.30:673][386]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
-[2017.06.09-00.28.30:673][386]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
-[2017.06.09-00.28.30:774][386]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
-[2017.06.09-00.28.30:874][386]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
-[2017.06.09-00.28.30:874][386]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.06.09-00.28.30:875][386]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.06.09-00.28.30:875][386]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.06.09-00.28.30:875][386]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.06.09-00.28.30:875][386]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.06.09-00.28.30:878][386]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.06.09-00.28.30:878][386]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.06.09-00.28.30:878][386]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.06.09-00.28.30:878][386]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.06.09-00.28.30:878][386]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.06.09-00.28.30:879][386]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.06.09-00.28.30:879][386]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.06.09-00.28.30:879][386]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.06.09-00.28.30:879][386]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.06.09-00.28.30:879][386]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.06.09-00.28.30:879][386]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.06.09-00.28.30:880][386]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.06.09-00.28.30:880][386]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.06.09-00.28.30:880][386]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.06.09-00.28.30:880][386]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.06.09-00.28.30:881][386]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.06.09-00.28.30:881][386]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.06.09-00.28.30:882][386]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.06.09-00.28.30:882][386]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.06.09-00.28.30:884][386]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.06.09-00.28.30:884][386]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.06.09-00.28.30:884][386]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.06.09-00.28.30:885][386]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.06.09-00.28.30:885][386]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.06.09-00.28.30:887][386]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.06.09-00.28.30:887][386]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.06.09-00.28.30:887][386]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.06.09-00.28.30:887][386]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.06.09-00.28.30:887][386]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.06.09-00.28.30:887][386]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.06.09-00.28.30:991][386]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.06.09-00.28.30:991][386]LogDirectoryWatcher: A directory notification for 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/' was aborted.
-[2017.06.09-00.28.30:991][386]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.06.09-00.28.30:991][386]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.06.09-00.28.30:993][386]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.06.09-00.28.30:993][386]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.06.09-00.28.30:993][386]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.06.09-00.28.30:993][386]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.06.09-00.28.30:993][386]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.06.09-00.28.30:993][386]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.06.09-00.28.30:993][386]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.06.09-00.28.30:993][386]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.06.09-00.28.30:993][386]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.06.09-00.28.31:011][386]LogDerivedDataCache: Shutdown
-[2017.06.09-00.28.31:011][386]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.06.09-00.28.31:011][386]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.06.09-00.28.31:011][386]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.06.09-00.28.31:012][386]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.06.09-00.28.31:012][386]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.06.09-00.28.31:013][386]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.06.09-00.28.31:014][386]LogOnline:Display: Unloading online subsystem: NULL
-[2017.06.09-00.28.31:014][386]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.06.09-00.28.31:015][386]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.06.09-00.28.31:015][386]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.06.09-00.28.31:015][386]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B12AC4E40-47F2-B090-5D79-029419400DF5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=76be9e0d4bf666b328e2d6a77288e11a%7Cd2e90465e53c4e38aa585c6f39e2de54%7C547c6589-7de2-45ed-b294-b3c0b54288c5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.06.09-00.28.31:029][386]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.06.09-00.28.31:030][386]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.06.09-00.28.31:030][386]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.06.09-00.28.31:030][386]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.06.09-00.28.31:030][386]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.06.09-00.28.31:031][386]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.06.09-00.28.31:031][386]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.06.09-00.28.31:031][386]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.06.09-00.28.31:031][386]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.06.09-00.28.31:032][386]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.06.09-00.28.31:033][386]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.06.09-00.28.31:033][386]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.06.09-00.28.31:033][386]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.06.09-00.28.31:033][386]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.06.09-00.28.31:033][386]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.06.09-00.28.31:033][386]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.06.09-00.28.31:033][386]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.06.09-00.28.31:033][386]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.06.09-00.28.31:033][386]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.06.09-00.28.31:034][386]LogExit: Exiting.
-[2017.06.09-00.28.31:043][386]Log file closed, 06/08/17 18:28:31
+[2017.06.09-00.32.10:990][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.09-00.32.10:990][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.09-00.32.11:046][  0]LogInit: Computer: BRADTHEDAD
+[2017.06.09-00.32.11:046][  0]LogInit: User: DadPC
+[2017.06.09-00.32.11:046][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.09-00.32.11:047][  0]LogInit: High frequency timer resolution =4.101569 MHz
+[2017.06.09-00.32.11:047][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.09-00.32.11:047][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.09-00.32.11:047][  0]LogMemory: Process Physical Memory: 273.16 MB used, 273.16 MB peak
+[2017.06.09-00.32.11:047][  0]LogMemory: Process Virtual Memory: 261.03 MB used, 261.03 MB peak
+[2017.06.09-00.32.11:047][  0]LogMemory: Physical Memory: 4320.71 MB used,  12002.07 MB free, 16322.79 MB total
+[2017.06.09-00.32.11:047][  0]LogMemory: Virtual Memory: 638.32 MB used,  12002.07 MB free, 134217728.00 MB total
+[2017.06.09-00.32.11:107][  0]LogInit: Using OS detected language (en-US).
+[2017.06.09-00.32.11:107][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.09-00.32.11:109][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.09-00.32.11:769][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.09-00.32.11:802][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2017.06.09-00.32.11:802][  0]LogD3D11RHI:       8169/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.06.09-00.32.11:803][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.09-00.32.11:803][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.09-00.32.11:803][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.09-00.32.11:806][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.09-00.32.11:806][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.09-00.32.11:806][  0]LogWindows: EnumDisplayDevices:
+[2017.06.09-00.32.11:806][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2017.06.09-00.32.11:806][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2017.06.09-00.32.11:806][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.06.09-00.32.11:807][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.06.09-00.32.11:807][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.06.09-00.32.11:807][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.06.09-00.32.11:807][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.06.09-00.32.11:807][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2017.06.09-00.32.11:807][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.5.2 (internal:22.19.165.512, unified:22.19.165.512)
+[2017.06.09-00.32.11:807][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.09-00.32.11:807][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.09-00.32.11:838][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.09-00.32.11:849][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.06.09-00.32.11:849][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Intermediate/Shaders/WorkingDirectory/2988/).
+[2017.06.09-00.32.11:849][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dad PC/AppData/Local/Temp/UnrealShaderWorkingDir/38E0717A4B3901AF0B0246A90ED4B10D/'.
+[2017.06.09-00.32.11:849][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.09-00.32.12:555][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.09-00.32.12:590][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.09-00.32.12:624][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.09-00.32.12:657][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.09-00.32.12:691][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.09-00.32.12:725][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.09-00.32.12:758][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.09-00.32.12:792][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.09-00.32.12:822][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.09-00.32.12:854][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.09-00.32.12:887][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.09-00.32.12:920][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.09-00.32.12:954][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.09-00.32.12:987][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.09-00.32.13:019][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.09-00.32.13:085][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.09-00.32.13:085][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.09-00.32.13:111][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.09-00.32.13:180][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.09-00.32.13:200][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.09-00.32.13:233][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.09-00.32.13:267][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.09-00.32.13:299][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.09-00.32.13:334][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.09-00.32.13:334][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.09-00.32.13:658][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.09-00.32.13:741][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Dad PC/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.09-00.32.13:741][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dad PC/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.09-00.32.13:741][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.09-00.32.13:741][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.09-00.32.13:741][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.09-00.32.13:741][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.09-00.32.13:753][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.09-00.32.13:765][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dad PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.09-00.32.13:772][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.09-00.32.13:772][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.09-00.32.13:772][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.09-00.32.13:772][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.09-00.32.13:992][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.09-00.32.14:108][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.09-00.32.14:216][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.09-00.32.14:245][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.09-00.32.14:276][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.09-00.32.14:276][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.09-00.32.14:276][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.09-00.32.14:652][  0]LogNetVersion: Enviro_2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 303638927)
+[2017.06.09-00.32.14:701][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2017.06.09-00.32.15:830][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 1.113648 seconds
+[2017.06.09-00.32.15:843][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.09-00.32.15:843][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.09-00.32.15:843][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.09-00.32.15:899][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.09-00.32.17:524][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.06.09-00.32.17:543][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.09-00.32.17:573][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.09-00.32.17:937][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.09-00.32.18:197][  0]SourceControl: Info Source control is disabled
+[2017.06.09-00.32.18:217][  0]SourceControl: Info Source control is disabled
+[2017.06.09-00.32.18:250][  0]SourceControl: Info Source control is disabled
+[2017.06.09-00.32.18:279][  0]SourceControl: Info Source control is disabled
+[2017.06.09-00.32.18:715][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.09-00.32.19:136][  0]LogEngine: Initializing Engine...
+[2017.06.09-00.32.19:136][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.09-00.32.19:287][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.09-00.32.19:287][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.09-00.32.19:377][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.09-00.32.19:384][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.09-00.32.19:408][  0]LogInit: FAudioDevice initialized.
+[2017.06.09-00.32.19:450][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Dad PC/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.09-00.32.19:464][  0]LogInit: Texture streaming: Enabled
+[2017.06.09-00.32.19:529][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.09-00.32.19:671][  0]LogInit: Transaction tracking system initialized
+[2017.06.09-00.32.19:874][  0]BlueprintLog: New page: Editor Load
+[2017.06.09-00.32.20:487][  0]LocalizationService: Info Localization service is disabled
+[2017.06.09-00.32.20:940][  0]LogConsoleResponse:Display: 
+[2017.06.09-00.32.21:039][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.09-00.32.21:039][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.09-00.32.21:700][  0]LogFileCache: Scanning file cache for directory 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/' took 0.01s
+[2017.06.09-00.32.21:700][  0]SourceControl: Info Source control is disabled
+[2017.06.09-00.32.21:700][  0]Cmd: MAP LOAD FILE="F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.09-00.32.21:701][  0]LightingResults: New page: Lighting Build
+[2017.06.09-00.32.21:728][  0]MapCheck: New page: Map Check
+[2017.06.09-00.32.21:728][  0]LightingResults: New page: Lighting Build
+[2017.06.09-00.32.21:810][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.09-00.32.21:810][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.06.09-00.32.21:810][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.06.09-00.32.21:823][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.09-00.32.21:823][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.06.09-00.32.21:823][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.06.09-00.32.21:828][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.09-00.32.21:828][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.06.09-00.32.21:829][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.09-00.32.21:829][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.06.09-00.32.21:832][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.09-00.32.21:832][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.06.09-00.32.21:832][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.06.09-00.32.21:832][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.06.09-00.32.21:950][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.09-00.32.21:955][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.09-00.32.21:965][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.09-00.32.21:997][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.96ms to complete.
+[2017.06.09-00.32.21:997][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.296
+[2017.06.09-00.32.22:055][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.09-00.32.22:055][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.09-00.32.22:112][  0]LogCollectionManager: Loaded 0 collections in 0.000970 seconds
+[2017.06.09-00.32.22:178][  0]LogFileCache: Scanning file cache for directory 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/Collections/' took 0.01s
+[2017.06.09-00.32.22:178][  0]LogFileCache: Scanning file cache for directory 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Developers/DadPC/Collections/' took 0.01s
+[2017.06.09-00.32.22:178][  0]LogFileCache: Scanning file cache for directory 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Collections/' took 0.01s
+[2017.06.09-00.32.22:178][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.09-00.32.22:185][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2343 classes and 497 folders.
+[2017.06.09-00.32.22:228][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.09-00.32.22:250][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.09-00.32.22:279][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.09-00.32.22:306][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.09-00.32.22:310][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.09-00.32.22:311][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.09-00.32.22:314][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.09-00.32.22:376][  0]LogRenderer: Reallocating scene render targets to support 1256x660 NumSamples 1 (Frame:1).
+[2017.06.09-00.32.22:540][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.09-00.32.22:540][  0]LogLoad: (Engine Initialization) Total time: 13.18 seconds
+[2017.06.09-00.32.22:540][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.06.09-00.32.22:540][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.09-00.32.22:549][  0]LogOcInput: OculusInput pre-init called
+[2017.06.09-00.32.22:549][  0]LogHMD: Starting GearVRController plugin
+[2017.06.09-00.32.22:560][  0]LogAssetRegistry: Asset discovery search completed in 7.8808 seconds
+[2017.06.09-00.32.22:562][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.06.09-00.32.22:562][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.06.09-00.32.22:565][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.09-00.32.22:618][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.09-00.32.26:702][482]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.09-00.32.26:774][482]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
+[2017.06.09-00.32.26:788][482]Cmd: MAP LOAD FILE="F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.09-00.32.26:788][482]LightingResults: New page: Lighting Build
+[2017.06.09-00.32.26:788][482]LoadErrors: New page: Loading map: DOOM_FanArt_EngineRoom_001.umap
+[2017.06.09-00.32.26:789][482]MapCheck: New page: Map Check
+[2017.06.09-00.32.26:789][482]LightingResults: New page: Lighting Build
+[2017.06.09-00.32.26:797][482]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.09-00.32.26:821][482]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.09-00.32.26:854][482]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.439ms to complete.
+[2017.06.09-00.32.26:854][482]LogFileHelpers: Loading map 'DOOM_FanArt_EngineRoom_001' took 0.066
+[2017.06.09-00.32.33:091][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
+[2017.06.09-00.32.41:997][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_CenterBase)
+[2017.06.09-00.32.43:307][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
+[2017.06.09-00.32.48:399][ 34]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.09-00.32.48:432][ 34]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
+[2017.06.09-00.32.48:432][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.09-00.32.48:432][ 34]PIE: New page: PIE session: DOOM_FanArt_EngineRoom_001 (Jun 8, 2017, 12:32:48 PM)
+[2017.06.09-00.32.48:432][ 34]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001
+[2017.06.09-00.32.48:434][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001593s)
+[2017.06.09-00.32.48:434][ 34]LogAIModule: Creating AISystem for world DOOM_FanArt_EngineRoom_001
+[2017.06.09-00.32.48:434][ 34]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2017.06.09-00.32.48:434][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 to /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 (0.002272s)
+[2017.06.09-00.32.48:446][ 34]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.09-00.32.48:451][ 34]LogInit: FAudioDevice initialized.
+[2017.06.09-00.32.48:494][ 34]LogLoad: Game class is 'GameModeBase'
+[2017.06.09-00.32.48:496][ 34]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001 up for play (max tick rate 0) at 2017.06.08-18.32.48
+[2017.06.09-00.32.48:496][ 34]LogWorld: Bringing up level for play took: 0.001174
+[2017.06.09-00.32.48:530][ 34]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.06.09-00.32.48:531][ 34]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DOOM_FanArt_EngineRoom_001 -0.596
+[2017.06.09-00.32.48:531][ 34]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
+[2017.06.09-00.33.35:853][419]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
+[2017.06.09-00.33.35:895][419]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001' with GeneratedClass '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001_C' with ClassGeneratedBy '/Game/Maps/DOOM_FanArt_EngineRoom_001.DOOM_FanArt_EngineRoom_001:PersistentLevel.DOOM_FanArt_EngineRoom_001'
+[2017.06.09-00.33.37:931][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
+[2017.06.09-00.33.43:594][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
+[2017.06.09-00.34.19:965][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
+[2017.06.09-00.34.45:640][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_abyss)
+[2017.06.09-00.34.52:323][167]LogSavePackage: Save=78.35ms
+[2017.06.09-00.34.52:323][167]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_001B5D10A6046C94124E6FF34ABE4C97AE3.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap'
+[2017.06.09-00.34.52:410][167]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001.umap
+[2017.06.09-00.34.52:659][167]LogSavePackage: Save=92.64ms
+[2017.06.09-00.34.52:659][167]LogSavePackage: Moving 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/DOOM_FanArt_EngineRoom_001_BuiltData92FDAD55468852323771A6A24300AEF4.tmp' to 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001_BuiltData.uasset'
+[2017.06.09-00.34.52:661][167]LogSavePackage:Display: Finished SavePackage F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_EngineRoom_001_BuiltData.uasset
+[2017.06.09-00.35.00:761][119]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.09-00.35.00:761][119]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.09-00.35.01:040][120]Cmd: QUIT_EDITOR
+[2017.06.09-00.35.01:935][120]LogExit: Preparing to exit.
+[2017.06.09-00.35.03:220][120]LogExit: Editor shut down
+[2017.06.09-00.35.03:225][120]LogExit: Transaction tracking system shut down
+[2017.06.09-00.35.03:265][120]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.09-00.35.03:265][120]LogExit: Object subsystem successfully closed.
+[2017.06.09-00.35.03:276][120]LogD3D11RHI: Shutdown
+[2017.06.09-00.35.03:276][120]LogD3D11RHI: CleanupD3DDevice
+[2017.06.09-00.35.03:395][120]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.09-00.35.03:404][120]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.06.09-00.35.03:404][120]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.06.09-00.35.03:404][120]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.06.09-00.35.03:404][120]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.06.09-00.35.03:404][120]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.06.09-00.35.03:404][120]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.06.09-00.35.03:405][120]LogDirectoryWatcher: A directory notification for 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Collections/' was aborted.
+[2017.06.09-00.35.03:405][120]LogDirectoryWatcher: A directory notification for 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/Developers/DadPC/Collections/' was aborted.
+[2017.06.09-00.35.03:405][120]LogDirectoryWatcher: A directory notification for 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Saved/Collections/' was aborted.
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.06.09-00.35.03:405][120]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.06.09-00.35.03:406][120]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.06.09-00.35.03:733][120]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.06.09-00.35.03:786][120]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.06.09-00.35.03:787][120]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.06.09-00.35.03:968][120]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.06.09-00.35.03:969][120]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.06.09-00.35.03:969][120]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.06.09-00.35.03:969][120]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.06.09-00.35.03:969][120]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2017.06.09-00.35.03:969][120]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2017.06.09-00.35.03:969][120]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2017.06.09-00.35.03:969][120]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2017.06.09-00.35.03:969][120]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2017.06.09-00.35.03:969][120]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2017.06.09-00.35.04:070][120]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.09-00.35.04:170][120]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.09-00.35.04:171][120]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.09-00.35.04:172][120]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.09-00.35.04:172][120]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.09-00.35.04:172][120]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.09-00.35.04:172][120]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.09-00.35.04:172][120]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.09-00.35.04:172][120]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.09-00.35.04:374][120]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.09-00.35.04:374][120]LogDirectoryWatcher: A directory notification for 'F:/Projects/Environment Challenge/DOOM/Repository/Enviro_2/Enviro_2/Content/' was aborted.
+[2017.06.09-00.35.04:374][120]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.09-00.35.04:374][120]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.09-00.35.04:376][120]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.09-00.35.04:376][120]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.09-00.35.04:376][120]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.09-00.35.04:376][120]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.09-00.35.04:376][120]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.09-00.35.04:376][120]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.09-00.35.04:376][120]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.09-00.35.04:376][120]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.09-00.35.04:376][120]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.09-00.35.04:464][120]LogDerivedDataCache: Shutdown
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.09-00.35.04:464][120]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.09-00.35.04:465][120]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.09-00.35.04:465][120]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.09-00.35.04:465][120]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.09-00.35.04:465][120]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.09-00.35.04:465][120]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.09-00.35.04:465][120]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.09-00.35.04:465][120]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.09-00.35.04:465][120]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B12C4480B-4497-75FB-341D-0B844B9AF80C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=76be9e0d4bf666b328e2d6a77288e11a%7Cd2e90465e53c4e38aa585c6f39e2de54%7C547c6589-7de2-45ed-b294-b3c0b54288c5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.09-00.35.04:491][120]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.09-00.35.04:492][120]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.09-00.35.04:492][120]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.09-00.35.04:492][120]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.09-00.35.04:492][120]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.09-00.35.04:492][120]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.09-00.35.04:492][120]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.09-00.35.04:492][120]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.09-00.35.04:492][120]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.09-00.35.04:493][120]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.09-00.35.04:494][120]LogExit: Exiting.
+[2017.06.09-00.35.04:506][120]Log file closed, 06/08/17 18:35:04
