@@ -1,0 +1,1046 @@
+﻿Log file open, 06/14/17 15:24:20
+LogInit:Display: Running engine for game: Enviro_2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-594159279) SRandInit(-594159279).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.095766
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.14-21.24.21:181][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-21.24.21:181][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.14-21.24.21:192][  0]LogInit: Computer: ASUS-G752VT
+[2017.06.14-21.24.21:192][  0]LogInit: User: azure
+[2017.06.14-21.24.21:192][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.14-21.24.21:192][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2017.06.14-21.24.21:193][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.06.14-21.24.21:193][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.14-21.24.21:193][  0]LogMemory: Process Physical Memory: 273.38 MB used, 273.38 MB peak
+[2017.06.14-21.24.21:193][  0]LogMemory: Process Virtual Memory: 261.06 MB used, 261.06 MB peak
+[2017.06.14-21.24.21:193][  0]LogMemory: Physical Memory: 8822.38 MB used,  15692.00 MB free, 24514.38 MB total
+[2017.06.14-21.24.21:193][  0]LogMemory: Virtual Memory: 638.32 MB used,  15692.00 MB free, 134217728.00 MB total
+[2017.06.14-21.24.21:584][  0]LogInit: Using OS detected language (en-US).
+[2017.06.14-21.24.21:584][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.14-21.24.21:587][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.14-21.24.22:628][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.14-21.24.22:665][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M ' (Feature Level 11_0)
+[2017.06.14-21.24.22:665][  0]LogD3D11RHI:       6051/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.14-21.24.22:667][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.14-21.24.22:667][  0]LogD3D11RHI:       0/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.14-21.24.22:667][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.14-21.24.22:672][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.14-21.24.22:672][  0]LogD3D11RHI:     GPU DeviceId: 0x1618 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.14-21.24.22:672][  0]LogWindows: EnumDisplayDevices:
+[2017.06.14-21.24.22:672][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970M ' (P:1 D:1)
+[2017.06.14-21.24.22:672][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970M ' (P:0 D:0)
+[2017.06.14-21.24.22:672][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970M ' (P:0 D:0)
+[2017.06.14-21.24.22:672][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M ' (P:0 D:0)
+[2017.06.14-21.24.22:672][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.14-21.24.22:672][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M 
+[2017.06.14-21.24.22:672][  0]LogD3D11RHI:   Driver Version: 353.62 (internal:10.18.13.5362, unified:353.62)
+[2017.06.14-21.24.22:672][  0]LogD3D11RHI:      Driver Date: 7-22-2015
+[2017.06.14-21.24.22:672][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.14-21.24.22:692][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.06.14-21.24.22:692][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.14-21.24.23:297][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.14-21.24.23:300][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Intermediate/Shaders/WorkingDirectory/13556/).
+[2017.06.14-21.24.23:300][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/azure/AppData/Local/Temp/UnrealShaderWorkingDir/7DBEE1C14F595948D01DDC970A7C65D7/'.
+[2017.06.14-21.24.23:300][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.14-21.24.24:512][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.14-21.24.24:574][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.14-21.24.24:638][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.14-21.24.24:700][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.14-21.24.24:767][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.14-21.24.24:829][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.14-21.24.24:887][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.14-21.24.24:942][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.14-21.24.24:990][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.14-21.24.25:050][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.14-21.24.25:106][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.14-21.24.25:162][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.14-21.24.25:220][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.14-21.24.25:276][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.14-21.24.25:340][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.14-21.24.25:451][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.14-21.24.25:451][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.14-21.24.25:501][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.14-21.24.25:608][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.14-21.24.25:644][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.14-21.24.25:710][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.14-21.24.25:775][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.14-21.24.25:841][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.14-21.24.25:902][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.14-21.24.25:902][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.14-21.24.26:513][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.14-21.24.26:620][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/azure/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.14-21.24.26:620][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/azure/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.14-21.24.26:620][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.14-21.24.26:620][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.14-21.24.26:620][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.14-21.24.26:620][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.14-21.24.26:640][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.14-21.24.26:652][  0]LogDerivedDataCache: Using Local data cache path C:/Users/azure/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.14-21.24.26:662][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.14-21.24.26:663][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.14-21.24.26:663][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-21.24.26:663][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-21.24.27:013][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-21.24.27:100][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.14-21.24.27:274][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.14-21.24.27:326][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.14-21.24.27:380][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.14-21.24.27:380][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.14-21.24.27:380][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.14-21.24.28:011][  0]LogNetVersion: Enviro_2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 303638927)
+[2017.06.14-21.24.28:078][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2017.06.14-21.24.28:145][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.035340 seconds
+[2017.06.14-21.24.28:151][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.14-21.24.28:151][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.14-21.24.28:151][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.14-21.24.28:226][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.14-21.24.30:892][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.06.14-21.24.30:923][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.14-21.24.30:967][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.14-21.24.31:596][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.14-21.24.32:063][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.24.32:064][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.24.32:115][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.24.32:167][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.24.32:928][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.14-21.24.33:651][  0]LogEngine: Initializing Engine...
+[2017.06.14-21.24.33:651][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.14-21.24.33:899][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.14-21.24.33:899][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.14-21.24.34:058][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.14-21.24.34:074][  0]LogInit: XAudio2 using 'Headphones (Jam Party Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.14-21.24.34:084][  0]LogInit: FAudioDevice initialized.
+[2017.06.14-21.24.34:134][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/azure/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.14-21.24.34:149][  0]LogInit: Texture streaming: Enabled
+[2017.06.14-21.24.34:264][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.14-21.24.34:512][  0]LogInit: Transaction tracking system initialized
+[2017.06.14-21.24.34:875][  0]BlueprintLog: New page: Editor Load
+[2017.06.14-21.24.35:964][  0]LocalizationService: Info Localization service is disabled
+[2017.06.14-21.24.36:742][  0]LogConsoleResponse:Display: 
+[2017.06.14-21.24.36:914][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.14-21.24.36:914][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.14-21.24.37:080][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/' took 0.02s
+[2017.06.14-21.24.38:086][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.24.38:086][  0]Cmd: MAP LOAD FILE="../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.14-21.24.38:087][  0]LightingResults: New page: Lighting Build
+[2017.06.14-21.24.38:135][  0]MapCheck: New page: Map Check
+[2017.06.14-21.24.38:135][  0]LightingResults: New page: Lighting Build
+[2017.06.14-21.24.38:273][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.24.38:273][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.06.14-21.24.38:274][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.06.14-21.24.38:298][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.24.38:298][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.06.14-21.24.38:298][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.06.14-21.24.38:309][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.24.38:309][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.06.14-21.24.38:309][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.24.38:309][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.06.14-21.24.38:316][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.24.38:316][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.06.14-21.24.38:316][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.06.14-21.24.38:316][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.06.14-21.24.38:501][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.14-21.24.38:511][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.14-21.24.38:528][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.14-21.24.38:577][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.571ms to complete.
+[2017.06.14-21.24.38:577][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.491
+[2017.06.14-21.24.38:641][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.14-21.24.38:737][  0]LogCollectionManager: Loaded 0 collections in 0.001566 seconds
+[2017.06.14-21.24.38:821][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/Collections/' took 0.01s
+[2017.06.14-21.24.38:821][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Developers/azure/Collections/' took 0.01s
+[2017.06.14-21.24.38:821][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Collections/' took 0.01s
+[2017.06.14-21.24.38:821][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.14-21.24.38:829][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2343 classes and 497 folders.
+[2017.06.14-21.24.38:903][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.14-21.24.38:943][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.14-21.24.38:992][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.14-21.24.39:035][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.14-21.24.39:041][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.14-21.24.39:044][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.14-21.24.39:049][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.14-21.24.39:155][  0]LogRenderer: Reallocating scene render targets to support 1208x484 NumSamples 1 (Frame:1).
+[2017.06.14-21.24.39:328][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.14-21.24.39:404][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.14-21.24.39:405][  0]LogLoad: (Engine Initialization) Total time: 19.94 seconds
+[2017.06.14-21.24.39:405][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2017.06.14-21.24.39:405][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.14-21.24.39:423][  0]LogOcInput: OculusInput pre-init called
+[2017.06.14-21.24.39:423][  0]LogHMD: Starting GearVRController plugin
+[2017.06.14-21.24.39:443][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.14-21.24.39:497][  0]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-21.24.39:553][  1]LogAssetRegistry: Asset discovery search completed in 11.4970 seconds
+[2017.06.14-21.24.39:555][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.06.14-21.24.39:555][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.06.14-21.25.49:134][688]LogTexture:Display: Building textures: T_TilingNoise12 (AutoDXT, 2048X2048)
+[2017.06.14-21.25.50:548][688]LogTexture:Display: Building textures: T_Snow01_Packed (AutoDXT, 256X256)
+[2017.06.14-21.25.50:572][688]LogMaterial: Missing cached shader map for material M_Spark_VelocityLerp, compiling. 
+[2017.06.14-21.25.50:721][688]LogTexture:Display: Building textures: T_TilingNoise03 (AutoDXT, 2048X2048)
+[2017.06.14-21.25.52:011][688]LogTexture:Display: Building textures: T_HeatTile3_N (BC5, 2048X2048)
+[2017.06.14-21.25.52:455][688]LogMaterial: Missing cached shader map for material M_HeatDistort, compiling. 
+[2017.06.14-21.25.52:566][688]LogTexture:Display: Building textures: T_FlareRound_Noise (AutoDXT, 1024X1024)
+[2017.06.14-21.25.52:713][688]LogMaterial: Missing cached shader map for material M_FlareRound, compiling. 
+[2017.06.14-21.25.52:772][688]LogTexture:Display: Building textures: T_FireSubUV_11X11_32 (AutoDXT, 1024X1024)
+[2017.06.14-21.25.53:090][688]LogTexture:Display: Building textures: T_TilingNoise16 (AutoDXT, 1024X1024)
+[2017.06.14-21.25.53:472][688]LogMaterial: Missing cached shader map for material M_Fire_SubUV_11X11_Noise, compiling. 
+[2017.06.14-21.25.53:561][688]LogEditorViewport: Clicking on Actor (context menu): Emitter (P_Explosion)
+[2017.06.14-21.25.53:622][688]LogEditorViewport: Clicking on Actor (context menu): Emitter (P_Explosion)
+[2017.06.14-21.25.57:822][770]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.26.02:961][841]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_TorchFire_Blizzard)
+[2017.06.14-21.26.03:965][856]Cmd: DELETE
+[2017.06.14-21.26.03:965][856]Cmd: ACTOR DELETE
+[2017.06.14-21.26.03:966][856]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.26.04:024][856]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2017.06.14-21.26.05:556][882]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire)
+[2017.06.14-21.26.06:579][900]Cmd: DELETE
+[2017.06.14-21.26.06:579][900]Cmd: ACTOR DELETE
+[2017.06.14-21.26.06:579][900]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.26.06:591][900]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.06.14-21.26.13:594][165]Cmd: DELETE
+[2017.06.14-21.26.13:594][165]Cmd: ACTOR DELETE
+[2017.06.14-21.26.13:594][165]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.26.13:603][165]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.14-21.26.14:977][217]LogTexture:Display: Building textures: T_SmokeSubUV_8X8_02 (AutoDXT, 2048X2048)
+[2017.06.14-21.26.16:641][217]LogTexture:Display: Building textures: T_TilingClouds_01 (AutoDXT, 1024X1024)
+[2017.06.14-21.26.16:823][217]LogMaterial: Missing cached shader map for material M_Snow_Blowing_Lit, compiling. 
+[2017.06.14-21.26.16:874][217]LogMaterial: Missing cached shader map for material M_SnowFlake_VelocityLerp, compiling. 
+[2017.06.14-21.26.34:441][600]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
+[2017.06.14-21.26.36:346][712]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.26.47:005][338]LogRenderer: Reallocating scene render targets to support 1444x680 NumSamples 1 (Frame:3463).
+[2017.06.14-21.26.47:054][339]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:3465).
+[2017.06.14-21.26.51:885][619]Cmd: SELECT NONE
+[2017.06.14-21.26.53:935][712]Cmd: SELECT NONE
+[2017.06.14-21.27.27:849][466]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.06.14-21.27.27:862][466]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.06.14-21.27.28:970][530]Cmd: TRANSACTION UNDO
+[2017.06.14-21.27.28:970][530]LogEditorTransaction: Undo Delete selection
+[2017.06.14-21.27.28:991][530]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-21.27.32:844][615]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.06.14-21.27.32:854][615]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.14-21.27.38:801][969]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
+[2017.06.14-21.27.40:986][ 97]LogEditorViewport: Clicking Background
+[2017.06.14-21.28.18:778][351]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
+[2017.06.14-21.28.36:285][371]LogEditorViewport: Clicking Background
+[2017.06.14-21.28.49:533][147]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
+[2017.06.14-21.28.57:040][524]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
+[2017.06.14-21.28.57:844][570]Cmd: DELETE
+[2017.06.14-21.28.57:844][570]Cmd: ACTOR DELETE
+[2017.06.14-21.28.57:844][570]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.28.57:852][570]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.06.14-21.29.01:203][745]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.29.03:742][889]LogEditorViewport: Clicking Background
+[2017.06.14-21.29.07:818][131]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_OrbGlowLights)
+[2017.06.14-21.29.08:645][178]Cmd: DELETE
+[2017.06.14-21.29.08:645][178]Cmd: ACTOR DELETE
+[2017.06.14-21.29.08:645][178]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.29.08:656][178]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.14-21.29.38:660][683]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.38:660][683]LogEditorTransaction: Undo Delete Actors
+[2017.06.14-21.29.38:859][692]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.38:859][692]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.39:091][697]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.39:091][697]LogEditorTransaction: Undo Clicking Background
+[2017.06.14-21.29.39:245][699]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.39:245][699]LogEditorTransaction: Undo Move Actors
+[2017.06.14-21.29.39:441][703]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.39:441][703]LogEditorTransaction: Undo Create Actors
+[2017.06.14-21.29.39:641][707]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.39:641][707]LogEditorTransaction: Undo Delete Actors
+[2017.06.14-21.29.39:793][709]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.39:793][709]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.39:984][713]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.39:984][713]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.40:158][716]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.40:158][716]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.40:361][720]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.40:361][720]LogEditorTransaction: Undo Clicking Background
+[2017.06.14-21.29.40:531][723]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.40:531][723]LogEditorTransaction: Undo Move Actors
+[2017.06.14-21.29.40:741][727]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.40:741][727]LogEditorTransaction: Undo Move Actors
+[2017.06.14-21.29.40:906][730]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.40:906][730]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.41:107][734]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.41:108][734]LogEditorTransaction: Undo Clicking Background
+[2017.06.14-21.29.41:306][738]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.41:307][738]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.41:551][743]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.41:551][743]LogEditorTransaction: Undo Delete selection
+[2017.06.14-21.29.41:827][748]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.41:827][748]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.42:015][752]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.42:015][752]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.42:206][756]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.42:206][756]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.42:430][760]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.42:430][760]LogEditorTransaction: Undo Select None
+[2017.06.14-21.29.42:619][764]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.42:619][764]LogEditorTransaction: Undo Select None
+[2017.06.14-21.29.42:821][768]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.42:821][768]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.43:025][771]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.43:025][771]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.43:223][775]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.43:223][775]LogEditorTransaction: Undo Create Actors
+[2017.06.14-21.29.43:423][779]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.43:423][779]LogEditorTransaction: Undo Delete Actors
+[2017.06.14-21.29.43:661][783]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.43:661][783]LogEditorTransaction: Undo Rotate Actors
+[2017.06.14-21.29.43:865][787]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.43:865][787]LogEditorTransaction: Undo Create Actors
+[2017.06.14-21.29.44:065][791]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.44:065][791]LogEditorTransaction: Undo Delete Actors
+[2017.06.14-21.29.44:272][794]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.44:272][794]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.44:472][798]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.44:472][798]LogEditorTransaction: Undo Delete Actors
+[2017.06.14-21.29.44:689][801]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.44:689][801]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.44:868][804]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.44:868][804]LogEditorTransaction: Undo Create Actors
+[2017.06.14-21.29.45:087][808]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.45:087][808]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.29.45:272][811]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.45:272][811]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.06.14-21.29.45:479][815]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.45:479][815]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.06.14-21.29.45:698][819]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.45:698][819]LogEditorTransaction: Undo Create Actors
+[2017.06.14-21.29.45:907][822]Cmd: TRANSACTION UNDO
+[2017.06.14-21.29.45:907][822]LogEditorTransaction: Undo Create Actors
+[2017.06.14-21.29.54:950][166]Cmd: DELETE
+[2017.06.14-21.29.54:950][166]Cmd: ACTOR DELETE
+[2017.06.14-21.29.54:950][166]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.29.54:965][166]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.06.14-21.29.59:947][314]LogTexture:Display: Building textures: T_SmokeBall_03_Perlin (AutoDXT, 1024X1024)
+[2017.06.14-21.30.00:429][314]LogMaterial: Missing cached shader map for material M_Dust_Mote, compiling. 
+[2017.06.14-21.30.02:139][403]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.30.07:279][689]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.30.07:848][719]LogEditorViewport: Clicking on Actor (LMB): Emitter (PGPU_Dust_Vec_Large)
+[2017.06.14-21.30.14:993][145]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.30.54:871][191]LogEditorActor: Deleted Actor: SkyLight
+[2017.06.14-21.30.54:916][191]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2017.06.14-21.30.56:359][274]Cmd: TRANSACTION UNDO
+[2017.06.14-21.30.56:359][274]LogEditorTransaction: Undo Delete selection
+[2017.06.14-21.31.02:565][468]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.31.03:346][513]Cmd: DELETE
+[2017.06.14-21.31.03:346][513]Cmd: ACTOR DELETE
+[2017.06.14-21.31.03:346][513]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.06.14-21.31.03:357][513]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.14-21.31.15:309][216]Cmd: TRANSACTION UNDO
+[2017.06.14-21.31.15:309][216]LogEditorTransaction: Undo Delete Actors
+[2017.06.14-21.31.15:600][224]Cmd: TRANSACTION UNDO
+[2017.06.14-21.31.15:600][224]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.31.15:801][227]Cmd: TRANSACTION UNDO
+[2017.06.14-21.31.15:801][227]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.31.16:032][232]Cmd: TRANSACTION UNDO
+[2017.06.14-21.31.16:032][232]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.31.16:226][236]Cmd: TRANSACTION UNDO
+[2017.06.14-21.31.16:226][236]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.31.16:416][240]Cmd: TRANSACTION UNDO
+[2017.06.14-21.31.16:417][240]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.31.16:587][244]Cmd: TRANSACTION UNDO
+[2017.06.14-21.31.16:587][244]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.31.16:821][249]Cmd: TRANSACTION UNDO
+[2017.06.14-21.31.16:821][249]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.31.17:035][254]Cmd: TRANSACTION UNDO
+[2017.06.14-21.31.17:035][254]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.14-21.31.22:235][441]LogEditorViewport: Clicking on Actor (LMB): Emitter (PGPU_Dust_Vec_Large)
+[2017.06.14-21.31.23:538][517]Cmd: DELETE
+[2017.06.14-21.31.23:538][517]Cmd: ACTOR DELETE
+[2017.06.14-21.31.23:538][517]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.31.23:548][517]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.14-21.31.28:499][729]Cmd: DELETE
+[2017.06.14-21.31.28:499][729]Cmd: ACTOR DELETE
+[2017.06.14-21.31.28:500][729]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.31.28:512][729]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.06.14-21.31.30:633][855]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.31.31:500][905]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.31.39:947][190]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-21.31.39:981][190]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02'
+[2017.06.14-21.31.39:981][190]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Effects/Materials/M_Water_Test_01.uasset.
+[2017.06.14-21.31.39:981][190]LoadErrors:Error: Error /Game/Effects/Materials/M_Water_Test_01 : Can't find file for asset. /Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02
+[2017.06.14-21.31.39:981][190]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02'
+[2017.06.14-21.31.39:981][190]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Effects/Materials/M_Water_Test_01.uasset.
+[2017.06.14-21.31.39:983][190]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02'
+[2017.06.14-21.31.39:983][190]LoadErrors: Info Failed to load /Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02.T_Environment_Materials_Wet_FluidNormal02 Referenced by MaterialExpressionTextureSample_6
+[2017.06.14-21.31.39:983][190]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02' while loading NULL.
+[2017.06.14-21.31.39:983][190]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02'
+[2017.06.14-21.31.39:984][190]LoadErrors: Info Failed to load /Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02.T_Environment_Materials_Wet_FluidNormal02 Referenced by MaterialExpressionTextureSample_7
+[2017.06.14-21.31.39:984][190]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Wet/T_Environment_Materials_Wet_FluidNormal02' while loading NULL.
+[2017.06.14-21.31.40:061][190]LogTexture:Display: Building textures: CubeNearFalls (RGBA16F, 1024X1024)
+[2017.06.14-21.31.40:567][190]LogTexture:Display: Building textures: T_SplashMesh_02_N (BC5, 512X512)
+[2017.06.14-21.31.40:602][190]LogMaterial: Missing cached shader map for material M_Water_Test_01, compiling. 
+[2017.06.14-21.31.40:603][190]LogMaterial:Warning: Failed to compile Material /Game/Effects/Materials/M_Water_Test_01.M_Water_Test_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.14-21.31.40:603][190]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.14-21.31.40:673][190]LogTexture:Display: Building textures: T_Smoke_Dust_Base_01 (AutoDXT, 1024X1024)
+[2017.06.14-21.31.41:246][190]LogMaterial: Missing cached shader map for material M_HangingDust_01, compiling. 
+[2017.06.14-21.31.41:313][190]LogMaterial: Missing cached shader map for material M_LargeRoom_Hanging_01, compiling. 
+[2017.06.14-21.31.41:371][190]LogMaterial: Missing cached shader map for material M_SnowFlake_VelocityLerp_AA, compiling. 
+[2017.06.14-21.31.41:441][190]LogMaterial: Missing cached shader map for material M_Snow_Blowing_unLit, compiling. 
+[2017.06.14-21.31.41:474][190]LogMaterial: Missing cached shader map for material M_Snow_Blowing_unLit_LowBias, compiling. 
+[2017.06.14-21.31.41:664][190]LogTexture:Display: Building textures: T_TilingNoise11 (AutoDXT, 2048X2048)
+[2017.06.14-21.31.43:037][190]LogTexture:Display: Building textures: CubeNearEntrance (RGBA16F, 1024X1024)
+[2017.06.14-21.31.43:661][190]LogTexture:Display: Building textures: T_SplashDisc_A (AutoDXT, 512X512)
+[2017.06.14-21.31.43:832][190]LogTexture:Display: Building textures: T_SplashDisc_N (BC5, 512X512)
+[2017.06.14-21.31.43:864][190]LogMaterial: Missing cached shader map for material M_MeshEmitWater_MASTER, compiling. 
+[2017.06.14-21.31.44:076][190]LogTexture:Display: Building textures: T_PuddleN (BC5, 2048X2048)
+[2017.06.14-21.31.44:641][190]LogTexture:Display: Building textures: T_PuddleMask (AutoDXT, 2048X2048)
+[2017.06.14-21.31.45:426][190]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.14-21.31.45:438][190]LogMaterial: Missing cached shader map for material M_Mod_WaterFlow_DCL_Master, compiling. 
+[2017.06.14-21.31.45:626][190]LogTexture:Display: Building textures: CaveMap_Interior_Cube (AutoDXT, 2048X2048)
+[2017.06.14-21.31.58:429][190]LogTexture:Display: Building textures: T_SplashBase_N (BC5, 512X512)
+[2017.06.14-21.31.58:462][190]LogMaterial: Missing cached shader map for material M_MeshEmitWater_MASTER, compiling. 
+[2017.06.14-21.31.58:566][190]LogMaterial: Missing cached shader map for material M_MeshEmitWater_MASTER, compiling. 
+[2017.06.14-21.31.58:673][190]LogTexture:Display: Building textures: T_DropSubUV_A (AutoDXT, 512X512)
+[2017.06.14-21.31.58:704][190]LogTexture:Display: Building textures: T_DropSubUV_N (BC5, 512X512)
+[2017.06.14-21.31.58:734][190]LogMaterial: Missing cached shader map for material M_WaterDrop_SubUV, compiling. 
+[2017.06.14-21.31.58:937][190]LogTexture:Display: Building textures: T_Droplets_N (BC5, 2048X2048)
+[2017.06.14-21.31.59:551][190]LogTexture:Display: Building textures: T_Droplets_LitShaded_D (AutoDXT, 2048X2048)
+[2017.06.14-21.32.00:418][190]LogTexture:Display: Building textures: T_FallingWater_02_N (BC5, 512X512)
+[2017.06.14-21.32.00:455][190]LogTexture:Display: Building textures: T_FallingWater_02 (AutoDXT, 512X512)
+[2017.06.14-21.32.00:596][190]LogTexture:Display: Building textures: T_FallingWater_01_N (BC5, 512X1024)
+[2017.06.14-21.32.00:749][190]LogTexture:Display: Building textures: T_FallingWater_01 (AutoDXT, 512X1024)
+[2017.06.14-21.32.00:914][190]LogMaterial: Missing cached shader map for material M_WaterFalls_New, compiling. 
+[2017.06.14-21.32.01:003][190]LogMaterial: Missing cached shader map for material M_WaterDrop_SubUV_NoAA, compiling. 
+[2017.06.14-21.32.01:103][190]LogStaticMesh: Building static mesh SM_SplashBase_01...
+[2017.06.14-21.32.01:111][190]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.06.14-21.32.01:180][190]LogStaticMesh: Built static mesh [0.08s] /Game/Effects/Meshes/Water/SM_SplashBase_01.SM_SplashBase_01
+[2017.06.14-21.32.01:204][190]LogStaticMesh: Building static mesh SM_SplashDisc...
+[2017.06.14-21.32.01:212][190]LogStaticMesh: Built static mesh [0.01s] /Game/Effects/Meshes/Water/SM_SplashDisc.SM_SplashDisc
+[2017.06.14-21.32.01:221][190]LogStaticMesh: Building static mesh SM_SplashMesh_02...
+[2017.06.14-21.32.01:522][190]LogStaticMesh: Built static mesh [0.30s] /Game/Effects/Meshes/Water/SM_SplashMesh_02.SM_SplashMesh_02
+[2017.06.14-21.32.01:567][190]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.32.01:669][190]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.32.01:726][190]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.32.01:949][190]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.32.02:105][190]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.32.02:160][190]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.32.02:212][190]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.32.03:387][190]LogSavePackage: Save=28.61ms
+[2017.06.14-21.32.03:387][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/PGPU_Dust_Vec_Large0688233343EEEEC52EB08EA9564581C4.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Dust/PGPU_Dust_Vec_Large.uasset'
+[2017.06.14-21.32.03:391][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Dust/PGPU_Dust_Vec_Large.uasset
+[2017.06.14-21.32.03:563][190]LogSavePackage: Save=153.92ms
+[2017.06.14-21.32.03:563][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_OrbGlowLightsF565390940716F19852E4EBE37098AC8.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_OrbGlowLights.uasset'
+[2017.06.14-21.32.03:566][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_OrbGlowLights.uasset
+[2017.06.14-21.32.03:582][190]LogSavePackage: Save=6.83ms
+[2017.06.14-21.32.03:582][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/VF_Tunnel_Movement_2_100ED8D76684753D6EB206C689B4702AD36.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/VectorFields/VF_Tunnel_Movement_2_100.uasset'
+[2017.06.14-21.32.03:585][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/VectorFields/VF_Tunnel_Movement_2_100.uasset
+[2017.06.14-21.32.03:644][190]LogSavePackage: Save=44.93ms
+[2017.06.14-21.32.03:644][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_SnowFlareC871FE1B49DB77665203189CF7ABA395.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_SnowFlare.uasset'
+[2017.06.14-21.32.03:648][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_SnowFlare.uasset
+[2017.06.14-21.32.03:724][190]LogSavePackage: Save=38.73ms
+[2017.06.14-21.32.03:724][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_SnowFlake_VelocityLerp7814E7EF46EC401DEF8928BA0F9E1DA4.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_SnowFlake_VelocityLerp.uasset'
+[2017.06.14-21.32.03:728][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_SnowFlake_VelocityLerp.uasset
+[2017.06.14-21.32.03:794][190]LogSavePackage: Save=33.23ms
+[2017.06.14-21.32.03:794][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Snow_Blowing_Lit1037EF4F49E78A53A645838603A8906D.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_Snow_Blowing_Lit.uasset'
+[2017.06.14-21.32.03:797][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_Snow_Blowing_Lit.uasset
+[2017.06.14-21.32.03:847][190]LogSavePackage: Save=27.10ms
+[2017.06.14-21.32.03:847][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_TilingClouds_0116CC529C4403555FCE53F2AEB5E82E03.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Smoke/T_TilingClouds_01.uasset'
+[2017.06.14-21.32.03:850][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Smoke/T_TilingClouds_01.uasset
+[2017.06.14-21.32.03:946][190]LogSavePackage: Save=71.72ms
+[2017.06.14-21.32.03:946][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_SmokeSubUV_8X8_027D4C02D24CD8E4011B2D7EA4B13B3568.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Smoke/T_SmokeSubUV_8X8_02.uasset'
+[2017.06.14-21.32.03:950][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Smoke/T_SmokeSubUV_8X8_02.uasset
+[2017.06.14-21.32.04:085][190]LogSavePackage: Save=94.48ms
+[2017.06.14-21.32.04:085][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_TorchFire_Blizzard6966294F4E82408F471A3C8465B9F445.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_TorchFire_Blizzard.uasset'
+[2017.06.14-21.32.04:088][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_TorchFire_Blizzard.uasset
+[2017.06.14-21.32.04:106][190]LogSavePackage: Save=9.67ms
+[2017.06.14-21.32.04:106][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/VF_RandomNoise_01_90F89BAE01486E9ACA013FFAA67F438AE0.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/VectorFields/VF_RandomNoise_01_90.uasset'
+[2017.06.14-21.32.04:109][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/VectorFields/VF_RandomNoise_01_90.uasset
+[2017.06.14-21.32.04:187][190]LogSavePackage: Save=47.94ms
+[2017.06.14-21.32.04:187][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Spark_VelocityLerpD797B8414251BA6877EAFC849C7326ED.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Sparks/M_Spark_VelocityLerp.uasset'
+[2017.06.14-21.32.04:191][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Sparks/M_Spark_VelocityLerp.uasset
+[2017.06.14-21.32.04:225][190]LogSavePackage: Save=16.69ms
+[2017.06.14-21.32.04:225][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_Snow01_Packed48EAB5B14A02A4C28AF1BF82CA70EA97.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Snow/T_Snow01_Packed.uasset'
+[2017.06.14-21.32.04:228][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Snow/T_Snow01_Packed.uasset
+[2017.06.14-21.32.04:369][190]LogSavePackage: Save=120.02ms
+[2017.06.14-21.32.04:369][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_TilingNoise129D14CB21495DDDAD473C90B62CF898B4.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_TilingNoise12.uasset'
+[2017.06.14-21.32.04:372][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_TilingNoise12.uasset
+[2017.06.14-21.32.04:427][190]LogSavePackage: Save=27.52ms
+[2017.06.14-21.32.04:427][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_FlareRound669BFA3642DCD9C86763A3AC6C014A88.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Flares/M_FlareRound.uasset'
+[2017.06.14-21.32.04:430][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Flares/M_FlareRound.uasset
+[2017.06.14-21.32.04:467][190]LogSavePackage: Save=20.89ms
+[2017.06.14-21.32.04:467][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_FlareRound_Noise000E1F1C4CA32375831D738FE0FF7622.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Flares/T_FlareRound_Noise.uasset'
+[2017.06.14-21.32.04:470][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Flares/T_FlareRound_Noise.uasset
+[2017.06.14-21.32.04:536][190]LogSavePackage: Save=29.38ms
+[2017.06.14-21.32.04:536][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_HeatDistortF7CB5A4C4C5B28C458AAF08C269EC94F.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Fire/M_HeatDistort.uasset'
+[2017.06.14-21.32.04:540][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Fire/M_HeatDistort.uasset
+[2017.06.14-21.32.04:669][190]LogSavePackage: Save=109.04ms
+[2017.06.14-21.32.04:669][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_TilingNoise03573EBCA247557FC6CCA9D78DA1AE7CF9.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_TilingNoise03.uasset'
+[2017.06.14-21.32.04:672][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_TilingNoise03.uasset
+[2017.06.14-21.32.04:724][190]LogSavePackage: Save=29.18ms
+[2017.06.14-21.32.04:724][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_HeatTile3_N63F6082F4F571AEE0265638E4CE14C68.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_HeatTile3_N.uasset'
+[2017.06.14-21.32.04:728][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_HeatTile3_N.uasset
+[2017.06.14-21.32.04:790][190]LogSavePackage: Save=33.92ms
+[2017.06.14-21.32.04:790][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Fire_SubUV_11X11_Noise4F0F07124DC7F98F684E95A14C936F98.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.uasset'
+[2017.06.14-21.32.04:793][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.uasset
+[2017.06.14-21.32.04:839][190]LogSavePackage: Save=26.00ms
+[2017.06.14-21.32.04:839][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_TilingNoise16455E494F449D60F3A4BA60AC42B82431.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_TilingNoise16.uasset'
+[2017.06.14-21.32.04:842][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_TilingNoise16.uasset
+[2017.06.14-21.32.04:901][190]LogSavePackage: Save=31.95ms
+[2017.06.14-21.32.04:901][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_FireSubUV_11X11_328E4D251E41854D6F12B9FB9C003B17D9.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Fire/T_FireSubUV_11X11_32.uasset'
+[2017.06.14-21.32.04:905][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Fire/T_FireSubUV_11X11_32.uasset
+[2017.06.14-21.32.04:963][190]LogSavePackage: Save=28.76ms
+[2017.06.14-21.32.04:963][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Dust_MoteE79624444BAF98E0B7B553B143412299.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Dust/M_Dust_Mote.uasset'
+[2017.06.14-21.32.04:966][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Dust/M_Dust_Mote.uasset
+[2017.06.14-21.32.05:016][190]LogSavePackage: Save=32.12ms
+[2017.06.14-21.32.05:016][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_SmokeBall_03_PerlinA5FB16C44DE535E6C7CD82A21087C604.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/T_SmokeBall_03_Perlin.uasset'
+[2017.06.14-21.32.05:019][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/T_SmokeBall_03_Perlin.uasset
+[2017.06.14-21.32.05:094][190]LogSavePackage: Save=43.00ms
+[2017.06.14-21.32.05:094][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Water_Test_01923A25414E4E4E3F6BC3818575CC1AFF.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/M_Water_Test_01.uasset'
+[2017.06.14-21.32.05:097][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/M_Water_Test_01.uasset
+[2017.06.14-21.32.05:159][190]LogSavePackage: Save=27.36ms
+[2017.06.14-21.32.05:159][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_HangingDust_014668DC974552BB3C1542B8846F42F9FC.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Dust/M_HangingDust_01.uasset'
+[2017.06.14-21.32.05:163][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Dust/M_HangingDust_01.uasset
+[2017.06.14-21.32.05:223][190]LogSavePackage: Save=28.16ms
+[2017.06.14-21.32.05:223][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_LargeRoom_Hanging_0128DEB00947AAFEE84F8C4F99E05141D0.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Dust/M_LargeRoom_Hanging_01.uasset'
+[2017.06.14-21.32.05:227][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Dust/M_LargeRoom_Hanging_01.uasset
+[2017.06.14-21.32.11:341][190]LogSavePackage: Save=38.60ms
+[2017.06.14-21.32.11:341][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_SnowFlake_VelocityLerp_AAFE7140CB45BEEF54F96CCFAA9D892CF8.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_SnowFlake_VelocityLerp_AA.uasset'
+[2017.06.14-21.32.11:345][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_SnowFlake_VelocityLerp_AA.uasset
+[2017.06.14-21.32.11:744][190]LogSavePackage: Save=40.63ms
+[2017.06.14-21.32.11:744][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Snow_Blowing_unLitF2C0681443743A0A8EAE18A8E7886980.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_Snow_Blowing_unLit.uasset'
+[2017.06.14-21.32.11:748][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_Snow_Blowing_unLit.uasset
+[2017.06.14-21.32.14:340][190]LogSavePackage: Save=39.33ms
+[2017.06.14-21.32.14:340][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Snow_Blowing_unLit_LowBiasF5B89E604E63DC7C085727A75E128CE4.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias.uasset'
+[2017.06.14-21.32.14:344][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias.uasset
+[2017.06.14-21.32.23:656][190]LogSavePackage: Save=56.03ms
+[2017.06.14-21.32.23:656][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_MeshEmitWater_MASTER9E91C7004B12B9BE6D0651BBED82E186.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_MeshEmitWater_MASTER.uasset'
+[2017.06.14-21.32.23:659][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_MeshEmitWater_MASTER.uasset
+[2017.06.14-21.32.26:369][190]LogSavePackage: Save=41.49ms
+[2017.06.14-21.32.26:369][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Mod_WaterFlow_DCL_Master5E0A5FE545FD71DBA2D973AF553FB8F4.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_Mod_WaterFlow_DCL_Master.uasset'
+[2017.06.14-21.32.26:372][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_Mod_WaterFlow_DCL_Master.uasset
+[2017.06.14-21.32.26:457][190]LogSavePackage: Save=24.76ms
+[2017.06.14-21.32.26:457][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Mod_WaterFlow_DCL_Puddle_Inst6A87B7FC40717F61A509FE8294D6CC57.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_Mod_WaterFlow_DCL_Puddle_Inst.uasset'
+[2017.06.14-21.32.26:464][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_Mod_WaterFlow_DCL_Puddle_Inst.uasset
+[2017.06.14-21.32.26:510][190]LogSavePackage: Save=21.87ms
+[2017.06.14-21.32.26:510][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Mod_WaterFlow_DCL_RockFace_Inst85AC792148AFECDD0D6186874ACC83A9.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_Mod_WaterFlow_DCL_RockFace_Inst.uasset'
+[2017.06.14-21.32.26:514][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_Mod_WaterFlow_DCL_RockFace_Inst.uasset
+[2017.06.14-21.32.26:565][190]LogSavePackage: Save=23.16ms
+[2017.06.14-21.32.26:565][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_Mod_WaterFlow_DCL_Shallow_InstBD9CC1EB42B2168B7DA08EB7548F72B2.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_Mod_WaterFlow_DCL_Shallow_Inst.uasset'
+[2017.06.14-21.32.26:569][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_Mod_WaterFlow_DCL_Shallow_Inst.uasset
+[2017.06.14-21.32.26:619][190]LogSavePackage: Save=19.80ms
+[2017.06.14-21.32.26:619][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_OuterSplash_InstDCDF16DF440F084F51F55FAF3C15134A.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_OuterSplash_Inst.uasset'
+[2017.06.14-21.32.26:622][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_OuterSplash_Inst.uasset
+[2017.06.14-21.32.26:669][190]LogSavePackage: Save=20.93ms
+[2017.06.14-21.32.26:669][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_SplashBase_InstF939F1C6446F918415072F91B613D8AB.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_SplashBase_Inst.uasset'
+[2017.06.14-21.32.26:673][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_SplashBase_Inst.uasset
+[2017.06.14-21.32.26:718][190]LogSavePackage: Save=19.41ms
+[2017.06.14-21.32.26:718][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_SplashDisc_Inst1D5828D14853644773431B81F51FC185.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_SplashDisc_Inst.uasset'
+[2017.06.14-21.32.26:721][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_SplashDisc_Inst.uasset
+[2017.06.14-21.32.50:865][190]LogSavePackage: Save=30.36ms
+[2017.06.14-21.32.50:865][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_WaterDrop_SubUVDD4456064AE62663F3B334B855AAA2F1.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_WaterDrop_SubUV.uasset'
+[2017.06.14-21.32.50:869][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_WaterDrop_SubUV.uasset
+[2017.06.14-21.32.50:949][190]LogSavePackage: Save=20.34ms
+[2017.06.14-21.32.50:949][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_WaterDrop_SubUV_Inst60D344914601D884E84C05B76BC986D3.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_WaterDrop_SubUV_Inst.uasset'
+[2017.06.14-21.32.50:953][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_WaterDrop_SubUV_Inst.uasset
+[2017.06.14-21.32.57:946][190]LogSavePackage: Save=36.68ms
+[2017.06.14-21.32.57:946][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_WaterFalls_New9EABEA104567F91E633C8282D7E2DEAD.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_WaterFalls_New.uasset'
+[2017.06.14-21.32.57:949][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/M_WaterFalls_New.uasset
+[2017.06.14-21.33.05:783][190]LogSavePackage: Save=21.79ms
+[2017.06.14-21.33.05:783][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/M_WaterDrop_SubUV_NoAA0C92DB954C539739064587A32DF060F7.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/Resp_AA/M_WaterDrop_SubUV_NoAA.uasset'
+[2017.06.14-21.33.05:786][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Materials/Water/Resp_AA/M_WaterDrop_SubUV_NoAA.uasset
+[2017.06.14-21.33.05:854][190]LogSavePackage: Save=18.50ms
+[2017.06.14-21.33.05:854][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/SM_SplashBase_01405378B54410E9B04FD2559345736BDB.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Meshes/Water/SM_SplashBase_01.uasset'
+[2017.06.14-21.33.05:857][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Meshes/Water/SM_SplashBase_01.uasset
+[2017.06.14-21.33.05:901][190]LogSavePackage: Save=16.11ms
+[2017.06.14-21.33.05:901][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/SM_SplashDisc68FE543D4AC4C602951CE987B9BBDB52.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Meshes/Water/SM_SplashDisc.uasset'
+[2017.06.14-21.33.05:904][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Meshes/Water/SM_SplashDisc.uasset
+[2017.06.14-21.33.05:947][190]LogSavePackage: Save=16.63ms
+[2017.06.14-21.33.05:948][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/SM_SplashMesh_02397E0A034133B203047C1DA346B7BEAE.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Meshes/Water/SM_SplashMesh_02.uasset'
+[2017.06.14-21.33.05:951][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Meshes/Water/SM_SplashMesh_02.uasset
+[2017.06.14-21.33.06:004][190]LogSavePackage: Save=38.22ms
+[2017.06.14-21.33.06:004][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_Dust_Hanging_Large_Haze_ThickFB35BCD44E9816CC1C5F60952FDE2DB2.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/P_Dust_Hanging_Large_Haze_Thick.uasset'
+[2017.06.14-21.33.06:008][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/P_Dust_Hanging_Large_Haze_Thick.uasset
+[2017.06.14-21.33.06:041][190]LogSavePackage: Save=21.12ms
+[2017.06.14-21.33.06:041][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/PGPU_Dust_Vec5EA9F1984ECED3758B467B8716030410.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Dust/PGPU_Dust_Vec.uasset'
+[2017.06.14-21.33.06:045][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Dust/PGPU_Dust_Vec.uasset
+[2017.06.14-21.33.06:083][190]LogSavePackage: Save=23.21ms
+[2017.06.14-21.33.06:083][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/PGPU_Dust_Vec_Fast7551309943FC098401C706A9FB6CBEE0.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Dust/PGPU_Dust_Vec_Fast.uasset'
+[2017.06.14-21.33.06:086][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Dust/PGPU_Dust_Vec_Fast.uasset
+[2017.06.14-21.33.06:163][190]LogSavePackage: Save=65.70ms
+[2017.06.14-21.33.06:163][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_LargeFireD50CAC2843F005875D58178FDA4CF14A.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_LargeFire.uasset'
+[2017.06.14-21.33.06:167][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_LargeFire.uasset
+[2017.06.14-21.33.06:249][190]LogSavePackage: Save=68.11ms
+[2017.06.14-21.33.06:249][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_TorchFire6A653F434DEFEF03D26D5CBB3BAB7D62.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_TorchFire.uasset'
+[2017.06.14-21.33.06:252][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_TorchFire.uasset
+[2017.06.14-21.33.06:330][190]LogSavePackage: Save=65.97ms
+[2017.06.14-21.33.06:330][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_TorchFire_EntranceBE7FAE7D49E3D3C1A3D522B03EEFEFBD.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_TorchFire_Entrance.uasset'
+[2017.06.14-21.33.06:333][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Fire/P_TorchFire_Entrance.uasset
+[2017.06.14-21.33.06:466][190]LogSavePackage: Save=121.56ms
+[2017.06.14-21.33.06:466][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_Blizzard203A53454C033FCEBAA4CAB361348976.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Blizzard.uasset'
+[2017.06.14-21.33.06:470][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Blizzard.uasset
+[2017.06.14-21.33.06:502][190]LogSavePackage: Save=19.86ms
+[2017.06.14-21.33.06:502][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_Blizzard_EdgeBlow2BDFE00E4C06C28AF2CF74AB9A465573.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Blizzard_EdgeBlow.uasset'
+[2017.06.14-21.33.06:508][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Blizzard_EdgeBlow.uasset
+[2017.06.14-21.33.06:584][190]LogSavePackage: Save=64.13ms
+[2017.06.14-21.33.06:584][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_Blizzard_Hint18A6255C47E9B7BD6FE23D9BFDEC7AD8.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Blizzard_Hint.uasset'
+[2017.06.14-21.33.06:587][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Blizzard_Hint.uasset
+[2017.06.14-21.33.06:642][190]LogSavePackage: Save=43.18ms
+[2017.06.14-21.33.06:642][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_BlowAcrossGround41CC46CB4DB8B8A4E0AA4C9812A58E56.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_BlowAcrossGround.uasset'
+[2017.06.14-21.33.06:646][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_BlowAcrossGround.uasset
+[2017.06.14-21.33.06:676][190]LogSavePackage: Save=19.43ms
+[2017.06.14-21.33.06:676][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_BlowDetails9D9E677A42491A3D3B4DC0AA1EA91FB9.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_BlowDetails.uasset'
+[2017.06.14-21.33.06:679][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_BlowDetails.uasset
+[2017.06.14-21.33.06:711][190]LogSavePackage: Save=21.58ms
+[2017.06.14-21.33.06:711][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_BlowIntoHolesAF788DF8432460D4D08C01A90891BB6F.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_BlowIntoHoles.uasset'
+[2017.06.14-21.33.06:715][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_BlowIntoHoles.uasset
+[2017.06.14-21.33.06:743][190]LogSavePackage: Save=17.13ms
+[2017.06.14-21.33.06:743][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_BlowTower4B92367048E2AC227CCBF48BF88048CB.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_BlowTower.uasset'
+[2017.06.14-21.33.06:746][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_BlowTower.uasset
+[2017.06.14-21.33.06:791][190]LogSavePackage: Save=33.79ms
+[2017.06.14-21.33.06:791][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_Mist_Lit_BlowigC60B0F11477A25CE44589FB3F7B0F7AD.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Mist_Lit_Blowig.uasset'
+[2017.06.14-21.33.06:795][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Mist_Lit_Blowig.uasset
+[2017.06.14-21.33.06:846][190]LogSavePackage: Save=40.14ms
+[2017.06.14-21.33.06:846][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_Mist_Lit_Still8CE59E6245B1E58E6B0DEC825BCDFB69.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Mist_Lit_Still.uasset'
+[2017.06.14-21.33.06:850][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Snow/P_Mist_Lit_Still.uasset
+[2017.06.14-21.33.06:974][190]LogSavePackage: Save=109.53ms
+[2017.06.14-21.33.06:974][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_Drips_Splash_Ripples9F87FF744A8C18C99EC8529B22CC214C.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_Drips_Splash_Ripples.uasset'
+[2017.06.14-21.33.06:977][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_Drips_Splash_Ripples.uasset
+[2017.06.14-21.33.07:037][190]LogSavePackage: Save=43.53ms
+[2017.06.14-21.33.07:037][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_MeshSplash165B511548E76FACC3BEAF9050D5FC6C.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_MeshSplash.uasset'
+[2017.06.14-21.33.07:040][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_MeshSplash.uasset
+[2017.06.14-21.33.07:087][190]LogSavePackage: Save=28.21ms
+[2017.06.14-21.33.07:087][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_MeshSplash_noLights336394D94616221A05B6D29807ACCA8D.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_MeshSplash_noLights.uasset'
+[2017.06.14-21.33.07:091][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_MeshSplash_noLights.uasset
+[2017.06.14-21.33.07:139][190]LogSavePackage: Save=28.23ms
+[2017.06.14-21.33.07:139][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_MeshSplash_RippleAreaE883FC3D427CBB756828ECB64A017811.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_MeshSplash_RippleArea.uasset'
+[2017.06.14-21.33.07:142][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_MeshSplash_RippleArea.uasset
+[2017.06.14-21.33.07:187][190]LogSavePackage: Save=31.24ms
+[2017.06.14-21.33.07:187][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_Mesh_Large_RippleE5C9FDA44AB8A8F2A7E632B69B27FC5A.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_Mesh_Large_Ripple.uasset'
+[2017.06.14-21.33.07:190][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_Mesh_Large_Ripple.uasset
+[2017.06.14-21.33.07:294][190]LogSavePackage: Save=89.71ms
+[2017.06.14-21.33.07:294][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_Splash_Ripples718F7FE346BCC81BFCA48EA2E9EF54F3.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_Splash_Ripples.uasset'
+[2017.06.14-21.33.07:299][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_Splash_Ripples.uasset
+[2017.06.14-21.33.07:347][190]LogSavePackage: Save=34.59ms
+[2017.06.14-21.33.07:347][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_WaterDrops66D0191C48AC9E5835F92995221CEE31.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterDrops.uasset'
+[2017.06.14-21.33.07:350][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterDrops.uasset
+[2017.06.14-21.33.07:387][190]LogSavePackage: Save=23.52ms
+[2017.06.14-21.33.07:387][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_WaterDrops_testC8C2ACC94E3B7E807389B49F42D70A6C.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterDrops_test.uasset'
+[2017.06.14-21.33.07:391][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterDrops_test.uasset
+[2017.06.14-21.33.07:473][190]LogSavePackage: Save=71.13ms
+[2017.06.14-21.33.07:473][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_WaterFall7F258E224A47E135C5AB79949731978B.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall.uasset'
+[2017.06.14-21.33.07:476][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall.uasset
+[2017.06.14-21.33.07:556][190]LogSavePackage: Save=68.55ms
+[2017.06.14-21.33.07:557][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_WaterFall22972DE0A43E33D9DCC7E3FA0DB0A9F8B.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall2.uasset'
+[2017.06.14-21.33.07:561][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall2.uasset
+[2017.06.14-21.33.07:599][190]LogSavePackage: Save=24.71ms
+[2017.06.14-21.33.07:599][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_WaterFall_MistCollide476BD38346F5B4C50FD3D488FDDA41E3.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall_MistCollide.uasset'
+[2017.06.14-21.33.07:602][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall_MistCollide.uasset
+[2017.06.14-21.33.07:648][190]LogSavePackage: Save=33.96ms
+[2017.06.14-21.33.07:648][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_WaterFall_Mist_Light1455F70C464C4A52DE2979B08D6BF357.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall_Mist_Light.uasset'
+[2017.06.14-21.33.07:651][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall_Mist_Light.uasset
+[2017.06.14-21.33.07:687][190]LogSavePackage: Save=23.61ms
+[2017.06.14-21.33.07:687][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/P_WaterFall_NewDBCD3D4A4A96AE6EEE4EE2B0192F3F5F.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall_New.uasset'
+[2017.06.14-21.33.07:692][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Particles/Water/P_WaterFall_New.uasset
+[2017.06.14-21.33.07:742][190]LogSavePackage: Save=33.67ms
+[2017.06.14-21.33.07:742][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_Smoke_Dust_Base_0181B4B1184718A4CE0808929E54E54552.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/T_Smoke_Dust_Base_01.uasset'
+[2017.06.14-21.33.07:745][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/T_Smoke_Dust_Base_01.uasset
+[2017.06.14-21.33.08:191][190]LogSavePackage: Save=429.39ms
+[2017.06.14-21.33.08:191][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/CaveMap_Interior_CubeF274EECF40A03498E941A09343A38D8C.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Cube/CaveMap_Interior_Cube.uasset'
+[2017.06.14-21.33.08:194][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Cube/CaveMap_Interior_Cube.uasset
+[2017.06.14-21.33.08:526][190]LogSavePackage: Save=320.51ms
+[2017.06.14-21.33.08:526][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/CubeNearEntrance5D7E45A74319B84D17BFA0B314414F05.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Cube/CubeNearEntrance.uasset'
+[2017.06.14-21.33.08:530][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Cube/CubeNearEntrance.uasset
+[2017.06.14-21.33.09:006][190]LogSavePackage: Save=462.40ms
+[2017.06.14-21.33.09:006][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/CubeNearFallsA0B076F546DABAA6CE5C5EBF427FC4B3.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Cube/CubeNearFalls.uasset'
+[2017.06.14-21.33.09:010][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Cube/CubeNearFalls.uasset
+[2017.06.14-21.33.09:092][190]LogSavePackage: Save=64.81ms
+[2017.06.14-21.33.09:092][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_TilingNoise115C976F5E4681F579FD4348B3DB1AA8AC.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_TilingNoise11.uasset'
+[2017.06.14-21.33.09:095][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Noise/T_TilingNoise11.uasset
+[2017.06.14-21.33.09:149][190]LogSavePackage: Save=40.16ms
+[2017.06.14-21.33.09:149][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_Droplets_LitShaded_DC8B21492488E26499DEF55964F4BA82E.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_Droplets_LitShaded_D.uasset'
+[2017.06.14-21.33.09:152][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_Droplets_LitShaded_D.uasset
+[2017.06.14-21.33.09:193][190]LogSavePackage: Save=25.99ms
+[2017.06.14-21.33.09:193][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_Droplets_N5371E3D24BF806660067F388F00109C5.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_Droplets_N.uasset'
+[2017.06.14-21.33.09:196][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_Droplets_N.uasset
+[2017.06.14-21.33.09:223][190]LogSavePackage: Save=10.79ms
+[2017.06.14-21.33.09:223][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_DropSubUV_A56F177A148ECE6810FA219A142EB8746.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_DropSubUV_A.uasset'
+[2017.06.14-21.33.09:227][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_DropSubUV_A.uasset
+[2017.06.14-21.33.09:254][190]LogSavePackage: Save=12.30ms
+[2017.06.14-21.33.09:254][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_DropSubUV_ND992F1FF434DFF46F4503E8588BAF36E.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_DropSubUV_N.uasset'
+[2017.06.14-21.33.09:257][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_DropSubUV_N.uasset
+[2017.06.14-21.33.09:288][190]LogSavePackage: Save=21.51ms
+[2017.06.14-21.33.09:288][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_FallingWater_011F056DDC4E720143186549AB45ADFE05.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_FallingWater_01.uasset'
+[2017.06.14-21.33.09:291][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_FallingWater_01.uasset
+[2017.06.14-21.33.09:323][190]LogSavePackage: Save=22.14ms
+[2017.06.14-21.33.09:323][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_FallingWater_01_N765920B94D80601C9E79D796124DBDD9.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_FallingWater_01_N.uasset'
+[2017.06.14-21.33.09:326][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_FallingWater_01_N.uasset
+[2017.06.14-21.33.09:360][190]LogSavePackage: Save=20.87ms
+[2017.06.14-21.33.09:361][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_FallingWater_02B756ACB846F9B9746824839DBD98C0F2.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_FallingWater_02.uasset'
+[2017.06.14-21.33.09:364][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_FallingWater_02.uasset
+[2017.06.14-21.33.09:398][190]LogSavePackage: Save=19.31ms
+[2017.06.14-21.33.09:398][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_FallingWater_02_NB5544B59415840D0FD6756B85B75A9EB.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_FallingWater_02_N.uasset'
+[2017.06.14-21.33.09:402][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_FallingWater_02_N.uasset
+[2017.06.14-21.33.09:461][190]LogSavePackage: Save=43.31ms
+[2017.06.14-21.33.09:461][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_PuddleMaskB02B69904B302DAD3D6056A6BDE9D401.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_PuddleMask.uasset'
+[2017.06.14-21.33.09:464][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_PuddleMask.uasset
+[2017.06.14-21.33.09:500][190]LogSavePackage: Save=17.07ms
+[2017.06.14-21.33.09:500][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_PuddleNF3FA2105408F2EF44A2477907C3C71CF.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_PuddleN.uasset'
+[2017.06.14-21.33.09:503][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_PuddleN.uasset
+[2017.06.14-21.33.09:542][190]LogSavePackage: Save=23.15ms
+[2017.06.14-21.33.09:542][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_SplashBase_N068D06B842056641D8232A9D95534506.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_SplashBase_N.uasset'
+[2017.06.14-21.33.09:545][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_SplashBase_N.uasset
+[2017.06.14-21.33.09:578][190]LogSavePackage: Save=19.85ms
+[2017.06.14-21.33.09:578][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_SplashDisc_A014C0D554B767BAC49500DA468245E15.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_SplashDisc_A.uasset'
+[2017.06.14-21.33.09:581][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_SplashDisc_A.uasset
+[2017.06.14-21.33.09:619][190]LogSavePackage: Save=22.63ms
+[2017.06.14-21.33.09:619][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_SplashDisc_N96EEFE8E4DDEF14F15DD3BB94B47C201.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_SplashDisc_N.uasset'
+[2017.06.14-21.33.09:622][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_SplashDisc_N.uasset
+[2017.06.14-21.33.09:659][190]LogSavePackage: Save=23.58ms
+[2017.06.14-21.33.09:659][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/T_SplashMesh_02_NCA8B64FC411ABE65A3B25898DFEB86A3.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_SplashMesh_02_N.uasset'
+[2017.06.14-21.33.09:662][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/Textures/Water/T_SplashMesh_02_N.uasset
+[2017.06.14-21.33.09:678][190]LogSavePackage: Save=8.30ms
+[2017.06.14-21.33.09:678][190]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/VF_Blizzard_808B4C2D4841056BA9E1BDB9A0D4AB66DB.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/VectorFields/VF_Blizzard_80.uasset'
+[2017.06.14-21.33.09:682][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Effects/VectorFields/VF_Blizzard_80.uasset
+[2017.06.14-21.35.50:365][471]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.35.51:420][532]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_TorchFire_Blizzard)
+[2017.06.14-21.35.52:490][594]Cmd: DELETE
+[2017.06.14-21.35.52:490][594]Cmd: ACTOR DELETE
+[2017.06.14-21.35.52:491][594]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.35.52:500][594]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.14-21.35.55:528][753]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.35.57:196][847]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.35.58:004][894]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.35.58:704][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.14-21.35.59:235][964]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_MeshSplash)
+[2017.06.14-21.36.00:288][ 25]Cmd: DELETE
+[2017.06.14-21.36.00:288][ 25]Cmd: ACTOR DELETE
+[2017.06.14-21.36.00:289][ 25]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.36.00:298][ 25]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.14-21.36.03:908][227]LogSavePackage: Save=96.90ms
+[2017.06.14-21.36.03:908][227]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/Minimal_Default0149672E458208E2FCC825837F8A65AF.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.06.14-21.36.03:912][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.06.14-21.36.03:955][227]LogFileHelpers: Saving map 'Minimal_Default' took 0.239
+[2017.06.14-21.36.06:796][379]Cmd: QUIT_EDITOR
+[2017.06.14-21.36.06:811][379]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.14-21.36.06:822][379]LogExit: Preparing to exit.
+[2017.06.14-21.36.07:301][379]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/' was aborted.
+[2017.06.14-21.36.07:328][379]LogExit: Editor shut down
+[2017.06.14-21.36.07:333][379]LogExit: Transaction tracking system shut down
+[2017.06.14-21.36.07:440][379]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.14-21.36.07:440][379]LogExit: Object subsystem successfully closed.
+[2017.06.14-21.36.07:469][379]LogD3D11RHI: Shutdown
+[2017.06.14-21.36.07:469][379]LogD3D11RHI: CleanupD3DDevice
+[2017.06.14-21.36.07:602][379]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.14-21.36.07:619][379]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.06.14-21.36.07:619][379]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.06.14-21.36.07:619][379]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.06.14-21.36.07:619][379]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.06.14-21.36.07:619][379]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.14-21.36.07:620][379]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.06.14-21.36.07:620][379]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.06.14-21.36.07:620][379]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.06.14-21.36.07:620][379]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Collections/' was aborted.
+[2017.06.14-21.36.07:621][379]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Developers/azure/Collections/' was aborted.
+[2017.06.14-21.36.07:621][379]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/Collections/' was aborted.
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.06.14-21.36.07:621][379]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.06.14-21.36.07:622][379]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.06.14-21.36.07:623][379]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.06.14-21.36.07:623][379]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.06.14-21.36.07:623][379]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.06.14-21.36.07:623][379]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.06.14-21.36.07:623][379]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.06.14-21.36.08:612][379]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.06.14-21.36.08:665][379]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.06.14-21.36.08:718][379]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.06.14-21.36.08:718][379]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
+[2017.06.14-21.36.08:719][379]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.06.14-21.36.08:719][379]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.06.14-21.36.08:719][379]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.06.14-21.36.08:719][379]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.06.14-21.36.08:719][379]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.06.14-21.36.08:719][379]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.06.14-21.36.08:719][379]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.06.14-21.36.08:720][379]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.06.14-21.36.08:720][379]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.06.14-21.36.08:720][379]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.06.14-21.36.08:720][379]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.06.14-21.36.08:720][379]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.06.14-21.36.08:721][379]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.06.14-21.36.08:722][379]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.06.14-21.36.08:722][379]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.06.14-21.36.08:722][379]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.06.14-21.36.08:723][379]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2017.06.14-21.36.08:723][379]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2017.06.14-21.36.08:723][379]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2017.06.14-21.36.08:723][379]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2017.06.14-21.36.08:723][379]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2017.06.14-21.36.08:723][379]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2017.06.14-21.36.08:823][379]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2017.06.14-21.36.08:924][379]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2017.06.14-21.36.08:924][379]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.14-21.36.08:924][379]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.14-21.36.08:924][379]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.14-21.36.08:924][379]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.14-21.36.08:924][379]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.14-21.36.08:924][379]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.14-21.36.08:925][379]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.14-21.36.08:925][379]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.14-21.36.08:925][379]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.14-21.36.08:925][379]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.14-21.36.08:926][379]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.14-21.36.08:928][379]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.14-21.36.08:928][379]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.14-21.36.08:928][379]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.14-21.36.08:928][379]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.14-21.36.08:928][379]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.14-21.36.08:928][379]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.14-21.36.09:028][379]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.14-21.36.09:028][379]LogDirectoryWatcher: A directory notification for '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/' was aborted.
+[2017.06.14-21.36.09:028][379]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.14-21.36.09:028][379]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.14-21.36.09:031][379]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.14-21.36.09:031][379]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.14-21.36.09:031][379]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.14-21.36.09:031][379]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.14-21.36.09:031][379]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.14-21.36.09:031][379]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.14-21.36.09:031][379]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.14-21.36.09:031][379]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.14-21.36.09:031][379]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.14-21.36.09:125][379]LogDerivedDataCache: Shutdown
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.14-21.36.09:125][379]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.14-21.36.09:126][379]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.14-21.36.09:126][379]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.14-21.36.09:126][379]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.14-21.36.09:126][379]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.14-21.36.09:126][379]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.14-21.36.09:126][379]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.14-21.36.09:126][379]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.14-21.36.09:126][379]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.14-21.36.09:126][379]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.14-21.36.09:126][379]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.14-21.36.09:126][379]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.14-21.36.09:126][379]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCA9C8AC9-4041-7D42-6692-2DACD47B27CC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f87b7eb244207085343e53a8f93190ff%7C4e59904afcc6489195f8095de720415d%7C9fa60dca-0af5-4e86-a8a7-0177cf4232e6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.14-21.36.09:148][379]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.14-21.36.09:150][379]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.14-21.36.09:150][379]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.14-21.36.09:150][379]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.14-21.36.09:150][379]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.14-21.36.09:150][379]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.14-21.36.09:150][379]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.14-21.36.09:150][379]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.14-21.36.09:150][379]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.14-21.36.09:151][379]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.14-21.36.09:151][379]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.14-21.36.09:151][379]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.14-21.36.09:151][379]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.14-21.36.09:151][379]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.14-21.36.09:151][379]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.14-21.36.09:151][379]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.14-21.36.09:151][379]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.14-21.36.09:151][379]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.14-21.36.09:152][379]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.14-21.36.09:155][379]LogExit: Exiting.
+[2017.06.14-21.36.09:168][379]Log file closed, 06/14/17 15:36:09
