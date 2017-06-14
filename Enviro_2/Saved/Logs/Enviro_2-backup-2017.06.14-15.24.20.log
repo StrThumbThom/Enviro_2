@@ -1,0 +1,1027 @@
+﻿Log file open, 06/14/17 15:18:50
+LogInit:Display: Running engine for game: Enviro_2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1430179925) SRandInit(-1430179925).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.102483
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.14-21.18.50:936][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-21.18.50:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.14-21.18.50:949][  0]LogInit: Computer: ASUS-G752VT
+[2017.06.14-21.18.50:949][  0]LogInit: User: azure
+[2017.06.14-21.18.50:949][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.14-21.18.50:949][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2017.06.14-21.18.50:949][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.06.14-21.18.50:949][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.14-21.18.50:949][  0]LogMemory: Process Physical Memory: 273.34 MB used, 273.34 MB peak
+[2017.06.14-21.18.50:949][  0]LogMemory: Process Virtual Memory: 261.07 MB used, 261.07 MB peak
+[2017.06.14-21.18.50:949][  0]LogMemory: Physical Memory: 8973.45 MB used,  15540.93 MB free, 24514.38 MB total
+[2017.06.14-21.18.50:949][  0]LogMemory: Virtual Memory: 638.32 MB used,  15540.93 MB free, 134217728.00 MB total
+[2017.06.14-21.18.51:380][  0]LogInit: Using OS detected language (en-US).
+[2017.06.14-21.18.51:380][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.14-21.18.51:383][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.14-21.18.52:490][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.14-21.18.52:523][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M ' (Feature Level 11_0)
+[2017.06.14-21.18.52:523][  0]LogD3D11RHI:       6051/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.14-21.18.52:524][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.14-21.18.52:524][  0]LogD3D11RHI:       0/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.14-21.18.52:524][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.14-21.18.52:529][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.14-21.18.52:529][  0]LogD3D11RHI:     GPU DeviceId: 0x1618 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.14-21.18.52:529][  0]LogWindows: EnumDisplayDevices:
+[2017.06.14-21.18.52:529][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970M ' (P:1 D:1)
+[2017.06.14-21.18.52:530][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970M ' (P:0 D:0)
+[2017.06.14-21.18.52:530][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970M ' (P:0 D:0)
+[2017.06.14-21.18.52:530][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M ' (P:0 D:0)
+[2017.06.14-21.18.52:530][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.14-21.18.52:530][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M 
+[2017.06.14-21.18.52:530][  0]LogD3D11RHI:   Driver Version: 353.62 (internal:10.18.13.5362, unified:353.62)
+[2017.06.14-21.18.52:530][  0]LogD3D11RHI:      Driver Date: 7-22-2015
+[2017.06.14-21.18.52:530][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.14-21.18.52:546][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.06.14-21.18.52:546][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.14-21.18.53:282][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.14-21.18.53:283][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Intermediate/Shaders/WorkingDirectory/8872/).
+[2017.06.14-21.18.53:283][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/azure/AppData/Local/Temp/UnrealShaderWorkingDir/766A8D5B4BF806942A5A16B0061E8568/'.
+[2017.06.14-21.18.53:283][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.14-21.18.54:456][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.14-21.18.54:512][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.14-21.18.54:569][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.14-21.18.54:630][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.14-21.18.54:683][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.14-21.18.54:748][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.14-21.18.54:802][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.14-21.18.54:862][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.14-21.18.54:911][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.14-21.18.54:967][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.14-21.18.55:023][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.14-21.18.55:074][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.14-21.18.55:130][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.14-21.18.55:189][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.14-21.18.55:245][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.14-21.18.55:354][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.14-21.18.55:354][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.14-21.18.55:398][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.14-21.18.55:503][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.14-21.18.55:535][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.14-21.18.55:592][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.14-21.18.55:649][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.14-21.18.55:704][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.14-21.18.55:765][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.14-21.18.55:765][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.14-21.18.56:328][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.14-21.18.56:440][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/azure/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.14-21.18.56:440][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/azure/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.14-21.18.56:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.14-21.18.56:440][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.14-21.18.56:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.14-21.18.56:440][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.14-21.18.56:461][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.14-21.18.56:473][  0]LogDerivedDataCache: Using Local data cache path C:/Users/azure/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.14-21.18.56:483][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.14-21.18.56:484][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.14-21.18.56:484][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-21.18.56:484][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-21.18.56:833][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-21.18.56:925][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.14-21.18.57:103][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.14-21.18.57:154][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.14-21.18.57:207][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.14-21.18.57:207][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.14-21.18.57:207][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.14-21.18.57:850][  0]LogNetVersion: Enviro_2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 303638927)
+[2017.06.14-21.18.57:915][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.06.14-21.18.57:983][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.038957 seconds
+[2017.06.14-21.18.57:990][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.14-21.18.57:990][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.14-21.18.57:990][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.14-21.18.58:071][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.14-21.19.00:934][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.06.14-21.19.00:970][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.14-21.19.01:012][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.14-21.19.01:594][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.14-21.19.02:044][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.19.02:045][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.19.02:101][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.19.02:155][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.19.02:902][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.14-21.19.03:630][  0]LogEngine: Initializing Engine...
+[2017.06.14-21.19.03:630][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.14-21.19.03:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.14-21.19.03:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.14-21.19.04:079][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.14-21.19.04:095][  0]LogInit: XAudio2 using 'Headphones (Jam Party Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.14-21.19.04:108][  0]LogInit: FAudioDevice initialized.
+[2017.06.14-21.19.04:158][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/azure/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.14-21.19.04:182][  0]LogInit: Texture streaming: Enabled
+[2017.06.14-21.19.04:296][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.14-21.19.04:543][  0]LogInit: Transaction tracking system initialized
+[2017.06.14-21.19.04:901][  0]BlueprintLog: New page: Editor Load
+[2017.06.14-21.19.05:975][  0]LocalizationService: Info Localization service is disabled
+[2017.06.14-21.19.06:734][  0]LogConsoleResponse:Display: 
+[2017.06.14-21.19.06:905][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.14-21.19.06:905][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.14-21.19.07:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/' took 0.02s
+[2017.06.14-21.19.08:050][  0]SourceControl: Info Source control is disabled
+[2017.06.14-21.19.08:050][  0]Cmd: MAP LOAD FILE="../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.14-21.19.08:050][  0]LightingResults: New page: Lighting Build
+[2017.06.14-21.19.08:098][  0]MapCheck: New page: Map Check
+[2017.06.14-21.19.08:098][  0]LightingResults: New page: Lighting Build
+[2017.06.14-21.19.08:239][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.19.08:239][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.06.14-21.19.08:239][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.06.14-21.19.08:267][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.19.08:267][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.06.14-21.19.08:267][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.06.14-21.19.08:279][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.19.08:279][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.06.14-21.19.08:280][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.19.08:280][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.06.14-21.19.08:298][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.06.14-21.19.08:298][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.06.14-21.19.08:299][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.06.14-21.19.08:299][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.06.14-21.19.08:479][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.14-21.19.08:488][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.14-21.19.08:500][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.14-21.19.08:553][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.941ms to complete.
+[2017.06.14-21.19.08:553][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.503
+[2017.06.14-21.19.08:702][  0]LogCollectionManager: Loaded 0 collections in 0.002189 seconds
+[2017.06.14-21.19.08:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/Collections/' took 0.01s
+[2017.06.14-21.19.08:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Developers/azure/Collections/' took 0.01s
+[2017.06.14-21.19.08:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Collections/' took 0.01s
+[2017.06.14-21.19.08:785][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.14-21.19.08:795][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2343 classes and 497 folders.
+[2017.06.14-21.19.08:873][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.14-21.19.08:909][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.14-21.19.08:958][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.14-21.19.09:007][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.14-21.19.09:013][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.14-21.19.09:015][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.14-21.19.09:020][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.14-21.19.09:124][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:1).
+[2017.06.14-21.19.09:298][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.14-21.19.09:369][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.14-21.19.09:369][  0]LogLoad: (Engine Initialization) Total time: 20.19 seconds
+[2017.06.14-21.19.09:369][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.06.14-21.19.09:369][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.14-21.19.09:387][  0]LogOcInput: OculusInput pre-init called
+[2017.06.14-21.19.09:387][  0]LogHMD: Starting GearVRController plugin
+[2017.06.14-21.19.09:405][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.14-21.19.09:469][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-21.19.09:493][  1]LogAssetRegistry: Asset discovery search completed in 11.6000 seconds
+[2017.06.14-21.19.09:496][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.06.14-21.19.09:496][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.06.14-21.20.13:485][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV'
+[2017.06.14-21.20.13:485][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:485][813]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst : Can't find file for asset. /Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV
+[2017.06.14-21.20.13:485][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Magic/Materials/CoreSpark'
+[2017.06.14-21.20.13:485][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Magic/Materials/CoreSpark' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:485][813]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst : Can't find file for asset. /Game/Elemental/Effects/Fx_Magic/Materials/CoreSpark
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_SnowBlast'
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_SnowBlast' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:486][813]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_SnowBlast
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst'
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:486][813]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst : Can't find file for asset. /Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst'
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:486][813]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst : Can't find file for asset. /Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST'
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:486][813]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file '/Game/Elemental/Characters/IceKnight/Vectors/EyeVectors_rightEye_55'
+[2017.06.14-21.20.13:486][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Characters/IceKnight/Vectors/EyeVectors_rightEye_55' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:486][813]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst : Can't find file for asset. /Game/Elemental/Characters/IceKnight/Vectors/EyeVectors_rightEye_55
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV'
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst'
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst'
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Meshes/LavaFrame14'
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Meshes/LavaFrame14' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:487][813]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst : Can't find file for asset. /Game/Elemental/Effects/Fx_Fire/Meshes/LavaFrame14
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Meshes/SM_LavaFrame22'
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Meshes/SM_LavaFrame22' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:487][813]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst : Can't find file for asset. /Game/Elemental/Effects/Fx_Fire/Meshes/SM_LavaFrame22
+[2017.06.14-21.20.13:487][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Magic/Materials/CoreSpark'
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Magic/Materials/CoreSpark' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST'
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_SnowBlast'
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_SnowBlast' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Meshes/LavaFrame14'
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Meshes/LavaFrame14' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Meshes/SM_LavaFrame22'
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Meshes/SM_LavaFrame22' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file '/Game/Elemental/Characters/IceKnight/Vectors/EyeVectors_rightEye_55'
+[2017.06.14-21.20.13:488][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Characters/IceKnight/Vectors/EyeVectors_rightEye_55' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_LavaBIGCrack_Burst.uasset.
+[2017.06.14-21.20.13:498][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst'
+[2017.06.14-21.20.13:498][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst.M_MeshEmit_Lava_22Inst Referenced by ParticleModuleMeshMaterial_3
+[2017.06.14-21.20.13:498][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst' while loading NULL.
+[2017.06.14-21.20.13:498][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst'
+[2017.06.14-21.20.13:498][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst.M_MeshEmit_Lava_14Inst Referenced by ParticleModuleMeshMaterial_4
+[2017.06.14-21.20.13:498][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst' while loading NULL.
+[2017.06.14-21.20.13:499][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst'
+[2017.06.14-21.20.13:499][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst.M_MeshEmit_Lava_14Inst Referenced by ParticleModuleRequired_14
+[2017.06.14-21.20.13:499][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_14Inst' while loading NULL.
+[2017.06.14-21.20.13:499][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV'
+[2017.06.14-21.20.13:499][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV.M_Lava_Mist_SubUV Referenced by ParticleModuleRequired_16
+[2017.06.14-21.20.13:499][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV' while loading NULL.
+[2017.06.14-21.20.13:499][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV'
+[2017.06.14-21.20.13:499][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV.M_Lava_Mist_SubUV Referenced by ParticleModuleRequired_17
+[2017.06.14-21.20.13:499][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_Lava_Mist_SubUV' while loading NULL.
+[2017.06.14-21.20.13:499][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Magic/Materials/CoreSpark'
+[2017.06.14-21.20.13:500][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Magic/Materials/CoreSpark.CoreSpark Referenced by ParticleModuleRequired_2
+[2017.06.14-21.20.13:500][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Magic/Materials/CoreSpark' while loading NULL.
+[2017.06.14-21.20.13:500][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_SnowBlast'
+[2017.06.14-21.20.13:500][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_SnowBlast.M_SnowBlast Referenced by ParticleModuleRequired_4
+[2017.06.14-21.20.13:500][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_SnowBlast' while loading NULL.
+[2017.06.14-21.20.13:500][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST'
+[2017.06.14-21.20.13:500][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST.M_blurry_Snow_INST Referenced by ParticleModuleRequired_5
+[2017.06.14-21.20.13:500][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST' while loading NULL.
+[2017.06.14-21.20.13:500][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst'
+[2017.06.14-21.20.13:500][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst.M_MeshEmit_Lava_22Inst Referenced by ParticleModuleRequired_8
+[2017.06.14-21.20.13:501][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/M_MeshEmit_Lava_22Inst' while loading NULL.
+[2017.06.14-21.20.13:501][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Meshes/SM_LavaFrame22'
+[2017.06.14-21.20.13:501][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Fire/Meshes/SM_LavaFrame22.SM_LavaFrame22 Referenced by ParticleModuleTypeDataMesh_1
+[2017.06.14-21.20.13:501][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Meshes/SM_LavaFrame22' while loading NULL.
+[2017.06.14-21.20.13:502][813]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Meshes/LavaFrame14'
+[2017.06.14-21.20.13:502][813]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Fire/Meshes/LavaFrame14.LavaFrame14 Referenced by ParticleModuleTypeDataMesh_6
+[2017.06.14-21.20.13:502][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Meshes/LavaFrame14' while loading NULL.
+[2017.06.14-21.20.13:502][813]LogLinker:Warning: Can't find file '/Game/Elemental/Characters/IceKnight/Vectors/EyeVectors_rightEye_55'
+[2017.06.14-21.20.13:502][813]LoadErrors: Info Failed to load /Game/Elemental/Characters/IceKnight/Vectors/EyeVectors_rightEye_55.EyeVectors_rightEye_55 Referenced by ParticleModuleVectorFieldLocal_0
+[2017.06.14-21.20.13:502][813]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Characters/IceKnight/Vectors/EyeVectors_rightEye_55' while loading NULL.
+[2017.06.14-21.20.13:516][813]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.20.19:525][115]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.20.34:044][957]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingHaze_Shot060'
+[2017.06.14-21.20.34:044][957]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingHaze_Shot060' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Atmospherics/Effects/P_Haze_Shot_060.uasset.
+[2017.06.14-21.20.34:044][957]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Atmospherics/Effects/P_Haze_Shot_060 : Can't find file for asset. /Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingHaze_Shot060
+[2017.06.14-21.20.34:044][957]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingHaze_Shot060'
+[2017.06.14-21.20.34:044][957]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingHaze_Shot060' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Atmospherics/Effects/P_Haze_Shot_060.uasset.
+[2017.06.14-21.20.34:048][957]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingHaze_Shot060'
+[2017.06.14-21.20.34:048][957]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingHaze_Shot060.FX_HangingHaze_Shot060 Referenced by ParticleModuleRequired_1
+[2017.06.14-21.20.34:048][957]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingHaze_Shot060' while loading NULL.
+[2017.06.14-21.20.34:056][957]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.20.36:029][ 65]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.20.38:436][204]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Haze_Shot_060)
+[2017.06.14-21.20.39:838][286]Cmd: DELETE
+[2017.06.14-21.20.39:838][286]Cmd: ACTOR DELETE
+[2017.06.14-21.20.39:839][286]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.20.39:849][286]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.14-21.20.41:858][401]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_LavaBIGCrack_Burst)
+[2017.06.14-21.20.42:663][447]Cmd: DELETE
+[2017.06.14-21.20.42:663][447]Cmd: ACTOR DELETE
+[2017.06.14-21.20.42:664][447]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.20.42:674][447]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.06.14-21.20.44:899][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.20.44:899][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:899][524]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise
+[2017.06.14-21.20.44:899][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_HeatDistort'
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_HeatDistort' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:900][524]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Fire/M_HeatDistort
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Flares/M_FlareRound'
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Flares/M_FlareRound' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:900][524]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Flares/M_FlareRound
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp'
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:900][524]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Sparks/M_Spark_VelocityLerp
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_HeatDistort'
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_HeatDistort' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:900][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Flares/M_FlareRound'
+[2017.06.14-21.20.44:901][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Flares/M_FlareRound' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:901][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp'
+[2017.06.14-21.20.44:901][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:901][524]LogLinker:Warning: Can't find file '/Game/Effects/VectorFields/VF_RandomNoise_01_90'
+[2017.06.14-21.20.44:901][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/VectorFields/VF_RandomNoise_01_90' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:901][524]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/VectorFields/VF_RandomNoise_01_90
+[2017.06.14-21.20.44:901][524]LogLinker:Warning: Can't find file '/Game/Effects/VectorFields/VF_RandomNoise_01_90'
+[2017.06.14-21.20.44:901][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/VectorFields/VF_RandomNoise_01_90' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire.uasset.
+[2017.06.14-21.20.44:912][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.20.44:912][524]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.M_Fire_SubUV_11X11_Noise Referenced by ParticleModuleRequired_0
+[2017.06.14-21.20.44:912][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading NULL.
+[2017.06.14-21.20.44:912][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Flares/M_FlareRound'
+[2017.06.14-21.20.44:912][524]LoadErrors: Info Failed to load /Game/Effects/Materials/Flares/M_FlareRound.M_FlareRound Referenced by ParticleModuleRequired_12
+[2017.06.14-21.20.44:912][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Flares/M_FlareRound' while loading NULL.
+[2017.06.14-21.20.44:912][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.20.44:913][524]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.M_Fire_SubUV_11X11_Noise Referenced by ParticleModuleRequired_2
+[2017.06.14-21.20.44:913][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading NULL.
+[2017.06.14-21.20.44:913][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.20.44:913][524]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.M_Fire_SubUV_11X11_Noise Referenced by ParticleModuleRequired_3
+[2017.06.14-21.20.44:913][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading NULL.
+[2017.06.14-21.20.44:913][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp'
+[2017.06.14-21.20.44:913][524]LoadErrors: Info Failed to load /Game/Effects/Materials/Sparks/M_Spark_VelocityLerp.M_Spark_VelocityLerp Referenced by ParticleModuleRequired_4
+[2017.06.14-21.20.44:913][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp' while loading NULL.
+[2017.06.14-21.20.44:913][524]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_HeatDistort'
+[2017.06.14-21.20.44:914][524]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_HeatDistort.M_HeatDistort Referenced by ParticleModuleRequired_6
+[2017.06.14-21.20.44:914][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_HeatDistort' while loading NULL.
+[2017.06.14-21.20.44:914][524]LogLinker:Warning: Can't find file '/Game/Effects/VectorFields/VF_RandomNoise_01_90'
+[2017.06.14-21.20.44:914][524]LoadErrors: Info Failed to load /Game/Effects/VectorFields/VF_RandomNoise_01_90.VF_RandomNoise_01_90 Referenced by ParticleModuleVectorFieldLocal_1
+[2017.06.14-21.20.44:914][524]LogLinker:Warning: Can't find file for asset '/Game/Effects/VectorFields/VF_RandomNoise_01_90' while loading NULL.
+[2017.06.14-21.20.44:921][524]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.20.46:427][603]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.20.48:637][729]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_TorchFire)
+[2017.06.14-21.20.50:127][816]Cmd: DELETE
+[2017.06.14-21.20.50:127][816]Cmd: ACTOR DELETE
+[2017.06.14-21.20.50:127][816]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.20.50:137][816]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.14-21.20.51:668][891]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.20.51:668][891]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_snow_0210.uasset.
+[2017.06.14-21.20.51:668][891]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_snow_0210 : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/M_explo_INST
+[2017.06.14-21.20.51:668][891]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST'
+[2017.06.14-21.20.51:668][891]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_snow_0210.uasset.
+[2017.06.14-21.20.51:669][891]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_snow_0210 : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST
+[2017.06.14-21.20.51:669][891]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.20.51:669][891]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_snow_0210.uasset.
+[2017.06.14-21.20.51:669][891]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST'
+[2017.06.14-21.20.51:669][891]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_snow_0210.uasset.
+[2017.06.14-21.20.51:669][891]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/FG_ceilingSnow_Left'
+[2017.06.14-21.20.51:669][891]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/FG_ceilingSnow_Left' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_snow_0210.uasset.
+[2017.06.14-21.20.51:669][891]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_snow_0210 : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/VelocityGrid/FG_ceilingSnow_Left
+[2017.06.14-21.20.51:669][891]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/FG_ceilingSnow_Left'
+[2017.06.14-21.20.51:669][891]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/FG_ceilingSnow_Left' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_snow_0210.uasset.
+[2017.06.14-21.20.51:672][891]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.20.51:673][891]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/M_explo_INST.M_explo_INST Referenced by ParticleModuleRequired_4
+[2017.06.14-21.20.51:673][891]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading NULL.
+[2017.06.14-21.20.51:673][891]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST'
+[2017.06.14-21.20.51:673][891]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST.FX_simpleSnow_single_INST Referenced by ParticleModuleRequired_5
+[2017.06.14-21.20.51:673][891]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST' while loading NULL.
+[2017.06.14-21.20.51:674][891]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/FG_ceilingSnow_Left'
+[2017.06.14-21.20.51:674][891]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/VelocityGrid/FG_ceilingSnow_Left.FG_ceilingSnow_Left Referenced by ParticleModuleVectorFieldLocal_4
+[2017.06.14-21.20.51:674][891]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/FG_ceilingSnow_Left' while loading NULL.
+[2017.06.14-21.20.53:114][971]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.20.54:092][ 26]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_snow_0210)
+[2017.06.14-21.20.54:958][ 75]Cmd: DELETE
+[2017.06.14-21.20.54:958][ 75]Cmd: ACTOR DELETE
+[2017.06.14-21.20.54:958][ 75]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.20.54:967][ 75]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.06.14-21.21.05:631][403]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01'
+[2017.06.14-21.21.05:631][403]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Atmospherics/Effects/P_Dust_Hanging_Ground_01.uasset.
+[2017.06.14-21.21.05:631][403]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Atmospherics/Effects/P_Dust_Hanging_Ground_01 : Can't find file for asset. /Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01
+[2017.06.14-21.21.05:631][403]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/M_EFX_Sparks_01'
+[2017.06.14-21.21.05:631][403]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/M_EFX_Sparks_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Atmospherics/Effects/P_Dust_Hanging_Ground_01.uasset.
+[2017.06.14-21.21.05:631][403]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Atmospherics/Effects/P_Dust_Hanging_Ground_01 : Can't find file for asset. /Game/Elemental/Environment/Misc/M_EFX_Sparks_01
+[2017.06.14-21.21.05:632][403]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01'
+[2017.06.14-21.21.05:632][403]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Atmospherics/Effects/P_Dust_Hanging_Ground_01.uasset.
+[2017.06.14-21.21.05:632][403]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/M_EFX_Sparks_01'
+[2017.06.14-21.21.05:632][403]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/M_EFX_Sparks_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Atmospherics/Effects/P_Dust_Hanging_Ground_01.uasset.
+[2017.06.14-21.21.05:636][403]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01'
+[2017.06.14-21.21.05:637][403]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01.FX_HangingDust_01 Referenced by ParticleModuleRequired_1
+[2017.06.14-21.21.05:637][403]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01' while loading NULL.
+[2017.06.14-21.21.05:637][403]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01'
+[2017.06.14-21.21.05:637][403]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01.FX_HangingDust_01 Referenced by ParticleModuleRequired_120
+[2017.06.14-21.21.05:637][403]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Atmospherics/Materials/FX_HangingDust_01' while loading NULL.
+[2017.06.14-21.21.05:637][403]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/M_EFX_Sparks_01'
+[2017.06.14-21.21.05:638][403]LoadErrors: Info Failed to load /Game/Elemental/Environment/Misc/M_EFX_Sparks_01.M_EFX_Sparks_01 Referenced by ParticleModuleRequired_162
+[2017.06.14-21.21.05:638][403]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/M_EFX_Sparks_01' while loading NULL.
+[2017.06.14-21.21.05:644][403]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.21.08:966][593]Cmd: DELETE
+[2017.06.14-21.21.08:966][593]Cmd: ACTOR DELETE
+[2017.06.14-21.21.08:966][593]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.21.08:978][593]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.06.14-21.21.23:524][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.21.23:524][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:524][415]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/M_explo_INST
+[2017.06.14-21.21.23:524][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_INST'
+[2017.06.14-21.21.23:524][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:524][415]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_INST
+[2017.06.14-21.21.23:524][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST'
+[2017.06.14-21.21.23:524][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:524][415]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST
+[2017.06.14-21.21.23:524][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2'
+[2017.06.14-21.21.23:525][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:525][415]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2
+[2017.06.14-21.21.23:525][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST'
+[2017.06.14-21.21.23:525][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:525][415]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST
+[2017.06.14-21.21.23:525][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.21.23:525][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:525][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_INST'
+[2017.06.14-21.21.23:525][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:525][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST'
+[2017.06.14-21.21.23:525][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:526][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2'
+[2017.06.14-21.21.23:526][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:526][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST'
+[2017.06.14-21.21.23:526][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:526][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/noise94'
+[2017.06.14-21.21.23:526][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/noise94' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:526][415]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/VelocityGrid/noise94
+[2017.06.14-21.21.23:526][415]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/VelocityGrid60'
+[2017.06.14-21.21.23:527][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/VelocityGrid60' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:527][415]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical : Can't find file for asset. /Game/Elemental/Environment/Misc/VelocityGrid60
+[2017.06.14-21.21.23:527][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/noise94'
+[2017.06.14-21.21.23:527][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/noise94' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:527][415]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/VelocityGrid60'
+[2017.06.14-21.21.23:527][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/VelocityGrid60' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_doorcenter_snow_magical.uasset.
+[2017.06.14-21.21.23:534][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST'
+[2017.06.14-21.21.23:534][415]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST.M_blurry_Snow_INST Referenced by ParticleModuleRequired_0
+[2017.06.14-21.21.23:534][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST' while loading NULL.
+[2017.06.14-21.21.23:535][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.21.23:535][415]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/M_explo_INST.M_explo_INST Referenced by ParticleModuleRequired_1
+[2017.06.14-21.21.23:535][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading NULL.
+[2017.06.14-21.21.23:535][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_INST'
+[2017.06.14-21.21.23:535][415]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_INST.FX_simpleSnow_INST Referenced by ParticleModuleRequired_10
+[2017.06.14-21.21.23:535][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_INST' while loading NULL.
+[2017.06.14-21.21.23:536][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST'
+[2017.06.14-21.21.23:536][415]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST.FX_simpleSnow_single_INST Referenced by ParticleModuleRequired_11
+[2017.06.14-21.21.23:536][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST' while loading NULL.
+[2017.06.14-21.21.23:536][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2'
+[2017.06.14-21.21.23:536][415]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2.FX_simpleSnow_single_INST2 Referenced by ParticleModuleRequired_2
+[2017.06.14-21.21.23:536][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2' while loading NULL.
+[2017.06.14-21.21.23:536][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.21.23:537][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading NULL.
+[2017.06.14-21.21.23:537][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST'
+[2017.06.14-21.21.23:537][415]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST.M_blurry_Snow_INST Referenced by ParticleModuleRequired_8
+[2017.06.14-21.21.23:537][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST' while loading NULL.
+[2017.06.14-21.21.23:537][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST'
+[2017.06.14-21.21.23:537][415]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST.M_blurry_Snow_INST Referenced by ParticleModuleRequired_9
+[2017.06.14-21.21.23:538][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/M_blurry_Snow_INST' while loading NULL.
+[2017.06.14-21.21.23:538][415]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/VelocityGrid60'
+[2017.06.14-21.21.23:538][415]LoadErrors: Info Failed to load /Game/Elemental/Environment/Misc/VelocityGrid60.VelocityGrid60 Referenced by ParticleModuleVectorFieldLocal_0
+[2017.06.14-21.21.23:538][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/VelocityGrid60' while loading NULL.
+[2017.06.14-21.21.23:539][415]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/VelocityGrid60'
+[2017.06.14-21.21.23:539][415]LoadErrors: Info Failed to load /Game/Elemental/Environment/Misc/VelocityGrid60.VelocityGrid60 Referenced by ParticleModuleVectorFieldLocal_1
+[2017.06.14-21.21.23:539][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/VelocityGrid60' while loading NULL.
+[2017.06.14-21.21.23:539][415]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/VelocityGrid60'
+[2017.06.14-21.21.23:539][415]LoadErrors: Info Failed to load /Game/Elemental/Environment/Misc/VelocityGrid60.VelocityGrid60 Referenced by ParticleModuleVectorFieldLocal_2
+[2017.06.14-21.21.23:539][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/VelocityGrid60' while loading NULL.
+[2017.06.14-21.21.23:539][415]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/noise94'
+[2017.06.14-21.21.23:540][415]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/VelocityGrid/noise94.noise94 Referenced by ParticleModuleVectorFieldLocal_3
+[2017.06.14-21.21.23:540][415]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/VelocityGrid/noise94' while loading NULL.
+[2017.06.14-21.21.23:558][415]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.21.23:701][415]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-21.21.23:771][415]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2017.06.14-21.21.24:390][421]LogParticles:Warning: Spawning 20060 GPU particles in one frame[5422]: P_doorcenter_snow_magical/MagicFlake
+[2017.06.14-21.21.26:535][464]LogCascade: Quitting Cascade. FXSystem=0x0000019102EBF100
+[2017.06.14-21.21.27:781][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01'
+[2017.06.14-21.21.27:782][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:782][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01
+[2017.06.14-21.21.27:782][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans'
+[2017.06.14-21.21.27:782][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:782][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans
+[2017.06.14-21.21.27:782][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense'
+[2017.06.14-21.21.27:782][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:782][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense
+[2017.06.14-21.21.27:782][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense2'
+[2017.06.14-21.21.27:782][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense2' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:783][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense2
+[2017.06.14-21.21.27:783][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_03/Materials/M_MeshEmit_OpaqueIce'
+[2017.06.14-21.21.27:783][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_03/Materials/M_MeshEmit_OpaqueIce' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:783][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_03/Materials/M_MeshEmit_OpaqueIce
+[2017.06.14-21.21.27:783][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2'
+[2017.06.14-21.21.27:783][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:783][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2
+[2017.06.14-21.21.27:783][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2'
+[2017.06.14-21.21.27:783][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:784][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01'
+[2017.06.14-21.21.27:784][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:784][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans'
+[2017.06.14-21.21.27:784][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:784][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense'
+[2017.06.14-21.21.27:784][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:784][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense2'
+[2017.06.14-21.21.27:784][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense2' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:784][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_01'
+[2017.06.14-21.21.27:785][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:785][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_01
+[2017.06.14-21.21.27:785][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_02'
+[2017.06.14-21.21.27:785][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_02' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:785][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_02
+[2017.06.14-21.21.27:785][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_03'
+[2017.06.14-21.21.27:785][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_03' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:785][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_03
+[2017.06.14-21.21.27:785][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_Cluster_Wide_01'
+[2017.06.14-21.21.27:785][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_Cluster_Wide_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:786][492]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall : Can't find file for asset. /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_Cluster_Wide_01
+[2017.06.14-21.21.27:786][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_03/Materials/M_MeshEmit_OpaqueIce'
+[2017.06.14-21.21.27:786][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_03/Materials/M_MeshEmit_OpaqueIce' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:786][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_01'
+[2017.06.14-21.21.27:786][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:786][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_02'
+[2017.06.14-21.21.27:786][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_02' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:787][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_03'
+[2017.06.14-21.21.27:787][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_03' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:787][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_Cluster_Wide_01'
+[2017.06.14-21.21.27:787][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_Cluster_Wide_01' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/FX_Snow_Cracks/Crack_03/FX/P_Crack_03_Burst_Distant_upWall.uasset.
+[2017.06.14-21.21.27:798][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_03/Materials/M_MeshEmit_OpaqueIce'
+[2017.06.14-21.21.27:798][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_03/Materials/M_MeshEmit_OpaqueIce.M_MeshEmit_OpaqueIce Referenced by ParticleModuleMeshMaterial_0
+[2017.06.14-21.21.27:798][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_03/Materials/M_MeshEmit_OpaqueIce' while loading NULL.
+[2017.06.14-21.21.27:799][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense'
+[2017.06.14-21.21.27:799][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense.SnowPuff_UP_Macro_lessdense Referenced by ParticleModuleRequired_0
+[2017.06.14-21.21.27:799][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense' while loading NULL.
+[2017.06.14-21.21.27:799][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01'
+[2017.06.14-21.21.27:799][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01.M_RockPile_MeshEmit_01 Referenced by ParticleModuleRequired_10
+[2017.06.14-21.21.27:799][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01' while loading NULL.
+[2017.06.14-21.21.27:800][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans'
+[2017.06.14-21.21.27:800][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans.M_Snow_Trans Referenced by ParticleModuleRequired_13
+[2017.06.14-21.21.27:800][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans' while loading NULL.
+[2017.06.14-21.21.27:800][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans'
+[2017.06.14-21.21.27:800][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans.M_Snow_Trans Referenced by ParticleModuleRequired_4
+[2017.06.14-21.21.27:800][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_Snow_Trans' while loading NULL.
+[2017.06.14-21.21.27:801][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense2'
+[2017.06.14-21.21.27:801][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense2.SnowPuff_UP_Macro_lessdense2 Referenced by ParticleModuleRequired_5
+[2017.06.14-21.21.27:801][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/SnowPuff_UP_Macro_lessdense2' while loading NULL.
+[2017.06.14-21.21.27:801][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2'
+[2017.06.14-21.21.27:801][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2.FX_simpleSnow_single_INST2 Referenced by ParticleModuleRequired_6
+[2017.06.14-21.21.27:801][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/FX_simpleSnow_single_INST2' while loading NULL.
+[2017.06.14-21.21.27:802][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01'
+[2017.06.14-21.21.27:802][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01.M_RockPile_MeshEmit_01 Referenced by ParticleModuleRequired_7
+[2017.06.14-21.21.27:802][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01' while loading NULL.
+[2017.06.14-21.21.27:802][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01'
+[2017.06.14-21.21.27:802][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01.M_RockPile_MeshEmit_01 Referenced by ParticleModuleRequired_8
+[2017.06.14-21.21.27:802][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01' while loading NULL.
+[2017.06.14-21.21.27:803][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01'
+[2017.06.14-21.21.27:803][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01.M_RockPile_MeshEmit_01 Referenced by ParticleModuleRequired_9
+[2017.06.14-21.21.27:803][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Materials/M_RockPile_MeshEmit_01' while loading NULL.
+[2017.06.14-21.21.27:804][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_Cluster_Wide_01'
+[2017.06.14-21.21.27:804][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_Cluster_Wide_01.SM_Rock_Cluster_Wide_01 Referenced by ParticleModuleTypeDataMesh_0
+[2017.06.14-21.21.27:804][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_Cluster_Wide_01' while loading NULL.
+[2017.06.14-21.21.27:804][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_01'
+[2017.06.14-21.21.27:804][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_01.SM_Rock_01 Referenced by ParticleModuleTypeDataMesh_1
+[2017.06.14-21.21.27:804][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_01' while loading NULL.
+[2017.06.14-21.21.27:805][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_02'
+[2017.06.14-21.21.27:805][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_02.SM_Rock_02 Referenced by ParticleModuleTypeDataMesh_2
+[2017.06.14-21.21.27:805][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_02' while loading NULL.
+[2017.06.14-21.21.27:805][492]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_03'
+[2017.06.14-21.21.27:805][492]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_03.SM_Rock_03 Referenced by ParticleModuleTypeDataMesh_3
+[2017.06.14-21.21.27:805][492]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Snow_Cracks/Crack_02/Meshes/SM_Rock_03' while loading NULL.
+[2017.06.14-21.21.27:815][492]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.21.30:329][634]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.21.31:193][684]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Crack_03_Burst_Distant_upWall)
+[2017.06.14-21.22.23:500][761]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit'
+[2017.06.14-21.22.23:501][761]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Snow/P_BlowAcrossGround.uasset.
+[2017.06.14-21.22.23:501][761]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Snow/P_BlowAcrossGround : Can't find file for asset. /Game/Effects/Materials/Snow/M_Snow_Blowing_unLit
+[2017.06.14-21.22.23:501][761]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias'
+[2017.06.14-21.22.23:501][761]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Snow/P_BlowAcrossGround.uasset.
+[2017.06.14-21.22.23:501][761]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Snow/P_BlowAcrossGround : Can't find file for asset. /Game/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias
+[2017.06.14-21.22.23:501][761]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Snow/M_SnowFlake_VelocityLerp'
+[2017.06.14-21.22.23:501][761]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Snow/M_SnowFlake_VelocityLerp' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Snow/P_BlowAcrossGround.uasset.
+[2017.06.14-21.22.23:501][761]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Snow/P_BlowAcrossGround : Can't find file for asset. /Game/Effects/Materials/Snow/M_SnowFlake_VelocityLerp
+[2017.06.14-21.22.23:501][761]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit'
+[2017.06.14-21.22.23:502][761]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Snow/P_BlowAcrossGround.uasset.
+[2017.06.14-21.22.23:502][761]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias'
+[2017.06.14-21.22.23:502][761]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Snow/P_BlowAcrossGround.uasset.
+[2017.06.14-21.22.23:502][761]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Snow/M_SnowFlake_VelocityLerp'
+[2017.06.14-21.22.23:502][761]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Snow/M_SnowFlake_VelocityLerp' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Snow/P_BlowAcrossGround.uasset.
+[2017.06.14-21.22.23:508][761]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias'
+[2017.06.14-21.22.23:508][761]LoadErrors: Info Failed to load /Game/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias.M_Snow_Blowing_unLit_LowBias Referenced by ParticleModuleRequired_10
+[2017.06.14-21.22.23:508][761]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit_LowBias' while loading NULL.
+[2017.06.14-21.22.23:508][761]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit'
+[2017.06.14-21.22.23:508][761]LoadErrors: Info Failed to load /Game/Effects/Materials/Snow/M_Snow_Blowing_unLit.M_Snow_Blowing_unLit Referenced by ParticleModuleRequired_3
+[2017.06.14-21.22.23:508][761]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Snow/M_Snow_Blowing_unLit' while loading NULL.
+[2017.06.14-21.22.23:509][761]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Snow/M_SnowFlake_VelocityLerp'
+[2017.06.14-21.22.23:509][761]LoadErrors: Info Failed to load /Game/Effects/Materials/Snow/M_SnowFlake_VelocityLerp.M_SnowFlake_VelocityLerp Referenced by ParticleModuleRequired_4
+[2017.06.14-21.22.23:509][761]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Snow/M_SnowFlake_VelocityLerp' while loading NULL.
+[2017.06.14-21.22.26:412][925]Cmd: DELETE
+[2017.06.14-21.22.26:412][925]Cmd: ACTOR DELETE
+[2017.06.14-21.22.26:412][925]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.22.26:425][925]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.06.14-21.23.01:597][263]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.23.01:597][263]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_volcanoSmokeCloseup.uasset.
+[2017.06.14-21.23.01:597][263]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_volcanoSmokeCloseup : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/M_explo_INST
+[2017.06.14-21.23.01:597][263]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/CopyOfFX_outsideSnow_INST_anim2'
+[2017.06.14-21.23.01:597][263]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/CopyOfFX_outsideSnow_INST_anim2' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_volcanoSmokeCloseup.uasset.
+[2017.06.14-21.23.01:598][263]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_volcanoSmokeCloseup : Can't find file for asset. /Game/Elemental/Effects/Fx_Snow/Materials/CopyOfFX_outsideSnow_INST_anim2
+[2017.06.14-21.23.01:598][263]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.23.01:598][263]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_volcanoSmokeCloseup.uasset.
+[2017.06.14-21.23.01:598][263]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/CopyOfFX_outsideSnow_INST_anim2'
+[2017.06.14-21.23.01:598][263]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/CopyOfFX_outsideSnow_INST_anim2' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Snow/ParticleSystems/P_volcanoSmokeCloseup.uasset.
+[2017.06.14-21.23.01:603][263]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/M_explo_INST'
+[2017.06.14-21.23.01:603][263]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/M_explo_INST.M_explo_INST Referenced by ParticleModuleRequired_2
+[2017.06.14-21.23.01:603][263]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/M_explo_INST' while loading NULL.
+[2017.06.14-21.23.01:604][263]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Snow/Materials/CopyOfFX_outsideSnow_INST_anim2'
+[2017.06.14-21.23.01:604][263]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Snow/Materials/CopyOfFX_outsideSnow_INST_anim2.CopyOfFX_outsideSnow_INST_anim2 Referenced by ParticleModuleRequired_5
+[2017.06.14-21.23.01:604][263]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Snow/Materials/CopyOfFX_outsideSnow_INST_anim2' while loading NULL.
+[2017.06.14-21.23.01:618][263]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.23.06:233][527]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.23.07:272][587]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_volcanoSmokeCloseup)
+[2017.06.14-21.23.10:129][756]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.23.11:035][808]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_volcanoSmokeCloseup)
+[2017.06.14-21.23.15:746][ 88]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.23.17:885][214]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_volcanoSmokeCloseup)
+[2017.06.14-21.23.27:291][557]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.23.27:841][588]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_volcanoSmokeCloseup)
+[2017.06.14-21.23.29:122][663]Cmd: DELETE
+[2017.06.14-21.23.29:123][663]Cmd: ACTOR DELETE
+[2017.06.14-21.23.29:123][663]LogEditorActor: Deleted Actor: Emitter
+[2017.06.14-21.23.29:133][663]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.06.14-21.23.30:833][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.23.30:833][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:833][743]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance : Can't find file for asset. /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise
+[2017.06.14-21.23.30:833][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_HeatDistort'
+[2017.06.14-21.23.30:833][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_HeatDistort' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:833][743]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance : Can't find file for asset. /Game/Effects/Materials/Fire/M_HeatDistort
+[2017.06.14-21.23.30:833][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Flares/M_FlareRound'
+[2017.06.14-21.23.30:834][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Flares/M_FlareRound' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:834][743]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance : Can't find file for asset. /Game/Effects/Materials/Flares/M_FlareRound
+[2017.06.14-21.23.30:834][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp'
+[2017.06.14-21.23.30:834][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:834][743]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance : Can't find file for asset. /Game/Effects/Materials/Sparks/M_Spark_VelocityLerp
+[2017.06.14-21.23.30:834][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.23.30:834][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:834][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_HeatDistort'
+[2017.06.14-21.23.30:834][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_HeatDistort' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:835][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Flares/M_FlareRound'
+[2017.06.14-21.23.30:835][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Flares/M_FlareRound' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:835][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp'
+[2017.06.14-21.23.30:835][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:835][743]LogLinker:Warning: Can't find file '/Game/Effects/VectorFields/VF_RandomNoise_01_90'
+[2017.06.14-21.23.30:835][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/VectorFields/VF_RandomNoise_01_90' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:835][743]LoadErrors:Error: Error /Game/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance : Can't find file for asset. /Game/Effects/VectorFields/VF_RandomNoise_01_90
+[2017.06.14-21.23.30:835][743]LogLinker:Warning: Can't find file '/Game/Effects/VectorFields/VF_RandomNoise_01_90'
+[2017.06.14-21.23.30:835][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/VectorFields/VF_RandomNoise_01_90' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/ParticleEffects/Effects/Particles/Fire/P_TorchFire_Entrance.uasset.
+[2017.06.14-21.23.30:844][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.23.30:844][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading NULL.
+[2017.06.14-21.23.30:844][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Flares/M_FlareRound'
+[2017.06.14-21.23.30:844][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Flares/M_FlareRound' while loading NULL.
+[2017.06.14-21.23.30:845][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.23.30:845][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading NULL.
+[2017.06.14-21.23.30:845][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2017.06.14-21.23.30:845][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading NULL.
+[2017.06.14-21.23.30:845][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp'
+[2017.06.14-21.23.30:845][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp' while loading NULL.
+[2017.06.14-21.23.30:845][743]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_HeatDistort'
+[2017.06.14-21.23.30:846][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_HeatDistort' while loading NULL.
+[2017.06.14-21.23.30:846][743]LogLinker:Warning: Can't find file '/Game/Effects/VectorFields/VF_RandomNoise_01_90'
+[2017.06.14-21.23.30:846][743]LogLinker:Warning: Can't find file for asset '/Game/Effects/VectorFields/VF_RandomNoise_01_90' while loading NULL.
+[2017.06.14-21.23.32:365][826]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.14-21.23.34:975][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke'
+[2017.06.14-21.23.34:975][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:975][950]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire : Can't find file for asset. /Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke
+[2017.06.14-21.23.34:975][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash'
+[2017.06.14-21.23.34:975][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:976][950]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire : Can't find file for asset. /Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash
+[2017.06.14-21.23.34:976][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Magic/Materials/M_LensFlare_Magic_01_DB'
+[2017.06.14-21.23.34:976][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Magic/Materials/M_LensFlare_Magic_01_DB' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:976][950]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire : Can't find file for asset. /Game/Elemental/Effects/Fx_Magic/Materials/M_LensFlare_Magic_01_DB
+[2017.06.14-21.23.34:976][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire_INST'
+[2017.06.14-21.23.34:976][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:976][950]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire : Can't find file for asset. /Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire_INST
+[2017.06.14-21.23.34:976][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke'
+[2017.06.14-21.23.34:976][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:977][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire_INST'
+[2017.06.14-21.23.34:977][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire_INST' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:977][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash'
+[2017.06.14-21.23.34:977][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:977][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Magic/Materials/M_LensFlare_Magic_01_DB'
+[2017.06.14-21.23.34:977][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Magic/Materials/M_LensFlare_Magic_01_DB' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:978][950]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/VelocityGrid60'
+[2017.06.14-21.23.34:978][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/VelocityGrid60' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:978][950]LoadErrors:Error: Error /Game/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire : Can't find file for asset. /Game/Elemental/Environment/Misc/VelocityGrid60
+[2017.06.14-21.23.34:978][950]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/VelocityGrid60'
+[2017.06.14-21.23.34:978][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/VelocityGrid60' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/FX/Elemental/Elemental/Effects/Fx_Fire/ParticleSystems/P_TorchFire.uasset.
+[2017.06.14-21.23.34:985][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire_INST'
+[2017.06.14-21.23.34:986][950]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire_INST.FX_TorchFire_INST Referenced by ParticleModuleRequired_0
+[2017.06.14-21.23.34:986][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire_INST' while loading NULL.
+[2017.06.14-21.23.34:986][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash'
+[2017.06.14-21.23.34:986][950]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash.M_Ash Referenced by ParticleModuleRequired_1
+[2017.06.14-21.23.34:986][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash' while loading NULL.
+[2017.06.14-21.23.34:987][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke'
+[2017.06.14-21.23.34:987][950]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke.M_heatSmoke Referenced by ParticleModuleRequired_3
+[2017.06.14-21.23.34:987][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke' while loading NULL.
+[2017.06.14-21.23.34:987][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/Fx_Magic/Materials/M_LensFlare_Magic_01_DB'
+[2017.06.14-21.23.34:987][950]LoadErrors: Info Failed to load /Game/Elemental/Effects/Fx_Magic/Materials/M_LensFlare_Magic_01_DB.M_LensFlare_Magic_01_DB Referenced by ParticleModuleRequired_6
+[2017.06.14-21.23.34:987][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/Fx_Magic/Materials/M_LensFlare_Magic_01_DB' while loading NULL.
+[2017.06.14-21.23.34:987][950]LogLinker:Warning: Can't find file '/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash'
+[2017.06.14-21.23.34:988][950]LoadErrors: Info Failed to load /Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash.M_Ash Referenced by ParticleModuleRequired_7
+[2017.06.14-21.23.34:988][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_Ash' while loading NULL.
+[2017.06.14-21.23.34:988][950]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/Misc/VelocityGrid60'
+[2017.06.14-21.23.34:988][950]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/Misc/VelocityGrid60' while loading NULL.
+[2017.06.14-21.23.34:998][950]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2017.06.14-21.23.40:443][191]Cmd: QUIT_EDITOR
+[2017.06.14-21.23.40:461][191]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.14-21.23.40:472][191]LogExit: Preparing to exit.
+[2017.06.14-21.23.41:231][191]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/' was aborted.
+[2017.06.14-21.23.41:252][191]LogExit: Editor shut down
+[2017.06.14-21.23.41:256][191]LogExit: Transaction tracking system shut down
+[2017.06.14-21.23.41:318][191]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.14-21.23.41:318][191]LogExit: Object subsystem successfully closed.
+[2017.06.14-21.23.41:336][191]LogD3D11RHI: Shutdown
+[2017.06.14-21.23.41:336][191]LogD3D11RHI: CleanupD3DDevice
+[2017.06.14-21.23.41:338][191]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.14-21.23.41:353][191]LogModuleManager: Shutting down and abandoning module DistCurveEditor (532)
+[2017.06.14-21.23.41:353][191]LogModuleManager: Shutting down and abandoning module Cascade (530)
+[2017.06.14-21.23.41:353][191]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.06.14-21.23.41:353][191]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.06.14-21.23.41:353][191]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.06.14-21.23.41:353][191]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.06.14-21.23.41:353][191]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.14-21.23.41:354][191]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.06.14-21.23.41:354][191]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.06.14-21.23.41:354][191]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.06.14-21.23.41:354][191]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Collections/' was aborted.
+[2017.06.14-21.23.41:354][191]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/Developers/azure/Collections/' was aborted.
+[2017.06.14-21.23.41:354][191]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Saved/Collections/' was aborted.
+[2017.06.14-21.23.41:354][191]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.06.14-21.23.41:355][191]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.06.14-21.23.41:444][191]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.06.14-21.23.41:496][191]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.06.14-21.23.41:496][191]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.06.14-21.23.41:496][191]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.06.14-21.23.41:496][191]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.06.14-21.23.41:496][191]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.06.14-21.23.41:496][191]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.06.14-21.23.41:496][191]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.06.14-21.23.41:496][191]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.06.14-21.23.41:496][191]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.06.14-21.23.41:497][191]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.06.14-21.23.41:685][191]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.06.14-21.23.41:686][191]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.06.14-21.23.41:686][191]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.06.14-21.23.41:686][191]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.06.14-21.23.41:686][191]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2017.06.14-21.23.41:686][191]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2017.06.14-21.23.41:686][191]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2017.06.14-21.23.41:686][191]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2017.06.14-21.23.41:686][191]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2017.06.14-21.23.41:686][191]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2017.06.14-21.23.41:787][191]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2017.06.14-21.23.42:073][191]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2017.06.14-21.23.42:073][191]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.14-21.23.42:073][191]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.14-21.23.42:074][191]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.14-21.23.42:074][191]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.14-21.23.42:074][191]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.14-21.23.42:074][191]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.14-21.23.42:075][191]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.14-21.23.42:076][191]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.14-21.23.42:076][191]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.14-21.23.42:076][191]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.14-21.23.42:076][191]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.14-21.23.42:080][191]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.14-21.23.42:080][191]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.14-21.23.42:080][191]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.14-21.23.42:080][191]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.14-21.23.42:080][191]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.14-21.23.42:080][191]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.14-21.23.42:173][191]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.14-21.23.42:173][191]LogDirectoryWatcher: A directory notification for '../../../../../../Users/azure/Documents/GitHub/Enviro_2/Enviro_2/Content/' was aborted.
+[2017.06.14-21.23.42:173][191]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.14-21.23.42:173][191]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.14-21.23.42:176][191]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.14-21.23.42:177][191]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.14-21.23.42:177][191]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.14-21.23.42:177][191]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.14-21.23.42:177][191]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.14-21.23.42:177][191]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.14-21.23.42:177][191]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.14-21.23.42:177][191]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.14-21.23.42:177][191]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.14-21.23.42:227][191]LogDerivedDataCache: Shutdown
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.14-21.23.42:227][191]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.14-21.23.42:228][191]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.14-21.23.42:228][191]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.14-21.23.42:228][191]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.14-21.23.42:228][191]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5D880111-41E2-A78F-E7A3-8DAE2C79BE53%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=f87b7eb244207085343e53a8f93190ff%7C4e59904afcc6489195f8095de720415d%7C9fa60dca-0af5-4e86-a8a7-0177cf4232e6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.14-21.23.42:241][191]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.14-21.23.42:242][191]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.14-21.23.42:242][191]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.14-21.23.42:242][191]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.14-21.23.42:242][191]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.14-21.23.42:242][191]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.14-21.23.42:242][191]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.14-21.23.42:242][191]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.14-21.23.42:242][191]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.14-21.23.42:243][191]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.14-21.23.42:244][191]LogExit: Exiting.
+[2017.06.14-21.23.42:261][191]Log file closed, 06/14/17 15:23:42
