@@ -1,9 +1,9 @@
-﻿Log file open, 06/21/17 14:58:13
+﻿Log file open, 06/21/17 16:06:32
 LogInit:Display: Running engine for game: Enviro_2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-593345448) SRandInit(-593345448).
+LogInit:Display: RandInit(-1733119111) SRandInit(-1733119111).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.080571
+LogStats: Stats thread started at 0.076849
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,465 +50,979 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.21-20.58.14:346][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.21-20.58.14:346][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.21-20.58.14:355][  0]LogInit: Computer: AZUREPCINTEL
-[2017.06.21-20.58.14:355][  0]LogInit: User: AzurePCIntel
-[2017.06.21-20.58.14:355][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.06.21-20.58.14:355][  0]LogInit: High frequency timer resolution =3.914065 MHz
-[2017.06.21-20.58.14:355][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.06.21-20.58.14:355][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.21-20.58.14:355][  0]LogMemory: Process Physical Memory: 273.30 MB used, 273.30 MB peak
-[2017.06.21-20.58.14:355][  0]LogMemory: Process Virtual Memory: 260.82 MB used, 260.82 MB peak
-[2017.06.21-20.58.14:355][  0]LogMemory: Physical Memory: 8928.13 MB used,  7415.54 MB free, 16343.68 MB total
-[2017.06.21-20.58.14:355][  0]LogMemory: Virtual Memory: 638.16 MB used,  7415.54 MB free, 134217728.00 MB total
-[2017.06.21-20.58.14:410][  0]LogInit: Using OS detected language (en-US).
-[2017.06.21-20.58.14:410][  0]LogInit: Using OS detected locale (en-US).
-[2017.06.21-20.58.14:411][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.06.21-20.58.15:140][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.21-20.58.15:153][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
-[2017.06.21-20.58.15:153][  0]LogD3D11RHI:       8169/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2017.06.21-20.58.15:153][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.21-20.58.15:153][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.21-20.58.15:154][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.21-20.58.15:158][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.21-20.58.15:158][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.21-20.58.15:158][  0]LogWindows: EnumDisplayDevices:
-[2017.06.21-20.58.15:158][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
-[2017.06.21-20.58.15:158][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
-[2017.06.21-20.58.15:158][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.06.21-20.58.15:158][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.06.21-20.58.15:158][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.06.21-20.58.15:159][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2017.06.21-20.58.15:159][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.06.21-20.58.15:159][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
-[2017.06.21-20.58.15:159][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
-[2017.06.21-20.58.15:159][  0]LogD3D11RHI:      Driver Date: 4-24-2017
-[2017.06.21-20.58.15:159][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.21-20.58.15:195][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.21-20.58.15:204][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.06.21-20.58.15:205][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Intermediate/Shaders/WorkingDirectory/10416/).
-[2017.06.21-20.58.15:205][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/AzurePC Intel/AppData/Local/Temp/UnrealShaderWorkingDir/C4A96889404AEDA5BA7C0F83D76AFA21/'.
-[2017.06.21-20.58.15:205][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.21-20.58.15:977][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.21-20.58.16:013][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.21-20.58.16:052][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.21-20.58.16:090][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.21-20.58.16:128][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.21-20.58.16:165][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.21-20.58.16:203][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.21-20.58.16:242][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.21-20.58.16:274][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.21-20.58.16:311][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.21-20.58.16:347][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.21-20.58.16:384][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.21-20.58.16:420][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.21-20.58.16:457][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.21-20.58.16:494][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.21-20.58.16:570][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.21-20.58.16:570][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.21-20.58.16:598][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.21-20.58.16:673][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.21-20.58.16:695][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.21-20.58.16:733][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.21-20.58.16:771][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.21-20.58.16:807][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.21-20.58.16:844][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.21-20.58.16:844][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.21-20.58.17:228][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.21-20.58.17:307][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/AzurePC Intel/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.21-20.58.17:308][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AzurePC Intel/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.06.21-20.58.17:308][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.21-20.58.17:308][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.21-20.58.17:308][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.21-20.58.17:308][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.21-20.58.17:320][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.21-20.58.17:331][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AzurePC Intel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.21-20.58.17:339][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.06.21-20.58.17:339][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.21-20.58.17:339][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.21-20.58.17:339][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.21-20.58.17:582][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.21-20.58.17:660][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.21-20.58.17:781][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.21-20.58.17:815][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.21-20.58.17:850][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.21-20.58.17:850][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.21-20.58.17:850][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.21-20.58.18:286][  0]LogNetVersion: Enviro_2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 303638927)
-[2017.06.21-20.58.18:337][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
-[2017.06.21-20.58.18:389][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.033094 seconds
-[2017.06.21-20.58.18:396][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.06.21-20.58.18:396][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.06.21-20.58.18:396][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.21-20.58.18:445][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.21-20.58.20:272][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.06.21-20.58.20:293][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.21-20.58.20:327][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.21-20.58.20:728][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.21-20.58.21:024][  0]SourceControl: Info Source control is disabled
-[2017.06.21-20.58.21:025][  0]SourceControl: Info Source control is disabled
-[2017.06.21-20.58.21:064][  0]SourceControl: Info Source control is disabled
-[2017.06.21-20.58.21:103][  0]SourceControl: Info Source control is disabled
-[2017.06.21-20.58.21:586][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.06.21-20.58.22:055][  0]LogEngine: Initializing Engine...
-[2017.06.21-20.58.22:055][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.06.21-20.58.22:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.21-20.58.22:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.21-20.58.22:326][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.21-20.58.22:335][  0]LogInit: XAudio2 using 'SPDIF Interface (2- FiiO USB DAC-E10)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.21-20.58.22:341][  0]LogInit: FAudioDevice initialized.
-[2017.06.21-20.58.22:385][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/AzurePC Intel/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.21-20.58.22:393][  0]LogInit: Texture streaming: Enabled
-[2017.06.21-20.58.22:474][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.21-20.58.22:642][  0]LogInit: Transaction tracking system initialized
-[2017.06.21-20.58.22:869][  0]BlueprintLog: New page: Editor Load
-[2017.06.21-20.58.23:570][  0]LocalizationService: Info Localization service is disabled
-[2017.06.21-20.58.24:087][  0]LogConsoleResponse:Display: 
-[2017.06.21-20.58.24:197][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.21-20.58.24:198][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.21-20.58.24:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/' took 0.02s
-[2017.06.21-20.58.24:947][  0]SourceControl: Info Source control is disabled
-[2017.06.21-20.58.24:947][  0]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.21-20.58.24:948][  0]LightingResults: New page: Lighting Build
-[2017.06.21-20.58.24:981][  0]MapCheck: New page: Map Check
-[2017.06.21-20.58.24:981][  0]LightingResults: New page: Lighting Build
-[2017.06.21-20.58.25:099][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.06.21-20.58.25:104][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.21-20.58.25:117][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.21-20.58.25:153][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.567ms to complete.
-[2017.06.21-20.58.25:153][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.205
-[2017.06.21-20.58.25:324][  0]LogCollectionManager: Loaded 0 collections in 0.001123 seconds
-[2017.06.21-20.58.25:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/Collections/' took 0.01s
-[2017.06.21-20.58.25:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Developers/AzurePCIntel/Collections/' took 0.01s
-[2017.06.21-20.58.25:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Collections/' took 0.01s
-[2017.06.21-20.58.25:402][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.06.21-20.58.25:408][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2343 classes and 497 folders.
-[2017.06.21-20.58.25:456][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.06.21-20.58.25:481][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.06.21-20.58.25:513][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.06.21-20.58.25:570][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.21-20.58.25:574][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.21-20.58.25:577][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.21-20.58.25:580][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.21-20.58.25:649][  0]LogRenderer: Reallocating scene render targets to support 1164x636 NumSamples 1 (Frame:1).
-[2017.06.21-20.58.25:775][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.06.21-20.58.25:830][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.06.21-20.58.25:830][  0]LogLoad: (Engine Initialization) Total time: 12.69 seconds
-[2017.06.21-20.58.25:830][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
-[2017.06.21-20.58.25:830][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.06.21-20.58.25:841][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.21-20.58.25:841][  0]LogOcInput: OculusInput pre-init called
-[2017.06.21-20.58.25:841][  0]LogHMD: Starting GearVRController plugin
-[2017.06.21-20.58.25:859][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.06.21-20.58.25:890][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.21-20.58.25:912][  1]LogAssetRegistry: Asset discovery search completed in 7.5969 seconds
-[2017.06.21-20.58.25:914][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.06.21-20.58.25:914][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
-[2017.06.21-20.58.28:524][301]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.21-20.58.29:095][301]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
-[2017.06.21-20.58.29:178][301]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
-[2017.06.21-20.58.29:193][301]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
-[2017.06.21-20.58.29:245][301]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
-[2017.06.21-20.58.29:373][301]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_01
-[2017.06.21-20.58.29:385][301]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.21-20.58.29:385][301]LightingResults: New page: Lighting Build
-[2017.06.21-20.58.29:385][301]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_01.umap
-[2017.06.21-20.58.29:386][301]MapCheck: New page: Map Check
-[2017.06.21-20.58.29:386][301]LightingResults: New page: Lighting Build
-[2017.06.21-20.58.29:430][301]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.21-20.58.29:457][301]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.21-20.58.29:495][301]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.776ms to complete.
-[2017.06.21-20.58.29:495][301]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_01' took 0.111
-[2017.06.21-20.58.30:978][438]LogRenderer: Reallocating scene render targets to support 1300x716 NumSamples 1 (Frame:143).
-[2017.06.21-20.58.31:087][439]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:145).
-[2017.06.21-21.05.07:741][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (6_1_scaleman2)
-[2017.06.21-21.07.58:426][665]Cmd: SELECT NONE
-[2017.06.21-21.08.00:787][886]Cmd: SELECT NONE
-[2017.06.21-21.08.02:289][ 16]Cmd: SELECT NONE
-[2017.06.21-21.08.05:421][206]Cmd: QUIT_EDITOR
-[2017.06.21-21.08.05:433][206]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.21-21.08.05:448][206]LogExit: Preparing to exit.
-[2017.06.21-21.08.06:522][206]LogDirectoryWatcher: A directory notification for 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/' was aborted.
-[2017.06.21-21.08.06:535][206]LogExit: Editor shut down
-[2017.06.21-21.08.06:539][206]LogExit: Transaction tracking system shut down
-[2017.06.21-21.08.06:616][206]LogObj: Freed 0b from 0 cluster array pools.
-[2017.06.21-21.08.06:616][206]LogExit: Object subsystem successfully closed.
-[2017.06.21-21.08.06:649][206]LogD3D11RHI: Shutdown
-[2017.06.21-21.08.06:649][206]LogD3D11RHI: CleanupD3DDevice
-[2017.06.21-21.08.06:744][206]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.06.21-21.08.06:753][206]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
-[2017.06.21-21.08.06:753][206]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
-[2017.06.21-21.08.06:753][206]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
-[2017.06.21-21.08.06:753][206]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
-[2017.06.21-21.08.06:753][206]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
-[2017.06.21-21.08.06:754][206]LogDirectoryWatcher: A directory notification for 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Collections/' was aborted.
-[2017.06.21-21.08.06:754][206]LogDirectoryWatcher: A directory notification for 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Developers/AzurePCIntel/Collections/' was aborted.
-[2017.06.21-21.08.06:754][206]LogDirectoryWatcher: A directory notification for 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/Collections/' was aborted.
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module BspMode (498)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
-[2017.06.21-21.08.06:754][206]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module Media (475)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module SessionServices (462)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
-[2017.06.21-21.08.06:755][206]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module MergeActors (432)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module SizeMap (430)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module TreeMap (428)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module XmlParser (412)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module Blutility (410)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
-[2017.06.21-21.08.07:038][206]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module AutomationController (390)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module Layers (386)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module Persona (378)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module Kismet (372)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module Toolbox (368)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module OutputLog (362)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module GammaUI (360)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module Documentation (358)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module MovieScene (354)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module Niagara (352)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module PortalServices (344)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module AIModule (338)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
-[2017.06.21-21.08.07:101][206]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module SteamVR (324)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module OculusInput (316)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module CableComponent (310)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module SourceControl (269)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
-[2017.06.21-21.08.07:283][206]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2017.06.21-21.08.07:284][206]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2017.06.21-21.08.07:284][206]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
-[2017.06.21-21.08.07:284][206]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
-[2017.06.21-21.08.07:284][206]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
-[2017.06.21-21.08.07:284][206]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
-[2017.06.21-21.08.07:284][206]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
-[2017.06.21-21.08.07:284][206]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
-[2017.06.21-21.08.07:384][206]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.06.21-21.08.07:503][206]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.06.21-21.08.07:504][206]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.06.21-21.08.07:505][206]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.06.21-21.08.07:505][206]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.06.21-21.08.07:505][206]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.06.21-21.08.07:505][206]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.06.21-21.08.07:505][206]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.06.21-21.08.07:505][206]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.06.21-21.08.07:567][206]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.06.21-21.08.07:567][206]LogDirectoryWatcher: A directory notification for '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/' was aborted.
-[2017.06.21-21.08.07:567][206]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.06.21-21.08.07:567][206]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.06.21-21.08.07:571][206]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.06.21-21.08.07:571][206]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.06.21-21.08.07:571][206]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.06.21-21.08.07:571][206]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.06.21-21.08.07:571][206]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.06.21-21.08.07:571][206]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.06.21-21.08.07:571][206]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.06.21-21.08.07:571][206]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.06.21-21.08.07:571][206]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.06.21-21.08.07:600][206]LogDerivedDataCache: Shutdown
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.06.21-21.08.07:600][206]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.06.21-21.08.07:601][206]LogOnline:Display: Unloading online subsystem: NULL
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.06.21-21.08.07:601][206]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.06.21-21.08.07:601][206]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.06.21-21.08.07:601][206]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3871E714-4C7F-F7B9-83C6-6EA8713CABF4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=da2c64f64af90778841cdbb7a9e7271c%7C4e59904afcc6489195f8095de720415d%7Ce6cec269-2a62-4e13-9f24-3ef9e02a4e7c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.06.21-21.08.07:616][206]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.06.21-21.08.07:616][206]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.06.21-21.08.07:616][206]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.06.21-21.08.07:616][206]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.06.21-21.08.07:616][206]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.06.21-21.08.07:616][206]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.06.21-21.08.07:617][206]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.06.21-21.08.07:618][206]LogExit: Exiting.
-[2017.06.21-21.08.07:629][206]Log file closed, 06/21/17 15:08:07
+[2017.06.21-22.06.32:382][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.21-22.06.32:382][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.21-22.06.32:390][  0]LogInit: Computer: AZUREPCINTEL
+[2017.06.21-22.06.32:390][  0]LogInit: User: AzurePCIntel
+[2017.06.21-22.06.32:390][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.21-22.06.32:390][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2017.06.21-22.06.32:390][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.21-22.06.32:390][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.21-22.06.32:390][  0]LogMemory: Process Physical Memory: 273.30 MB used, 273.30 MB peak
+[2017.06.21-22.06.32:390][  0]LogMemory: Process Virtual Memory: 260.80 MB used, 260.80 MB peak
+[2017.06.21-22.06.32:390][  0]LogMemory: Physical Memory: 8643.12 MB used,  7700.56 MB free, 16343.68 MB total
+[2017.06.21-22.06.32:390][  0]LogMemory: Virtual Memory: 638.16 MB used,  7700.56 MB free, 134217728.00 MB total
+[2017.06.21-22.06.32:439][  0]LogInit: Using OS detected language (en-US).
+[2017.06.21-22.06.32:439][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.21-22.06.32:441][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.21-22.06.33:161][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.21-22.06.33:174][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2017.06.21-22.06.33:174][  0]LogD3D11RHI:       8169/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.06.21-22.06.33:175][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.21-22.06.33:175][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.21-22.06.33:175][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.21-22.06.33:179][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.21-22.06.33:179][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.21-22.06.33:179][  0]LogWindows: EnumDisplayDevices:
+[2017.06.21-22.06.33:179][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2017.06.21-22.06.33:179][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2017.06.21-22.06.33:180][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.06.21-22.06.33:180][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.06.21-22.06.33:180][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.06.21-22.06.33:180][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.06.21-22.06.33:180][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.06.21-22.06.33:180][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2017.06.21-22.06.33:180][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.06.21-22.06.33:180][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.06.21-22.06.33:180][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.21-22.06.33:209][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.21-22.06.33:218][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.06.21-22.06.33:218][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Intermediate/Shaders/WorkingDirectory/2128/).
+[2017.06.21-22.06.33:218][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/AzurePC Intel/AppData/Local/Temp/UnrealShaderWorkingDir/2A915F0F4B305D05370C2E97983CFF13/'.
+[2017.06.21-22.06.33:218][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.21-22.06.33:979][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.21-22.06.34:016][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.21-22.06.34:054][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.21-22.06.34:092][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.21-22.06.34:128][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.21-22.06.34:164][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.21-22.06.34:200][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.21-22.06.34:237][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.21-22.06.34:270][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.21-22.06.34:306][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.21-22.06.34:343][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.21-22.06.34:379][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.21-22.06.34:415][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.21-22.06.34:451][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.21-22.06.34:487][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.21-22.06.34:558][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.21-22.06.34:558][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.21-22.06.34:587][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.21-22.06.34:660][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.21-22.06.34:682][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.21-22.06.34:720][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.21-22.06.34:756][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.21-22.06.34:797][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.21-22.06.34:838][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.21-22.06.34:838][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.21-22.06.35:206][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.21-22.06.35:280][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/AzurePC Intel/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.21-22.06.35:280][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AzurePC Intel/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.21-22.06.35:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.21-22.06.35:281][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.21-22.06.35:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.21-22.06.35:281][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.21-22.06.35:293][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.21-22.06.35:305][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AzurePC Intel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.21-22.06.35:312][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.21-22.06.35:313][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.21-22.06.35:313][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.21-22.06.35:313][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.21-22.06.35:547][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.21-22.06.35:616][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.21-22.06.35:732][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.21-22.06.35:765][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.21-22.06.35:798][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.21-22.06.35:798][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.21-22.06.35:798][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.21-22.06.36:224][  0]LogNetVersion: Enviro_2 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 303638927)
+[2017.06.21-22.06.36:274][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2017.06.21-22.06.36:323][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.031554 seconds
+[2017.06.21-22.06.36:327][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.21-22.06.36:327][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.21-22.06.36:327][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.21-22.06.36:374][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.21-22.06.38:163][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.06.21-22.06.38:184][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.21-22.06.38:216][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.21-22.06.38:603][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.21-22.06.38:908][  0]SourceControl: Info Source control is disabled
+[2017.06.21-22.06.38:908][  0]SourceControl: Info Source control is disabled
+[2017.06.21-22.06.38:941][  0]SourceControl: Info Source control is disabled
+[2017.06.21-22.06.38:974][  0]SourceControl: Info Source control is disabled
+[2017.06.21-22.06.39:455][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.21-22.06.39:918][  0]LogEngine: Initializing Engine...
+[2017.06.21-22.06.39:918][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.21-22.06.40:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.21-22.06.40:074][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.21-22.06.40:181][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.21-22.06.40:189][  0]LogInit: XAudio2 using 'SPDIF Interface (2- FiiO USB DAC-E10)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.21-22.06.40:195][  0]LogInit: FAudioDevice initialized.
+[2017.06.21-22.06.40:228][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/AzurePC Intel/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.21-22.06.40:240][  0]LogInit: Texture streaming: Enabled
+[2017.06.21-22.06.40:310][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.21-22.06.40:466][  0]LogInit: Transaction tracking system initialized
+[2017.06.21-22.06.40:688][  0]BlueprintLog: New page: Editor Load
+[2017.06.21-22.06.41:352][  0]LocalizationService: Info Localization service is disabled
+[2017.06.21-22.06.41:860][  0]LogConsoleResponse:Display: 
+[2017.06.21-22.06.41:973][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.21-22.06.41:973][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.21-22.06.42:697][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/' took 0.02s
+[2017.06.21-22.06.42:697][  0]SourceControl: Info Source control is disabled
+[2017.06.21-22.06.42:697][  0]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.06.42:697][  0]LightingResults: New page: Lighting Build
+[2017.06.21-22.06.42:731][  0]MapCheck: New page: Map Check
+[2017.06.21-22.06.42:731][  0]LightingResults: New page: Lighting Build
+[2017.06.21-22.06.42:849][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.21-22.06.42:855][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.06.42:862][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.06.42:894][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.964ms to complete.
+[2017.06.21-22.06.42:894][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.197
+[2017.06.21-22.06.43:038][  0]LogCollectionManager: Loaded 0 collections in 0.001270 seconds
+[2017.06.21-22.06.43:113][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/Collections/' took 0.01s
+[2017.06.21-22.06.43:113][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Developers/AzurePCIntel/Collections/' took 0.01s
+[2017.06.21-22.06.43:113][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Collections/' took 0.01s
+[2017.06.21-22.06.43:113][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.21-22.06.43:120][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2343 classes and 497 folders.
+[2017.06.21-22.06.43:166][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.21-22.06.43:193][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.21-22.06.43:223][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.21-22.06.43:278][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.21-22.06.43:283][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.21-22.06.43:285][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.21-22.06.43:288][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.21-22.06.43:357][  0]LogRenderer: Reallocating scene render targets to support 1164x636 NumSamples 1 (Frame:1).
+[2017.06.21-22.06.43:480][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.21-22.06.43:531][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.21-22.06.43:532][  0]LogLoad: (Engine Initialization) Total time: 12.33 seconds
+[2017.06.21-22.06.43:532][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.06.21-22.06.43:532][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.21-22.06.43:543][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.21-22.06.43:543][  0]LogOcInput: OculusInput pre-init called
+[2017.06.21-22.06.43:543][  0]LogHMD: Starting GearVRController plugin
+[2017.06.21-22.06.43:561][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.21-22.06.43:591][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.21-22.06.43:601][  1]LogAssetRegistry: Asset discovery search completed in 7.3483 seconds
+[2017.06.21-22.06.43:603][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.21-22.06.43:603][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.06.21-22.07.03:763][501]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.21-22.07.04:383][501]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_01
+[2017.06.21-22.07.04:395][501]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.07.04:395][501]LightingResults: New page: Lighting Build
+[2017.06.21-22.07.04:396][501]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.07.04:396][501]MapCheck: New page: Map Check
+[2017.06.21-22.07.04:396][501]LightingResults: New page: Lighting Build
+[2017.06.21-22.07.04:436][501]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.07.04:463][501]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.07.04:500][501]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.969ms to complete.
+[2017.06.21-22.07.04:500][501]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_01' took 0.105
+[2017.06.21-22.07.12:310][ 88]LogRenderer: Reallocating scene render targets to support 1432x964 NumSamples 1 (Frame:1).
+[2017.06.21-22.07.31:243][142]LogSavePackage: Save=10.47ms
+[2017.06.21-22.07.31:243][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_abyssD83B41B34611195343B8DEA2B752B44C.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_abyss.uasset'
+[2017.06.21-22.07.31:245][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_abyss.uasset
+[2017.06.21-22.07.31:248][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/White_Boxing/WB_abyss" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_abyss.uasset" SILENT=true
+[2017.06.21-22.07.31:258][142]LogSavePackage: Save=3.26ms
+[2017.06.21-22.07.31:258][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_abyss6488EAF345D9A476BB706690321E316E.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_abyss.uasset'
+[2017.06.21-22.07.31:260][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_abyss.uasset
+[2017.06.21-22.07.31:287][142]LogSavePackage: Save=10.68ms
+[2017.06.21-22.07.31:287][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_CenterBase3DD885034A98CC5F546685B21F7C2AD6.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_CenterBase.uasset'
+[2017.06.21-22.07.31:289][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_CenterBase.uasset
+[2017.06.21-22.07.31:303][142]LogSavePackage: Save=3.37ms
+[2017.06.21-22.07.31:303][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_CenterBase1155ABF94D493ECE85123AA692E40289.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_CenterBase.uasset'
+[2017.06.21-22.07.31:306][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_CenterBase.uasset
+[2017.06.21-22.07.31:335][142]LogSavePackage: Save=10.51ms
+[2017.06.21-22.07.31:335][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_CenterPlatformE3F8F9274DD2E90CA55770A35AD802B4.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_CenterPlatform.uasset'
+[2017.06.21-22.07.31:337][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_CenterPlatform.uasset
+[2017.06.21-22.07.31:349][142]LogSavePackage: Save=3.87ms
+[2017.06.21-22.07.31:349][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_CenterPlatformE1485B754567A68103641AB874E9BF6F.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_CenterPlatform.uasset'
+[2017.06.21-22.07.31:351][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_CenterPlatform.uasset
+[2017.06.21-22.07.31:378][142]LogSavePackage: Save=10.63ms
+[2017.06.21-22.07.31:378][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_HeroAssetsF89473DC4EC8768F0BBFDBB71FD1674A.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_HeroAssets.uasset'
+[2017.06.21-22.07.31:379][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_HeroAssets.uasset
+[2017.06.21-22.07.31:391][142]LogSavePackage: Save=3.19ms
+[2017.06.21-22.07.31:391][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_HeroAssets1FCCC7FF4BEB784D32EEAC8F4ADBB55F.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_HeroAssets.uasset'
+[2017.06.21-22.07.31:393][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_HeroAssets.uasset
+[2017.06.21-22.07.31:419][142]LogSavePackage: Save=10.90ms
+[2017.06.21-22.07.31:419][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_orb5E944A1A4F48E930671E919C557B20D5.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_orb.uasset'
+[2017.06.21-22.07.31:421][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_orb.uasset
+[2017.06.21-22.07.31:423][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/White_Boxing/WB_orb" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_orb.uasset" SILENT=true
+[2017.06.21-22.07.31:433][142]LogSavePackage: Save=3.44ms
+[2017.06.21-22.07.31:433][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_orb2692BBA84CFD0672AD84D2B0FEC6F06A.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_orb.uasset'
+[2017.06.21-22.07.31:435][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_orb.uasset
+[2017.06.21-22.07.31:460][142]LogSavePackage: Save=10.49ms
+[2017.06.21-22.07.31:460][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_ReactorSupport888FC7624F0BA62F6469DD98334DAE32.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_ReactorSupport.uasset'
+[2017.06.21-22.07.31:462][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_ReactorSupport.uasset
+[2017.06.21-22.07.31:476][142]LogSavePackage: Save=4.17ms
+[2017.06.21-22.07.31:476][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_ReactorSupport9B7AFEA4432505C784122CBA910D9816.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_ReactorSupport.uasset'
+[2017.06.21-22.07.31:478][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_ReactorSupport.uasset
+[2017.06.21-22.07.31:503][142]LogSavePackage: Save=10.52ms
+[2017.06.21-22.07.31:503][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_stair741518714123402E29B84F8564B08BA2.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_stair.uasset'
+[2017.06.21-22.07.31:505][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/Version1/WB_stair.uasset
+[2017.06.21-22.07.31:508][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/White_Boxing/WB_stair" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_stair.uasset" SILENT=true
+[2017.06.21-22.07.31:517][142]LogSavePackage: Save=3.16ms
+[2017.06.21-22.07.31:517][142]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/WB_stairD81F70984E7366F8E41EC8B1C8619F76.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_stair.uasset'
+[2017.06.21-22.07.31:519][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/WB_stair.uasset
+[2017.06.21-22.07.47:947][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/White_Boxing/crate" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/crate.uasset" SILENT=true
+[2017.06.21-22.07.47:958][790]LogSavePackage: Save=9.92ms
+[2017.06.21-22.07.47:958][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/crate4F60553140D8503EC591D1901D128C5F.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/crate.uasset'
+[2017.06.21-22.07.47:960][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/crate.uasset
+[2017.06.21-22.07.47:986][790]LogSavePackage: Save=10.51ms
+[2017.06.21-22.07.47:986][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_HeroAsset1DF20DFDB428F6EF41E428D86B88C076A.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_HeroAsset1.uasset'
+[2017.06.21-22.07.47:988][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_HeroAsset1.uasset
+[2017.06.21-22.07.48:002][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/White_Boxing/ST_lv0" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv0.uasset" SILENT=true
+[2017.06.21-22.07.48:014][790]LogSavePackage: Save=10.52ms
+[2017.06.21-22.07.48:014][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_lv060F1AB584405344EC054B992B23571A1.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv0.uasset'
+[2017.06.21-22.07.48:015][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv0.uasset
+[2017.06.21-22.07.48:017][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_lv0" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv0.uasset" SILENT=true
+[2017.06.21-22.07.48:028][790]LogSavePackage: Save=3.26ms
+[2017.06.21-22.07.48:028][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_lv02017CBFF4D23CB905E1225855FD0B3ED.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv0.uasset'
+[2017.06.21-22.07.48:030][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv0.uasset
+[2017.06.21-22.07.48:056][790]LogSavePackage: Save=10.58ms
+[2017.06.21-22.07.48:056][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Lv0-floor84ABBD76488FADC4B4A18BA3F6C0CE5B.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Lv0-floor.uasset'
+[2017.06.21-22.07.48:057][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Lv0-floor.uasset
+[2017.06.21-22.07.48:059][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_Lv0-floor" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Lv0-floor.uasset" SILENT=true
+[2017.06.21-22.07.48:070][790]LogSavePackage: Save=4.00ms
+[2017.06.21-22.07.48:070][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Lv0-floor7F52E6D044C9A7EB57C45792B987ED70.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Lv0-floor.uasset'
+[2017.06.21-22.07.48:072][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Lv0-floor.uasset
+[2017.06.21-22.07.48:089][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/White_Boxing/ST_lv1" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv1.uasset" SILENT=true
+[2017.06.21-22.07.48:132][790]LogSavePackage: Save=41.67ms
+[2017.06.21-22.07.48:132][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_lv126342E8744607E646E6DD09A17126E0E.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv1.uasset'
+[2017.06.21-22.07.48:134][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv1.uasset
+[2017.06.21-22.07.48:136][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_lv1" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv1.uasset" SILENT=true
+[2017.06.21-22.07.48:200][790]LogSavePackage: Save=4.54ms
+[2017.06.21-22.07.48:200][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_lv1E2EC286D436C8A24C9C7F09F29E5696B.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv1.uasset'
+[2017.06.21-22.07.48:210][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv1.uasset
+[2017.06.21-22.07.48:237][790]LogSavePackage: Save=10.97ms
+[2017.06.21-22.07.48:237][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_lv1_circle1B5E3FEE4A5CFCE8F97B939C04DDAE42.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv1_circle.uasset'
+[2017.06.21-22.07.48:240][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv1_circle.uasset
+[2017.06.21-22.07.48:242][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_lv1_circle" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv1_circle.uasset" SILENT=true
+[2017.06.21-22.07.48:252][790]LogSavePackage: Save=3.21ms
+[2017.06.21-22.07.48:252][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_lv1_circleC9781FC14203C66EEAC1F780CDC6F6AB.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv1_circle.uasset'
+[2017.06.21-22.07.48:254][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv1_circle.uasset
+[2017.06.21-22.07.48:281][790]LogSavePackage: Save=10.12ms
+[2017.06.21-22.07.48:281][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Lv1_Xplatform4A4AED594A5C2B10D2FE98A9871F2116.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Lv1_Xplatform.uasset'
+[2017.06.21-22.07.48:283][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Lv1_Xplatform.uasset
+[2017.06.21-22.07.48:285][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_Lv1_Xplatform" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Lv1_Xplatform.uasset" SILENT=true
+[2017.06.21-22.07.48:295][790]LogSavePackage: Save=3.21ms
+[2017.06.21-22.07.48:295][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Lv1_Xplatform671611A845219A7C8498748B504889A0.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Lv1_Xplatform.uasset'
+[2017.06.21-22.07.48:297][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Lv1_Xplatform.uasset
+[2017.06.21-22.07.48:322][790]LogSavePackage: Save=10.85ms
+[2017.06.21-22.07.48:322][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_lv3_Wall-supportA9CE59E645CAC88154BA06B028A9C810.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv3_Wall-support.uasset'
+[2017.06.21-22.07.48:324][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_lv3_Wall-support.uasset
+[2017.06.21-22.07.48:327][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_lv3_Wall-support" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv3_Wall-support.uasset" SILENT=true
+[2017.06.21-22.07.48:337][790]LogSavePackage: Save=3.08ms
+[2017.06.21-22.07.48:337][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_lv3_Wall-supportA3E3DBB34C70105B96CFA1A6E7BD679F.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv3_Wall-support.uasset'
+[2017.06.21-22.07.48:339][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_lv3_Wall-support.uasset
+[2017.06.21-22.07.48:363][790]LogSavePackage: Save=10.82ms
+[2017.06.21-22.07.48:363][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Reactor1D228F084A097FD7926FE0A852A91A41.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Reactor.uasset'
+[2017.06.21-22.07.48:365][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Reactor.uasset
+[2017.06.21-22.07.48:390][790]LogSavePackage: Save=11.02ms
+[2017.06.21-22.07.48:390][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Reactor1EDBB393C4F02CF27E9FF858F41921661.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Reactor1.uasset'
+[2017.06.21-22.07.48:392][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Reactor1.uasset
+[2017.06.21-22.07.48:395][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_Reactor1" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Reactor1.uasset" SILENT=true
+[2017.06.21-22.07.48:406][790]LogSavePackage: Save=3.63ms
+[2017.06.21-22.07.48:406][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Reactor1D31085EB46E20CD6FF66F1A7E87A9F28.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Reactor1.uasset'
+[2017.06.21-22.07.48:408][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Reactor1.uasset
+[2017.06.21-22.07.48:434][790]LogSavePackage: Save=10.57ms
+[2017.06.21-22.07.48:434][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Reactor_SupportE288DC0C4AAD437F9B7B40B892433603.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Reactor_Support.uasset'
+[2017.06.21-22.07.48:436][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Reactor_Support.uasset
+[2017.06.21-22.07.48:438][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_Reactor_Support" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Reactor_Support.uasset" SILENT=true
+[2017.06.21-22.07.48:447][790]LogSavePackage: Save=3.15ms
+[2017.06.21-22.07.48:447][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Reactor_Support48AD56004D9EF2B1E8745D835D07F665.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Reactor_Support.uasset'
+[2017.06.21-22.07.48:449][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Reactor_Support.uasset
+[2017.06.21-22.07.48:476][790]LogSavePackage: Save=11.92ms
+[2017.06.21-22.07.48:476][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Stairs-platform22D0E12A746D904E43F581D9FDA611FED.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Stairs-platform2.uasset'
+[2017.06.21-22.07.48:477][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Stairs-platform2.uasset
+[2017.06.21-22.07.48:479][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_Stairs-platform2" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Stairs-platform2.uasset" SILENT=true
+[2017.06.21-22.07.48:491][790]LogSavePackage: Save=3.09ms
+[2017.06.21-22.07.48:491][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Stairs-platform2538215F24C804671F887A2A9A58B3BA2.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Stairs-platform2.uasset'
+[2017.06.21-22.07.48:493][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Stairs-platform2.uasset
+[2017.06.21-22.07.48:521][790]LogSavePackage: Save=12.21ms
+[2017.06.21-22.07.48:521][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Stairs-platform_lv34FDDC6A149B6B75C1C4DD7A9BF6EA624.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Stairs-platform_lv3.uasset'
+[2017.06.21-22.07.48:522][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/ST_Stairs-platform_lv3.uasset
+[2017.06.21-22.07.48:525][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_Stairs-platform_lv3" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Stairs-platform_lv3.uasset" SILENT=true
+[2017.06.21-22.07.48:536][790]LogSavePackage: Save=3.34ms
+[2017.06.21-22.07.48:536][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_Stairs-platform_lv32C46F127488DFF395AD22580879C51A5.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Stairs-platform_lv3.uasset'
+[2017.06.21-22.07.48:538][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_Stairs-platform_lv3.uasset
+[2017.06.21-22.07.48:552][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/White_Boxing/wb_lv3" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/wb_lv3.uasset" SILENT=true
+[2017.06.21-22.07.48:563][790]LogSavePackage: Save=10.25ms
+[2017.06.21-22.07.48:563][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/wb_lv3B950087D422F4B5B2CDB30962B0BEE10.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/wb_lv3.uasset'
+[2017.06.21-22.07.48:565][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/White_Boxing/wb_lv3.uasset
+[2017.06.21-22.07.48:567][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/wb_lv3" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/wb_lv3.uasset" SILENT=true
+[2017.06.21-22.07.48:577][790]LogSavePackage: Save=3.21ms
+[2017.06.21-22.07.48:577][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/wb_lv39FF8910A458018FAC44B19A4EAC8887F.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/wb_lv3.uasset'
+[2017.06.21-22.07.48:579][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/wb_lv3.uasset
+[2017.06.21-22.07.48:742][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/ST_HeroAsset" FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_HeroAsset.uasset" SILENT=true
+[2017.06.21-22.07.48:752][790]LogSavePackage: Save=3.50ms
+[2017.06.21-22.07.48:752][790]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/ST_HeroAsset25DF68064688FC216C609092EBFF4CAD.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_HeroAsset.uasset'
+[2017.06.21-22.07.48:753][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Meshes/ST_HeroAsset.uasset
+[2017.06.21-22.08.20:143][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Reactor2)
+[2017.06.21-22.08.21:717][754]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (WB_CenterBase)
+[2017.06.21-22.08.22:483][825]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_Lv1_Xplatform2)
+[2017.06.21-22.08.23:763][974]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_lv1_circle)
+[2017.06.21-22.08.25:400][165]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_lv1)
+[2017.06.21-22.08.25:832][212]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_lv0)
+[2017.06.21-22.08.27:032][350]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_Lv0-floor)
+[2017.06.21-22.08.35:191][303]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.08.40:895][968]Cmd: DELETE
+[2017.06.21-22.08.40:895][968]Cmd: ACTOR DELETE
+[2017.06.21-22.08.40:896][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.40:896][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.40:896][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.40:896][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.40:896][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.40:896][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.40:896][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.40:896][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.40:896][968]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.40:903][968]LogEditorActor: Deleted 9 Actors (0.007 secs)
+[2017.06.21-22.08.45:832][498]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.08.46:308][552]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.08.49:083][853]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.08.50:112][970]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.08.51:911][178]Cmd: DELETE
+[2017.06.21-22.08.51:911][178]Cmd: ACTOR DELETE
+[2017.06.21-22.08.51:912][178]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.21-22.08.51:919][178]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.06.21-22.08.53:192][320]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.08.54:429][464]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.08.57:962][856]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.08.58:605][927]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.02:739][399]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.03:330][468]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.06:419][818]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.07:089][896]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.10:157][240]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.10:664][298]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.14:340][706]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.15:305][819]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.24:979][946]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.28:957][401]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.33:412][863]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.33:873][916]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.35:532][ 90]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.35:862][126]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.38:774][451]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.38:986][475]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.43:428][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Lv0-floor)
+[2017.06.21-22.09.48:829][529]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.49:403][588]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.55:716][325]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.56:341][393]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.59:009][687]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.09.59:637][760]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.10.01:709][982]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.10.02:389][ 62]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.10.04:247][264]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.10.04:733][319]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.10.07:457][622]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.10.08:094][696]LogActorFactory: Actor Factory created 6_1_scaleman
+[2017.06.21-22.10.15:141][515]LogSavePackage: Save=89.46ms
+[2017.06.21-22.10.15:141][515]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/DOOM_FanArt_Reactor_01486736DA45C9CB142B2B579CD20D1478.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap'
+[2017.06.21-22.10.15:144][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.10.15:172][515]LogFileHelpers: Saving map 'DOOM_FanArt_Reactor_01' took 0.176
+[2017.06.21-22.10.17:953][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Reactor2)
+[2017.06.21-22.10.21:902][259]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.23:260][407]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.24:663][573]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.25:759][699]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.27:099][856]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.28:119][976]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.29:129][ 95]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.30:909][306]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.33:054][561]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.34:316][710]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.37:339][ 70]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.38:268][179]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.39:646][342]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.41:321][540]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.10.42:732][707]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.11.05:535][334]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_WB
+[2017.06.21-22.11.05:547][334]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_WB.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.11.05:547][334]LightingResults: New page: Lighting Build
+[2017.06.21-22.11.05:547][334]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_WB.umap
+[2017.06.21-22.11.05:548][334]MapCheck: New page: Map Check
+[2017.06.21-22.11.05:548][334]LightingResults: New page: Lighting Build
+[2017.06.21-22.11.05:597][334]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.11.05:624][334]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.11.05:661][334]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.919ms to complete.
+[2017.06.21-22.11.05:661][334]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_WB' took 0.116
+[2017.06.21-22.11.11:409][ 12]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_01
+[2017.06.21-22.11.11:418][ 12]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.11.11:418][ 12]LightingResults: New page: Lighting Build
+[2017.06.21-22.11.11:419][ 12]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.11.11:419][ 12]MapCheck: New page: Map Check
+[2017.06.21-22.11.11:419][ 12]LightingResults: New page: Lighting Build
+[2017.06.21-22.11.11:480][ 12]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.11.11:510][ 12]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.11.11:552][ 12]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.732ms to complete.
+[2017.06.21-22.11.11:552][ 12]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_01' took 0.134
+[2017.06.21-22.11.33:007][476]Cmd: TRANSACTION UNDO
+[2017.06.21-22.11.33:007][476]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.11.33:009][476]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/DOOM_FanArt_Reactor_01.DOOM_FanArt_Reactor_01:PersistentLevel.ST_lv1_circle_15.StaticMeshComponent0) Component already registered.
+[2017.06.21-22.11.33:009][476]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/DOOM_FanArt_Reactor_01.DOOM_FanArt_Reactor_01:PersistentLevel.ST_Reactor2_12.StaticMeshComponent0) Component already registered.
+[2017.06.21-22.11.33:010][476]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/DOOM_FanArt_Reactor_01.DOOM_FanArt_Reactor_01:PersistentLevel.WB_orb_3.StaticMeshComponent0) Component already registered.
+[2017.06.21-22.11.33:042][476]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.21-22.11.38:199][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lv2)
+[2017.06.21-22.11.59:186][439]LogSavePackage: Save=81.18ms
+[2017.06.21-22.11.59:186][439]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/DOOM_FanArt_Reactor_01969E51B34E8D739CD1F3E29233F7191E.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap'
+[2017.06.21-22.11.59:188][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.11.59:210][439]LogFileHelpers: Saving map 'DOOM_FanArt_Reactor_01' took 0.153
+[2017.06.21-22.12.16:897][432]Cmd: TRANSACTION UNDO
+[2017.06.21-22.12.16:897][432]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.12.16:900][432]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/DOOM_FanArt_Reactor_01.DOOM_FanArt_Reactor_01:PersistentLevel.ST_lv1_circle_15.StaticMeshComponent0) Component already registered.
+[2017.06.21-22.12.16:900][432]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/DOOM_FanArt_Reactor_01.DOOM_FanArt_Reactor_01:PersistentLevel.ST_Reactor2_12.StaticMeshComponent0) Component already registered.
+[2017.06.21-22.12.16:901][432]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/DOOM_FanArt_Reactor_01.DOOM_FanArt_Reactor_01:PersistentLevel.ST_v2.StaticMeshComponent0) Component already registered.
+[2017.06.21-22.12.26:622][489]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_Lv1_Xplatform2)
+[2017.06.21-22.12.29:372][805]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_Lv1_Xplatform2)
+[2017.06.21-22.12.37:292][693]LogSavePackage: Save=82.06ms
+[2017.06.21-22.12.37:292][693]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/DOOM_FanArt_Reactor_019FCA20C94397C7C146122F819213DC16.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap'
+[2017.06.21-22.12.37:294][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.12.37:323][693]LogFileHelpers: Saving map 'DOOM_FanArt_Reactor_01' took 0.162
+[2017.06.21-22.13.57:114][396]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.16.36:857][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Reactor2)
+[2017.06.21-22.16.59:841][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Lv0-floor)
+[2017.06.21-22.17.00:490][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Reactor2)
+[2017.06.21-22.17.04:587][225]Cmd: TRANSACTION UNDO
+[2017.06.21-22.17.04:587][225]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.17.06:947][450]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_lv1_circle)
+[2017.06.21-22.17.07:683][521]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (WB_CenterBase)
+[2017.06.21-22.17.43:513][748]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.17.49:045][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Lv1_Xplatform2)
+[2017.06.21-22.18.33:842][763]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.18.37:620][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Lv0-floor)
+[2017.06.21-22.18.43:384][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_lv0)
+[2017.06.21-22.18.44:231][944]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_Lv0-floor)
+[2017.06.21-22.18.46:992][257]Cmd: TRANSACTION UNDO
+[2017.06.21-22.18.46:992][257]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.22.00:076][ 64]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.22.04:388][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_lv1)
+[2017.06.21-22.22.07:494][856]Cmd: TRANSACTION UNDO
+[2017.06.21-22.22.07:494][856]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.22.27:033][966]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.22.33:091][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_lv3_Wall-support)
+[2017.06.21-22.22.36:081][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_v2)
+[2017.06.21-22.22.36:963][996]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_lv3_Wall-support)
+[2017.06.21-22.22.43:835][779]Cmd: TRANSACTION UNDO
+[2017.06.21-22.22.43:835][779]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.23.00:055][176]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.23.03:781][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform3)
+[2017.06.21-22.23.06:791][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wb_lv3)
+[2017.06.21-22.23.13:192][654]Cmd: TRANSACTION UNDO
+[2017.06.21-22.23.13:192][654]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.23.22:503][708]Cmd: TRANSACTION UNDO
+[2017.06.21-22.23.22:503][708]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.24.24:531][164]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.24.28:213][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_v2)
+[2017.06.21-22.24.32:047][ 47]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.21-22.24.46:200][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Reactor2)
+[2017.06.21-22.24.53:691][527]Cmd: TRANSACTION UNDO
+[2017.06.21-22.24.53:691][527]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.24.58:385][934]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.24.58:386][934]LightingResults: New page: Lighting Build
+[2017.06.21-22.24.58:386][934]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.24.58:387][934]MapCheck: New page: Map Check
+[2017.06.21-22.24.58:387][934]LightingResults: New page: Lighting Build
+[2017.06.21-22.24.58:411][934]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_01
+[2017.06.21-22.24.58:477][934]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.24.58:507][934]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.24.58:547][934]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.283ms to complete.
+[2017.06.21-22.24.58:548][934]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.21-22.24.58:553][934]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_01' took 0.169
+[2017.06.21-22.25.00:357][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Reactor2)
+[2017.06.21-22.25.06:538][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Lv1_Xplatform2)
+[2017.06.21-22.25.09:091][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_lv1_circle)
+[2017.06.21-22.25.11:781][421]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_Lv1_Xplatform2)
+[2017.06.21-22.26.47:988][147]Cmd: TRANSACTION UNDO
+[2017.06.21-22.26.47:988][147]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.26.51:115][486]Cmd: TRANSACTION UNDO
+[2017.06.21-22.26.51:115][486]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.26.54:449][796]Cmd: TRANSACTION UNDO
+[2017.06.21-22.26.54:449][796]LogEditorTransaction: Undo Move Actors
+[2017.06.21-22.27.05:111][ 32]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.27.41:688][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform3)
+[2017.06.21-22.27.43:255][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform2)
+[2017.06.21-22.27.45:074][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform3)
+[2017.06.21-22.27.46:624][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform2)
+[2017.06.21-22.27.49:894][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_lv1)
+[2017.06.21-22.27.51:450][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform3)
+[2017.06.21-22.27.58:041][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_lv1)
+[2017.06.21-22.27.58:643][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform3)
+[2017.06.21-22.28.00:176][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform2)
+[2017.06.21-22.28.04:099][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform3)
+[2017.06.21-22.28.18:976][ 21]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.28.48:506][138]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.28.55:435][872]LogSavePackage: Save=83.40ms
+[2017.06.21-22.28.55:435][872]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/DOOM_FanArt_Reactor_012A4199D94076CFAB58761D9362E200CE.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap'
+[2017.06.21-22.28.55:437][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.28.55:468][872]LogFileHelpers: Saving map 'DOOM_FanArt_Reactor_01' took 0.168
+[2017.06.21-22.29.26:690][150]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.30.56:021][243]LogSavePackage: Save=82.52ms
+[2017.06.21-22.30.56:021][243]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/DOOM_FanArt_Reactor_01B96E15B244EBE3F120FCBA82D3A8D92C.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap'
+[2017.06.21-22.30.56:024][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.30.56:054][243]LogFileHelpers: Saving map 'DOOM_FanArt_Reactor_01' took 0.163
+[2017.06.21-22.30.57:191][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Reactor2)
+[2017.06.21-22.31.22:074][340]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.31.26:853][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_CenterBase)
+[2017.06.21-22.31.29:235][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_lv1)
+[2017.06.21-22.31.42:919][914]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.31.46:421][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_lv0)
+[2017.06.21-22.31.47:584][371]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_Lv0-floor)
+[2017.06.21-22.32.00:054][212]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.32.04:381][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WB_CenterBase)
+[2017.06.21-22.32.06:795][975]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_lv1_circle)
+[2017.06.21-22.32.10:476][406]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_Reactor2)
+[2017.06.21-22.32.11:747][553]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_lv1_circle)
+[2017.06.21-22.32.28:042][643]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.32.31:012][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Lv1_Xplatform2)
+[2017.06.21-22.32.59:766][503]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.33.03:436][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform2)
+[2017.06.21-22.33.15:532][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform3)
+[2017.06.21-22.33.17:693][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_v2)
+[2017.06.21-22.33.19:516][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform2)
+[2017.06.21-22.33.21:533][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform3)
+[2017.06.21-22.33.53:041][544]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.34.42:886][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_v2)
+[2017.06.21-22.34.45:009][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform2)
+[2017.06.21-22.34.53:266][793]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.35.02:856][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform3)
+[2017.06.21-22.35.05:100][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_v2)
+[2017.06.21-22.35.06:137][  4]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ST_lv3_Wall-support)
+[2017.06.21-22.35.16:401][579]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.35.22:188][264]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.35.25:510][653]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.35.39:106][239]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.35.44:535][872]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.36.05:230][265]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.36.45:688][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Reactor_Support2)
+[2017.06.21-22.36.48:341][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_Stairs-platform_lv3)
+[2017.06.21-22.37.20:920][304]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.37.37:415][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wb_lv3)
+[2017.06.21-22.37.54:137][485]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.37.57:094][836]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.21-22.38.10:752][346]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.21-22.38.18:102][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ST_lv1)
+[2017.06.21-22.38.19:808][408]LogSavePackage: Save=82.70ms
+[2017.06.21-22.38.19:808][408]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/DOOM_FanArt_Reactor_01DD4CE87E4C988E5B29D65EBFD0CD8149.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap'
+[2017.06.21-22.38.19:811][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.38.19:930][408]LogSavePackage: Save=70.14ms
+[2017.06.21-22.38.19:930][408]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/DOOM_FanArt_Reactor_01_BuiltDataFFF3A6C74BA25854011CCB989202FA73.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01_BuiltData.uasset'
+[2017.06.21-22.38.19:931][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01_BuiltData.uasset
+[2017.06.21-22.40.28:317][850]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_02
+[2017.06.21-22.40.31:380][191]LogSavePackage: Save=85.85ms
+[2017.06.21-22.40.31:380][191]LogSavePackage: Moving '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/DOOM_FanArt_Reactor_026F1E17E94A94C05A8335A0AB0489DECE.tmp' to '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap'
+[2017.06.21-22.40.31:382][191]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap
+[2017.06.21-22.40.31:384][191]LogFileHelpers: Saving map 'DOOM_FanArt_Reactor_02' took 0.140
+[2017.06.21-22.40.37:040][816]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_WB
+[2017.06.21-22.40.37:049][816]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_WB.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.40.37:049][816]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.37:050][816]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_WB.umap
+[2017.06.21-22.40.37:051][816]MapCheck: New page: Map Check
+[2017.06.21-22.40.37:051][816]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.37:138][816]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.40.37:164][816]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.40.37:201][816]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.336ms to complete.
+[2017.06.21-22.40.37:201][816]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_WB' took 0.152
+[2017.06.21-22.40.38:055][914]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.38:055][914]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap.
+[2017.06.21-22.40.38:056][914]LoadErrors:Error: Error /Game/Maps/DOOM_FanArt_Reactor_02 : Can't find file for asset. /Game/Maps/DOOM_FanArt_Reactor_02_BuiltData
+[2017.06.21-22.40.38:056][914]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.38:056][914]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap.
+[2017.06.21-22.40.38:058][914]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.38:058][914]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading NULL.
+[2017.06.21-22.40.38:058][914]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.38:058][914]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading NULL.
+[2017.06.21-22.40.38:064][914]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.38:065][914]LoadErrors: Info Failed to load /Game/Maps/DOOM_FanArt_Reactor_02_BuiltData.DOOM_FanArt_Reactor_02_BuiltData Referenced by PersistentLevel
+[2017.06.21-22.40.38:065][914]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading NULL.
+[2017.06.21-22.40.38:068][914]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_02
+[2017.06.21-22.40.38:082][914]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.40.38:082][914]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.38:083][914]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_02.umap
+[2017.06.21-22.40.38:084][914]MapCheck: New page: Map Check
+[2017.06.21-22.40.38:084][914]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.38:190][914]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.40.38:220][914]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.40.38:256][914]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.297ms to complete.
+[2017.06.21-22.40.38:257][914]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_02' took 0.175
+[2017.06.21-22.40.39:582][ 67]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_01
+[2017.06.21-22.40.39:592][ 67]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.40.39:592][ 67]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.39:593][ 67]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_01.umap
+[2017.06.21-22.40.39:593][ 67]MapCheck: New page: Map Check
+[2017.06.21-22.40.39:593][ 67]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.39:715][ 67]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.40.39:742][ 67]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.40.39:782][ 67]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.515ms to complete.
+[2017.06.21-22.40.39:782][ 67]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_01' took 0.190
+[2017.06.21-22.40.40:820][187]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.40:820][187]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap.
+[2017.06.21-22.40.40:820][187]LoadErrors:Error: Error /Game/Maps/DOOM_FanArt_Reactor_02 : Can't find file for asset. /Game/Maps/DOOM_FanArt_Reactor_02_BuiltData
+[2017.06.21-22.40.40:820][187]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.40:820][187]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap.
+[2017.06.21-22.40.40:822][187]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.40:822][187]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading NULL.
+[2017.06.21-22.40.40:822][187]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.40:822][187]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading NULL.
+[2017.06.21-22.40.40:828][187]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.40:828][187]LoadErrors: Info Failed to load /Game/Maps/DOOM_FanArt_Reactor_02_BuiltData.DOOM_FanArt_Reactor_02_BuiltData Referenced by PersistentLevel
+[2017.06.21-22.40.40:828][187]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading NULL.
+[2017.06.21-22.40.40:831][187]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_02
+[2017.06.21-22.40.40:843][187]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.40.40:843][187]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.40:843][187]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_02.umap
+[2017.06.21-22.40.40:844][187]MapCheck: New page: Map Check
+[2017.06.21-22.40.40:844][187]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.40:942][187]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.40.40:971][187]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.40.41:007][187]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.849ms to complete.
+[2017.06.21-22.40.41:007][187]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_02' took 0.165
+[2017.06.21-22.40.44:781][628]Cmd: MAP LOAD FILE="../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-22.40.44:781][628]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.44:781][628]LoadErrors: New page: Loading map: DOOM_FanArt_Reactor_02.umap
+[2017.06.21-22.40.44:782][628]MapCheck: New page: Map Check
+[2017.06.21-22.40.44:782][628]LightingResults: New page: Lighting Build
+[2017.06.21-22.40.44:791][628]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.44:792][628]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap.
+[2017.06.21-22.40.44:792][628]LoadErrors:Error: Error /Game/Maps/DOOM_FanArt_Reactor_02 : Can't find file for asset. /Game/Maps/DOOM_FanArt_Reactor_02_BuiltData
+[2017.06.21-22.40.44:792][628]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.44:792][628]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading ../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Maps/DOOM_FanArt_Reactor_02.umap.
+[2017.06.21-22.40.44:794][628]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.44:794][628]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading NULL.
+[2017.06.21-22.40.44:794][628]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.44:794][628]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading NULL.
+[2017.06.21-22.40.44:800][628]LogLinker:Warning: Can't find file '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData'
+[2017.06.21-22.40.44:800][628]LoadErrors: Info Failed to load /Game/Maps/DOOM_FanArt_Reactor_02_BuiltData.DOOM_FanArt_Reactor_02_BuiltData Referenced by PersistentLevel
+[2017.06.21-22.40.44:800][628]LogLinker:Warning: Can't find file for asset '/Game/Maps/DOOM_FanArt_Reactor_02_BuiltData' while loading NULL.
+[2017.06.21-22.40.44:803][628]LogAIModule: Creating AISystem for world DOOM_FanArt_Reactor_02
+[2017.06.21-22.40.44:894][628]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-22.40.44:943][628]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-22.40.44:980][628]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.984ms to complete.
+[2017.06.21-22.40.44:982][628]LogFileHelpers: Loading map 'DOOM_FanArt_Reactor_02' took 0.202
+[2017.06.21-22.41.02:451][670]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.21-22.41.02:667][671]Cmd: QUIT_EDITOR
+[2017.06.21-22.41.02:693][671]LogExit: Preparing to exit.
+[2017.06.21-22.41.02:977][671]LogDirectoryWatcher: A directory notification for 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/' was aborted.
+[2017.06.21-22.41.03:031][671]LogExit: Editor shut down
+[2017.06.21-22.41.03:050][671]LogExit: Transaction tracking system shut down
+[2017.06.21-22.41.03:416][671]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.21-22.41.03:416][671]LogExit: Object subsystem successfully closed.
+[2017.06.21-22.41.03:504][671]LogD3D11RHI: Shutdown
+[2017.06.21-22.41.03:504][671]LogD3D11RHI: CleanupD3DDevice
+[2017.06.21-22.41.03:614][671]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.21-22.41.03:625][671]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (530)
+[2017.06.21-22.41.03:625][671]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.06.21-22.41.03:625][671]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.06.21-22.41.03:625][671]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.06.21-22.41.03:625][671]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.06.21-22.41.03:625][671]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.06.21-22.41.03:631][671]LogDirectoryWatcher: A directory notification for 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Collections/' was aborted.
+[2017.06.21-22.41.03:631][671]LogDirectoryWatcher: A directory notification for 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/Developers/AzurePCIntel/Collections/' was aborted.
+[2017.06.21-22.41.03:631][671]LogDirectoryWatcher: A directory notification for 'C:/Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Saved/Collections/' was aborted.
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.06.21-22.41.03:631][671]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.06.21-22.41.03:632][671]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.06.21-22.41.04:262][671]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.06.21-22.41.04:325][671]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.06.21-22.41.04:326][671]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.06.21-22.41.04:556][671]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.06.21-22.41.04:557][671]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.06.21-22.41.04:557][671]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.06.21-22.41.04:557][671]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.06.21-22.41.04:557][671]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.06.21-22.41.04:557][671]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.06.21-22.41.04:557][671]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.06.21-22.41.04:557][671]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.06.21-22.41.04:558][671]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.06.21-22.41.04:558][671]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.06.21-22.41.04:558][671]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2017.06.21-22.41.04:558][671]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2017.06.21-22.41.04:558][671]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2017.06.21-22.41.04:558][671]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2017.06.21-22.41.04:558][671]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2017.06.21-22.41.04:558][671]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2017.06.21-22.41.04:659][671]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2017.06.21-22.41.04:759][671]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2017.06.21-22.41.04:759][671]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.21-22.41.04:759][671]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.21-22.41.04:759][671]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.21-22.41.04:759][671]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.21-22.41.04:759][671]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.21-22.41.04:759][671]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.21-22.41.04:760][671]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.21-22.41.04:760][671]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.21-22.41.04:760][671]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.21-22.41.04:760][671]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.21-22.41.04:761][671]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.21-22.41.04:763][671]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.21-22.41.04:763][671]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.21-22.41.04:763][671]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.21-22.41.04:763][671]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.21-22.41.04:763][671]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.21-22.41.04:763][671]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.21-22.41.04:887][671]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.21-22.41.04:887][671]LogDirectoryWatcher: A directory notification for '../../../../../../Users/AzurePC Intel/Documents/GitHub/Enviro_2/Enviro_2/Content/' was aborted.
+[2017.06.21-22.41.04:887][671]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.21-22.41.04:887][671]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.21-22.41.04:894][671]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.21-22.41.04:897][671]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.21-22.41.04:897][671]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.21-22.41.04:897][671]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.21-22.41.04:898][671]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.21-22.41.04:898][671]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.21-22.41.04:898][671]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.21-22.41.04:898][671]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.21-22.41.04:898][671]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.21-22.41.04:964][671]LogDerivedDataCache: Shutdown
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.21-22.41.04:964][671]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.21-22.41.04:965][671]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.21-22.41.04:965][671]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.21-22.41.04:965][671]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.21-22.41.04:965][671]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20690D9A-423C-0C3C-F43C-DBB142AC7495%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=da2c64f64af90778841cdbb7a9e7271c%7C4e59904afcc6489195f8095de720415d%7Ce6cec269-2a62-4e13-9f24-3ef9e02a4e7c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.21-22.41.04:978][671]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.21-22.41.04:980][671]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.21-22.41.04:980][671]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.21-22.41.04:980][671]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.21-22.41.04:980][671]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.21-22.41.04:980][671]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.21-22.41.04:980][671]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.21-22.41.04:980][671]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.21-22.41.04:980][671]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.21-22.41.04:983][671]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.21-22.41.04:984][671]LogExit: Exiting.
+[2017.06.21-22.41.04:998][671]Log file closed, 06/21/17 16:41:04
